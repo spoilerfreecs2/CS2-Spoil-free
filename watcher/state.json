@@ -4180,11 +4180,11 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-01T14:39:21.024Z",
+    "checkedAt": "2026-11-01T18:09:44.032Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
-      "matchesLookedFor": 13,
-      "matchesFrom": "2026-10-11",
+      "matchesLookedFor": 12,
+      "matchesFrom": "2026-11-02",
       "matchesTo": "2026-11-11",
       "found": 0,
       "channels": {
@@ -4203,14 +4203,14 @@
         "@pgl": {
           "uploads": 200,
           "sayHighlights": 1,
-          "oldest": "2025-12-21T20:58:49Z",
-          "newest": "2026-11-01T09:16:07Z"
+          "oldest": "2026-01-16T18:41:25Z",
+          "newest": "2026-11-01T17:45:03Z"
         },
         "@Counter_Strike_Highlights": {
           "uploads": 200,
           "sayHighlights": 41,
-          "oldest": "2026-08-07T12:00:16Z",
-          "newest": "2026-10-31T15:58:07Z"
+          "oldest": "2026-08-11T12:00:37Z",
+          "newest": "2026-11-01T17:44:40Z"
         }
       },
       "samples": [
@@ -4256,6 +4256,16 @@
         },
         {
           "channel": "@Counter_Strike_Highlights",
+          "at": "2026-11-01T17:44",
+          "title": "Best Clutches of PGL Masters Bucharest 2026"
+        },
+        {
+          "channel": "@Counter_Strike_Highlights",
+          "at": "2026-11-01T17:43",
+          "title": "Best Clutches of PGL Masters Bucharest 2026"
+        },
+        {
+          "channel": "@Counter_Strike_Highlights",
           "at": "2026-10-31T15:58",
           "title": "GRAND FINAL! Nemiga vs <team> - HIGHLIGHTS - PGL Masters Bucharest 2026 | CS2"
         },
@@ -4293,16 +4303,6 @@
           "channel": "@Counter_Strike_Highlights",
           "at": "2026-10-31T12:37",
           "title": "YEKINDAR STEALS the Clutch and Denies the ACE #pgl #Bucharest #cs #cs2"
-        },
-        {
-          "channel": "@Counter_Strike_Highlights",
-          "at": "2026-10-31T12:15",
-          "title": "robo Sends YEKINDAR Straight Into the ZEUS Trap #pgl #Bucharest #cs #cs2"
-        },
-        {
-          "channel": "@Counter_Strike_Highlights",
-          "at": "2026-10-31T09:53",
-          "title": "DECIDER MATCH FOR 3rd PLACE! <team> vs <team> - HIGHLIGHTS - PGL Masters Bucharest 2026 | CS2"
         }
       ]
     }
