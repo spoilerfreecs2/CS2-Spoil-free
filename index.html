@@ -295,7 +295,13 @@ span.tlogo{display:inline-grid;place-items:center;font:900 15px/1 var(--display)
 .rate-box{display:flex;flex-direction:column;gap:10px;padding:14px;border-radius:6px;background:var(--card)}
 .rate-box[hidden]{display:none}
 .rate-title{font:800 20px/1 var(--display);text-transform:uppercase}
-.rate-opts{display:flex;flex-wrap:wrap;gap:8px}
+.rate-opts{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px}
+.stars{position:relative;display:inline-block;font-size:34px;line-height:1;letter-spacing:2px;white-space:nowrap}
+.stars-base{color:var(--muted);opacity:.35}
+.stars-fill{position:absolute;left:0;top:0;overflow:hidden;color:var(--orange);width:0}
+.star-pick{cursor:pointer;touch-action:manipulation;border-radius:4px;padding:2px}
+.star-pick:focus-visible{outline:2px solid var(--orange);outline-offset:2px}
+.stars-num{font-weight:700;font-variant-numeric:tabular-nums;color:var(--soft)}
 .cal-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:14px}
 .cal-item{display:flex;flex-direction:column;gap:8px;border-top:1px solid var(--line);padding-top:12px}
 .cal-name{font:800 22px/1.1 var(--display);text-transform:uppercase}
@@ -388,7 +394,8 @@ span.tlogo{display:inline-grid;place-items:center;font:900 15px/1 var(--display)
 .team-card{display:flex;align-items:center;gap:12px;padding:12px 14px;border-radius:8px;background:var(--card);border:1px solid var(--line);color:var(--fg);text-decoration:none;min-width:0}
 .team-card:hover{border-color:var(--orange)}
 .team-card .tlogo{width:40px;height:40px;font-size:12px}
-.team-card b{display:block;font-weight:700;overflow-wrap:anywhere}
+.team-card b{display:block;font-weight:700;overflow-wrap:anywhere;color:var(--fg)}
+@media (max-width:640px){.home-teams{grid-template-columns:repeat(2,minmax(0,1fr))}.home-teams .team-card{padding:10px;gap:8px}}
 .team-card span{font-size:13px;color:var(--muted)}
 .section-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:12px 24px}
 .stage-meta{color:var(--muted)}
@@ -1540,15 +1547,19 @@ const dot = () => h('span', { class: 'dot', 'aria-hidden': 'true' }, '·');
 const sep = () => h('span', { 'aria-hidden': 'true' }, '/');
 function field(labelText, control) { return h('div', { class: 'field' }, h('label', { for: control.id }, labelText), control); }
 
-/* ---------- worth-watching ratings ----------
-   Someone who marked a match as watched can say how worth watching it was. Everyone else sees a badge,
-   but only for the good tiers, so a missing badge could mean too few votes as much as a dull match.
-   Votes are for the whole series, never a map, so they can't tell how many maps were played.
-   The votes are kept in a Firebase Realtime Database (ratings/database.rules.json), set in data.json as site.firebase.
+/* ---------- star ratings ----------
+   Someone who marked a match as watched can rate it out of 5 stars, in half stars. Votes are for the
+   whole series, never a map, so they can't tell how many maps were played.
+   Before you've watched a match you only see a badge, and only for the good tiers ("Must watch",
+   "Worth a watch"), so a missing badge could mean too few votes as much as a dull match: a low score
+   could hint at a one-sided series. Once you've marked it as watched, you see its average in stars.
+   The votes are kept in a Firebase Realtime Database (ratings/database.rules.json), set in data.json as site.firebase,
+   under stars/<match>/<visitor> as 1 to 10 half stars. Older votes from the three-button version
+   (votes/<match>/<visitor>, 1 to 3) still count, as 2, 3.5 and 5 stars.
    Each visitor gets an anonymous Firebase sign-in, so there's one vote per browser and no accounts. */
-const RATE_OPTS = [[3, 'Must watch'], [2, 'Worth a watch'], [1, 'Only for fans']];
+const OLD_VOTE_HALVES = { 1: 4, 2: 7, 3: 10 };
 const RATE_MIN_VOTES = 3;
-let RATINGS = {}; // match id -> { avg, votes }
+let RATINGS = {}; // match id -> { avg (stars), votes }
 const fb = () => data.site.firebase || {};
 const ratingsReady = () => !!(fb().apiKey && fb().databaseURL);
 const ratingsShown = () => ratingsReady() && !store.get('hideRatings', false);
@@ -1569,55 +1580,96 @@ async function fbAuth() {
 async function loadRatings() {
   if (!ratingsReady()) return;
   try {
-    const r = await fetch(fb().databaseURL + '/votes.json');
-    if (!r.ok) return;
-    const all = (await r.json()) || {};
+    const get = async path => { const r = await fetch(fb().databaseURL + '/' + path + '.json'); return r.ok ? (await r.json()) || {} : {}; };
+    const [old, stars] = await Promise.all([get('votes'), get('stars')]);
+    const by = {}; // match id -> uid -> half stars; a star vote replaces the same visitor's older vote
+    for (const [mid, vs] of Object.entries(old)) for (const [u, x] of Object.entries(vs || {})) if (OLD_VOTE_HALVES[x]) (by[mid] = by[mid] || {})[u] = OLD_VOTE_HALVES[x];
+    for (const [mid, vs] of Object.entries(stars)) for (const [u, x] of Object.entries(vs || {})) if (Number.isInteger(x) && x >= 1 && x <= 10) (by[mid] = by[mid] || {})[u] = x;
     RATINGS = {};
-    for (const [mid, votes] of Object.entries(all)) {
-      const v = Object.values(votes || {}).filter(x => x === 1 || x === 2 || x === 3);
-      if (v.length) RATINGS[mid] = { avg: v.reduce((p, q) => p + q, 0) / v.length, votes: v.length };
+    for (const [mid, vs] of Object.entries(by)) {
+      const v = Object.values(vs);
+      if (v.length) RATINGS[mid] = { avg: v.reduce((p, q) => p + q, 0) / v.length / 2, votes: v.length };
     }
     paintRatings();
   } catch (e) { /* ratings are extra; the site works without them */ }
 }
-async function sendRating(mid, score) {
+async function sendRating(mid, halves) {
   const tk = await fbAuth();
-  const r = await fetch(fb().databaseURL + '/votes/' + encodeURIComponent(mid) + '/' + tk.uid + '.json?auth=' + encodeURIComponent(tk.id), { method: 'PUT', body: JSON.stringify(score) });
+  const r = await fetch(fb().databaseURL + '/stars/' + encodeURIComponent(mid) + '/' + tk.uid + '.json?auth=' + encodeURIComponent(tk.id), { method: 'PUT', body: JSON.stringify(halves) });
   if (!r.ok) throw new Error('vote ' + r.status);
 }
+const starText = v => (Math.round(v * 2) / 2).toFixed(1).replace(/\.0$/, '');
 function ratingLabel(mid) {
   const r = RATINGS[mid];
   if (!ratingsShown() || !r || r.votes < RATE_MIN_VOTES) return '';
-  return r.avg >= 2.5 ? 'Must watch' : r.avg >= 1.8 ? 'Worth a watch' : '';
+  if (isWatched(mid)) return '★ ' + starText(r.avg);
+  return r.avg >= 4 ? 'Must watch' : r.avg >= 3.25 ? 'Worth a watch' : '';
 }
 function ratingSlot(mid, cls) { const el = h('span', { class: cls, 'data-rate-mid': mid }); el.textContent = ratingLabel(mid); return el; }
 function paintRatings() {
   document.querySelectorAll('[data-rate-mid]').forEach(el => { el.textContent = ratingLabel(el.dataset.rateMid); });
+  document.querySelectorAll('[data-rate-avg]').forEach(el => {
+    const r = RATINGS[el.dataset.rateAvg];
+    el.textContent = r && r.votes >= RATE_MIN_VOTES ? 'Average ' + starText(r.avg) + ' out of 5 from ' + plural(r.votes, 'rating') + '.' : '';
+  });
   const b = $('#rate-toggle');
   if (b) b.textContent = store.get('hideRatings', false) ? 'Show ratings' : 'Hide ratings';
 }
+// Five stars drawn as a row of glyphs, with a filled copy on top clipped to the value.
+function starsView(v) {
+  const fill = h('span', { class: 'stars-fill', 'aria-hidden': 'true' }, '★★★★★');
+  const el = h('span', { class: 'stars' }, h('span', { class: 'stars-base', 'aria-hidden': 'true' }, '★★★★★'), fill);
+  el.set = x => { fill.style.width = (x / 5 * 100) + '%'; };
+  el.set(v || 0);
+  return el;
+}
+function myStars(mid) {
+  const st = store.get('myStars', {})[mid];
+  if (st) return st / 2;
+  const old = store.get('myRatings', {})[mid]; // from the three-button version
+  return OLD_VOTE_HALVES[old] ? OLD_VOTE_HALVES[old] / 2 : 0;
+}
 function rateBox(m) {
-  const mine = store.get('myRatings', {});
-  const status = h('p', { class: 'hint', 'aria-live': 'polite' }, mine[m.id] ? 'Thanks, your vote is in. You can change it.' : '');
-  const btns = RATE_OPTS.map(([score, label]) => {
-    const b = h('button', { type: 'button', class: 'pin-btn', 'aria-pressed': String(mine[m.id] === score) }, label);
-    b.addEventListener('click', async () => {
-      btns.forEach(x => { x.disabled = true; });
-      try {
-        await sendRating(m.id, score);
-        const my = store.get('myRatings', {}); my[m.id] = score; store.set('myRatings', my);
-        btns.forEach((x, i) => x.setAttribute('aria-pressed', String(RATE_OPTS[i][0] === score)));
-        status.textContent = 'Thanks, your vote is in. You can change it.';
-        loadRatings();
-      } catch (e) { status.textContent = 'Your vote didn’t go through. Try again in a moment.'; }
-      btns.forEach(x => { x.disabled = false; });
-    });
-    return b;
+  let val = myStars(m.id), shown = val, timer = null;
+  const status = h('p', { class: 'hint', 'aria-live': 'polite' }, val ? 'Thanks, your rating is in. You can change it.' : '');
+  const stars = starsView(val);
+  const readout = h('span', { class: 'stars-num' }, val ? starText(val) + ' / 5' : 'Tap to rate');
+  const pick = h('div', { class: 'star-pick', role: 'slider', tabindex: '0', 'aria-label': 'Your rating, out of 5 stars',
+    'aria-valuemin': '0.5', 'aria-valuemax': '5', 'aria-valuenow': String(val || 0), 'aria-valuetext': val ? starText(val) + ' stars' : 'Not rated' }, stars);
+  const show = x => { shown = x; stars.set(x); readout.textContent = x ? starText(x) + ' / 5' : 'Tap to rate'; };
+  const at = e => { const r = stars.getBoundingClientRect(); return Math.min(10, Math.max(1, Math.ceil((e.clientX - r.left) / r.width * 10))) / 2; };
+  const send = async x => {
+    clearTimeout(timer);
+    status.textContent = 'Saving…';
+    try {
+      await sendRating(m.id, Math.round(x * 2));
+      const my = store.get('myStars', {}); my[m.id] = Math.round(x * 2); store.set('myStars', my);
+      val = x;
+      status.textContent = 'Thanks, your rating is in. You can change it.';
+      loadRatings();
+    } catch (e) { status.textContent = 'Your rating didn’t go through. Try again in a moment.'; show(val); }
+  };
+  const choose = (x, later) => {
+    show(x);
+    pick.setAttribute('aria-valuenow', String(x)); pick.setAttribute('aria-valuetext', starText(x) + ' stars');
+    clearTimeout(timer);
+    if (later) timer = setTimeout(() => send(x), 700); else send(x);
+  };
+  pick.addEventListener('pointermove', e => { if (e.pointerType === 'mouse') show(at(e)); });
+  pick.addEventListener('pointerleave', () => show(val));
+  pick.addEventListener('click', e => choose(at(e)));
+  pick.addEventListener('keydown', e => {
+    const k = e.key, cur = shown || 0;
+    const x = k === 'ArrowRight' || k === 'ArrowUp' ? Math.min(5, (cur || 0) + 0.5) : k === 'ArrowLeft' || k === 'ArrowDown' ? Math.max(0.5, cur - 0.5)
+      : k === 'Home' ? 0.5 : k === 'End' ? 5 : null;
+    if (x === null) return;
+    e.preventDefault(); choose(x, true);
   });
   return h('div', { class: 'rate-box', id: 'rate-box' },
-    h('h2', { class: 'rate-title' }, 'Worth watching?'),
-    h('div', { class: 'rate-opts', role: 'group', 'aria-label': 'How worth watching was this match' }, btns),
-    h('p', { class: 'hint' }, 'Rate the whole series, not who won. Others only see a badge like “Must watch”, never a score, and only once a few people have voted.'),
+    h('h2', { class: 'rate-title' }, 'Rate this match'),
+    h('div', { class: 'rate-opts' }, pick, readout),
+    h('p', { class: 'hint', 'data-rate-avg': m.id }),
+    h('p', { class: 'hint' }, 'Rate the whole series, not who won. Half stars count. People who haven’t watched it only see a badge like “Must watch”, never the stars, and only once a few people have rated it.'),
     status);
 }
 
@@ -1964,6 +2016,8 @@ function renderHome(app) {
     done.filter(t => homeYear === 'all' || t.year.trim() === homeYear).forEach(t => row.append(tCard(t)));
     wrap.append(shelf('grp-done', 'Ready to watch', 'Finished events. Start from the first match and watch it unfold.', row, chips));
   }
+  const teamsRow = editing() ? null : homeTeams();
+  if (teamsRow) wrap.append(teamsRow);
   if (upcoming.length) wrap.append(shelf('grp-upcoming', 'Coming up', 'Matches show up once they’re drawn. Add an event to your calendar to hear when its videos are ready.',
     h('div', { class: 'posters' }, upcoming.map(tCard))));
   if (!cont.length && !editing()) wrap.append(shelf('grp-short', 'Short on time?', '', h('div', { class: 'wide3' },
@@ -1974,6 +2028,19 @@ function renderHome(app) {
   if (cols) wrap.append(cols);
   if (pinGroup && !anyPins) wrap.append(pinGroup);
   app.append(wrap);
+}
+/* Teams on the home page: the teams with the most matches you can see, with a way to all of them.
+   Like the Teams page, it only counts matches in open rounds, so it can't hint at who went further. */
+const HOME_TEAMS = 12;
+function homeTeams() {
+  const list = data.teams.filter(x => x.name).map(tm => ({ tm, n: teamMatches(tm.id).reduce((p, e) => p + e.ms.length, 0) }))
+    .filter(x => x.n).sort((a, b) => b.n - a.n || a.tm.name.localeCompare(b.tm.name));
+  if (!list.length) return null;
+  const top = list.slice(0, HOME_TEAMS).sort((a, b) => a.tm.name.localeCompare(b.tm.name));
+  return shelf('grp-teams', 'Teams', 'Follow one team through every event. Only matches in rounds you can see are counted.',
+    h('div', { class: 'team-grid home-teams' }, top.map(({ tm, n }) => h('a', { class: 'team-card', href: '#/team/' + tm.id }, teamLogo(tm),
+      h('span', {}, h('b', {}, tm.name), plural(n, 'match', 'matches'))))),
+    list.length > top.length ? h('a', { class: 'btn btn-sm', href: '#/teams' }, 'All ' + list.length + ' teams') : null);
 }
 function shelf(id, title, note, body, side) {
   return h('section', { class: 'shelf', id },
@@ -2498,6 +2565,7 @@ function renderPlayer(app, r) {
     wbtn.textContent = on ? '✓ Watched' : 'Mark as watched';
     if (rbox) rbox.hidden = !on;
     if (rev) rev.hidden = !on;
+    paintRatings();
   });
   // The result is only ever one deliberate step away: offered once the match is marked as watched,
   // and opened on Liquipedia (never on this site) after a warning.
@@ -2760,7 +2828,7 @@ function currentTime() {
 }
 function mountPlayer(f, idx, map, els) {
   const m = f.m;
-  const st = { f, m, idx, els, yt: null, ready: false, played: false, timer: null, holdTimer: null, lastSave: 0, mode: '', resumeAt: 0 };
+  const st = { f, m, idx, els, yt: null, ready: false, played: false, timer: null, lastSave: 0, mode: '', resumeAt: 0 };
   P = st;
   const c = els.ctl;
   const live = [c.play, c.b30, c.b10, c.f10, c.f30, c.mute, c.vol, c.cc, c.speed];
@@ -2775,7 +2843,6 @@ function mountPlayer(f, idx, map, els) {
     if (!st.ready) return;
     const v = +c.vol.value;
     store.set('vol', { v, muted: v === 0 });
-    if (st.mode === 'hold') return updateMuteIcon(v === 0); // the sound comes back when the video shows
     st.yt.setVolume(v);
     if (v === 0) st.yt.mute(); else st.yt.unMute();
     updateMuteIcon(v === 0);
@@ -2788,7 +2855,7 @@ function mountPlayer(f, idx, map, els) {
   els.cover.addEventListener('click', e => {
     if (e.target.closest('button, a')) return;
     if (st.tapWoke) { st.tapWoke = false; return; } // a tap on hidden controls only brings them back
-    const tap = () => { if (st.mode === 'start' || st.mode === 'paused' || st.mode === 'clear' || st.mode === 'hold' || st.mode === 'party') togglePlay(); };
+    const tap = () => { if (st.mode === 'start' || st.mode === 'paused' || st.mode === 'clear' || st.mode === 'party') togglePlay(); };
     if (!touch || !st.ready) return tap();
     const r = els.cover.getBoundingClientRect(), x = (e.clientX - r.left) / r.width;
     const side = x < 1 / 3 ? -1 : x > 2 / 3 ? 1 : 0;
@@ -2796,7 +2863,7 @@ function mountPlayer(f, idx, map, els) {
     if (Date.now() - lastTap < 300) {
       lastTap = 0;
       if (!side) return toggleFullscreen();
-      if (st.mode === 'clear' || st.mode === 'paused' || st.mode === 'hold') { seek(side * 10); tapSkipFlash(els.frame, side); }
+      if (st.mode === 'clear' || st.mode === 'paused') { seek(side * 10); tapSkipFlash(els.frame, side); }
       return;
     }
     lastTap = Date.now();
@@ -2878,41 +2945,20 @@ function mountPlayer(f, idx, map, els) {
   }).catch(() => { if (P === st) setCover('error-api'); });
 }
 /* The cover sits over the YouTube frame at all times. It is solid whenever the
-   video isn't playing (so YouTube's title, end screens and suggestions never show)
+   video isn't playing (so YouTube's end screens and suggestions never show)
    and see-through while playing, still catching clicks so YouTube's own UI stays hidden.
-   YouTube also lays the video's title (which can name the winner) over the top of the
-   picture for a few seconds each time play starts. So the cover stays solid for that long
-   ('hold'), with the sound off, and then the video goes back to where it started. */
-const HOLD_START = 3200, HOLD_RESUME = 1600;
+   YouTube shows the video's title for a moment when play starts. The archive channels' titles
+   only name the teams and the event, so the cover clears straight away instead of holding. */
 function setCover(mode) {
   const st = P;
   if (!st) return;
-  const prev = st.mode;
   const c = st.els.cover;
-  if (mode === 'clear' && (prev === 'clear' || prev === 'hold')) return;
-  clearTimeout(st.holdTimer);
+  if (mode === 'clear' && st.mode === 'clear') return;
   st.mode = mode;
   if (st.wake) st.wake();
-  if (prev === 'hold') applyVol();
   if (mode === 'clear') {
-    const resuming = prev === 'paused';
-    st.mode = 'hold';
-    st.holdFrom = currentTime();
-    try { st.yt.mute(); } catch (e) { /* not ready */ }
-    if (!resuming) {
-      c.className = 'cover';
-      c.replaceChildren(h('div', { class: 'spinner', 'aria-hidden': 'true' }), h('p', { class: 'cover-sub' }, 'Starting…'));
-    }
-    st.holdTimer = setTimeout(() => {
-      if (P !== st || st.mode !== 'hold') return;
-      st.mode = 'clear';
-      applyVol();
-      // Go back over the hidden seconds, unless this is a watch party, which keeps everyone in step.
-      if (!partyHere()) { try { st.yt.seekTo(st.holdFrom, true); } catch (e) { /* not ready */ } }
-      c.className = 'cover clear';
-      c.replaceChildren();
-      if (st.wake) st.wake();
-    }, resuming ? HOLD_RESUME : HOLD_START);
+    c.className = 'cover clear';
+    c.replaceChildren();
     return;
   }
   c.className = 'cover';
@@ -3002,7 +3048,6 @@ function seek(d) {
   let to = Math.max(st.start || 0, currentTime() + d);
   if (st.end) to = Math.min(to, st.end);
   st.yt.seekTo(to, true);
-  if (st.mode === 'hold') st.holdFrom = to;
   const ps = st.yt.getPlayerState();
   partySend('seek', ps === 1 || ps === 3, to, { d });
   setTimeout(tick, 150);
@@ -3013,7 +3058,6 @@ function restart() {
   st.resumeAt = 0;
   clearResume(st.m.id, st.idx);
   st.yt.seekTo(st.start || 0, true);
-  if (st.mode === 'hold') st.holdFrom = st.start || 0;
   st.yt.playVideo();
   partySend('restart', true, st.start || 0);
 }
@@ -3037,7 +3081,7 @@ function toggleMute() {
   if (!st || !st.ready) return;
   const was = !!store.get('vol', { v: 100, muted: false }).muted;
   store.set('vol', { v: +st.els.ctl.vol.value, muted: !was });
-  if (st.mode !== 'hold') { if (was) st.yt.unMute(); else st.yt.mute(); }
+  if (was) st.yt.unMute(); else st.yt.mute();
   updateMuteIcon(!was);
 }
 function updateMuteIcon(muted) {
@@ -3094,7 +3138,6 @@ function destroyPlayer() {
   const st = P;
   P = null;
   clearInterval(st.timer);
-  clearTimeout(st.holdTimer);
   clearTimeout(st.idleTimer);
   if (st.ro) st.ro.disconnect();
   if (st.ready && st.mode !== 'ended') {
