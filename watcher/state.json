@@ -40,10 +40,10 @@
       "result": "106 matches, 202 map videos"
     },
     "Intel Extreme Masters/2026/Beijing": {
-      "revid": 3465247,
+      "revid": 3465449,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-10-31T16:38:52.018Z",
+      "fetchedAt": "2026-11-01T11:37:29.895Z",
       "result": "8 matches, 0 map videos"
     },
     "BLAST/Rivals/2026/Fall": {
@@ -3919,7 +3919,7 @@
       "YaLLa Compass/2026/Summer",
       "YaLLa Compass/2026/UAE"
     ],
-    "checkedAt": "2026-10-31T21:37:12.648Z",
+    "checkedAt": "2026-11-01T11:37:29.895Z",
     "key": "{\"categories\":[\"Category:S-Tier Tournaments\"],\"from\":\"2026-06-01\",\"to\":\"2027-12-31\",\"exclude\":[\"FISSURE/\"]}"
   },
   "images": {
@@ -4180,10 +4180,10 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-01T07:59:05.477Z",
+    "checkedAt": "2026-11-01T11:37:29.895Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
-      "matchesLookedFor": 14,
+      "matchesLookedFor": 13,
       "matchesFrom": "2026-10-11",
       "matchesTo": "2026-11-11",
       "found": 0,
@@ -4202,9 +4202,9 @@
         },
         "@pgl": {
           "uploads": 200,
-          "sayHighlights": 0,
-          "oldest": "2025-12-20T20:18:23Z",
-          "newest": "2026-11-01T00:35:45Z"
+          "sayHighlights": 1,
+          "oldest": "2025-12-21T20:58:49Z",
+          "newest": "2026-11-01T09:16:07Z"
         },
         "@Counter_Strike_Highlights": {
           "uploads": 200,
@@ -4248,6 +4248,11 @@
           "channel": "@BLASTPremier",
           "at": "2026-08-02T14:49",
           "title": "@Team<team>CS vs @mousesports 🔥 | 3 Minute Highlights - BLAST Bounty Malta 2026 Season 2 GRAND FINAL"
+        },
+        {
+          "channel": "@pgl",
+          "at": "2026-11-01T09:16",
+          "title": "HIGHLIGHTS RERUN: PGL Masters Bucharest 2026"
         },
         {
           "channel": "@Counter_Strike_Highlights",
