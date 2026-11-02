@@ -4220,7 +4220,7 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-02T14:58:16.354Z",
+    "checkedAt": "2026-11-02T17:58:21.102Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
       "matchesLookedFor": 20,
@@ -4231,8 +4231,8 @@
         "@ESLCS": {
           "uploads": 200,
           "sayHighlights": 0,
-          "oldest": "2026-06-22T14:00:13Z",
-          "newest": "2026-11-02T14:38:36Z"
+          "oldest": "2026-07-08T09:00:39Z",
+          "newest": "2026-11-02T17:57:35Z"
         },
         "@BLASTPremier": {
           "uploads": 200,
@@ -4242,15 +4242,15 @@
         },
         "@pgl": {
           "uploads": 200,
-          "sayHighlights": 1,
-          "oldest": "2026-01-17T19:56:39Z",
+          "sayHighlights": 0,
+          "oldest": "2026-01-16T18:41:25Z",
           "newest": "2026-11-01T18:15:39Z"
         },
         "@Counter_Strike_Highlights": {
           "uploads": 200,
           "sayHighlights": 41,
-          "oldest": "2026-08-11T12:00:37Z",
-          "newest": "2026-11-01T17:44:40Z"
+          "oldest": "2026-08-13T12:00:19Z",
+          "newest": "2026-11-02T17:06:55Z"
         }
       },
       "samples": [
@@ -4290,9 +4290,14 @@
           "title": "@Team<team>CS vs @mousesports 🔥 | 3 Minute Highlights - BLAST Bounty Malta 2026 Season 2 GRAND FINAL"
         },
         {
-          "channel": "@pgl",
-          "at": "2026-11-01T09:16",
-          "title": "HIGHLIGHTS RERUN: PGL Masters Bucharest 2026"
+          "channel": "@Counter_Strike_Highlights",
+          "at": "2026-11-02T17:06",
+          "title": "FUNNY MOMENTS of PGL Masters Bucharest 2026 | CS2"
+        },
+        {
+          "channel": "@Counter_Strike_Highlights",
+          "at": "2026-11-02T16:07",
+          "title": "FUNNY MOMENTS of PGL Masters Bucharest 2026 | CS2"
         },
         {
           "channel": "@Counter_Strike_Highlights",
@@ -4333,16 +4338,6 @@
           "channel": "@Counter_Strike_Highlights",
           "at": "2026-10-31T14:34",
           "title": "YEKINDAR Turns the Bomb Into a DEADLY Trap for Nemiga #pgl #Bucharest #cs #cs2"
-        },
-        {
-          "channel": "@Counter_Strike_Highlights",
-          "at": "2026-10-31T13:08",
-          "title": "syph0 Sees NOTHING Through the Smoke Yet Finds TWO <team> Players #pgl #Bucharest #cs #cs2"
-        },
-        {
-          "channel": "@Counter_Strike_Highlights",
-          "at": "2026-10-31T12:37",
-          "title": "YEKINDAR STEALS the Clutch and Denies the ACE #pgl #Bucharest #cs #cs2"
         }
       ]
     }
