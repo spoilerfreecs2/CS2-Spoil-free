@@ -12188,15 +12188,15 @@
     "lp-0ff6e121ef": {
       "maps": [
         {
-          "video": "",
-          "start": "",
-          "end": "",
+          "video": "https://youtu.be/jGjLsrSWvgc",
+          "start": "39",
+          "end": "2395",
           "name": "Ancient",
           "notPlayed": false
         },
         {
-          "video": "",
-          "start": "",
+          "video": "https://youtu.be/jGjLsrSWvgc",
+          "start": "2395",
           "end": "",
           "name": "Mirage",
           "notPlayed": false
@@ -12238,21 +12238,21 @@
     "lp-b4a46d837a": {
       "maps": [
         {
-          "video": "https://youtu.be/y6i0WlujP74",
+          "video": "https://youtu.be/aOy8w4XeOvs",
           "start": "27",
           "end": "3183",
           "name": "Dust II",
           "notPlayed": false
         },
         {
-          "video": "https://youtu.be/y6i0WlujP74",
+          "video": "https://youtu.be/aOy8w4XeOvs",
           "start": "3183",
           "end": "6141",
           "name": "Anubis",
           "notPlayed": false
         },
         {
-          "video": "https://youtu.be/y6i0WlujP74",
+          "video": "https://youtu.be/aOy8w4XeOvs",
           "start": "6141",
           "end": "",
           "name": "Ancient",
@@ -12511,6 +12511,6 @@
       ]
     }
   },
-  "updatedAt": "2026-11-02T13:45:49.531Z",
+  "updatedAt": "2026-11-02T16:00:08.706Z",
   "featured": "intel-extreme-masters-beijing-2026"
 }
