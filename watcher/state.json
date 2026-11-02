@@ -40,11 +40,11 @@
       "result": "106 matches, 202 map videos"
     },
     "Intel Extreme Masters/2026/Beijing": {
-      "revid": 3465809,
+      "revid": 3465837,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-11-02T12:29:00.505Z",
-      "result": "14 matches, 10 map videos"
+      "fetchedAt": "2026-11-02T13:45:49.531Z",
+      "result": "16 matches, 18 map videos"
     },
     "BLAST/Rivals/2026/Fall": {
       "revid": 3463988,
@@ -2196,6 +2196,21 @@
       "ok": true,
       "seconds": 8969,
       "checkedAt": "2026-11-02T10:34:57.471Z"
+    },
+    "JuP9R4l0r6A": {
+      "ok": true,
+      "seconds": 7477,
+      "checkedAt": "2026-11-02T13:45:49.531Z"
+    },
+    "rHFwWNsahxE": {
+      "ok": true,
+      "seconds": 7918,
+      "checkedAt": "2026-11-02T13:45:49.531Z"
+    },
+    "ErMfFjclihw": {
+      "ok": true,
+      "seconds": 5219,
+      "checkedAt": "2026-11-02T13:45:49.531Z"
     }
   },
   "parserVersion": 6,
@@ -3939,7 +3954,7 @@
       "YaLLa Compass/2026/Summer",
       "YaLLa Compass/2026/UAE"
     ],
-    "checkedAt": "2026-11-02T00:48:34.128Z",
+    "checkedAt": "2026-11-02T13:45:49.531Z",
     "key": "{\"categories\":[\"Category:S-Tier Tournaments\"],\"from\":\"2026-06-01\",\"to\":\"2027-12-31\",\"exclude\":[\"FISSURE/\"]}"
   },
   "images": {
