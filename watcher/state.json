@@ -40,11 +40,11 @@
       "result": "106 matches, 202 map videos"
     },
     "Intel Extreme Masters/2026/Beijing": {
-      "revid": 3465710,
+      "revid": 3465797,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-11-02T02:28:16.061Z",
-      "result": "8 matches, 0 map videos"
+      "fetchedAt": "2026-11-02T10:34:57.471Z",
+      "result": "12 matches, 10 map videos"
     },
     "BLAST/Rivals/2026/Fall": {
       "revid": 3463988,
@@ -56,18 +56,18 @@
     "PGL/2026/Singapore": {
       "revid": 3465719,
       "subpages": [
-        "PGL/2026/Singapore/Stage 1",
-        "PGL/2026/Singapore/Stage 3",
         "PGL/2026/Singapore/Playoffs",
-        "PGL/2026/Singapore/Stage 2"
+        "PGL/2026/Singapore/Stage 3",
+        "PGL/2026/Singapore/Stage 2",
+        "PGL/2026/Singapore/Stage 1"
       ],
       "subRevids": {
-        "PGL/2026/Singapore/Stage 1": 3465425,
-        "PGL/2026/Singapore/Stage 3": 3465428,
         "PGL/2026/Singapore/Playoffs": 3465427,
-        "PGL/2026/Singapore/Stage 2": 3465426
+        "PGL/2026/Singapore/Stage 3": 3465780,
+        "PGL/2026/Singapore/Stage 2": 3465779,
+        "PGL/2026/Singapore/Stage 1": 3465778
       },
-      "fetchedAt": "2026-11-02T05:35:44.305Z",
+      "fetchedAt": "2026-11-02T10:34:57.471Z",
       "result": "coming up, no matches drawn yet"
     },
     "BLAST/Bounty/2026/Summer": {
@@ -2176,6 +2176,26 @@
       "ok": true,
       "seconds": 4822,
       "checkedAt": "2026-10-31T18:09:30.442Z"
+    },
+    "twMlSwT9qeI": {
+      "ok": true,
+      "seconds": 9264,
+      "checkedAt": "2026-11-02T10:34:57.471Z"
+    },
+    "NnKkX0H49tY": {
+      "ok": true,
+      "seconds": 4971,
+      "checkedAt": "2026-11-02T10:34:57.471Z"
+    },
+    "v2Is7NUPTBk": {
+      "ok": true,
+      "seconds": 4478,
+      "checkedAt": "2026-11-02T10:34:57.471Z"
+    },
+    "y6i0WlujP74": {
+      "ok": true,
+      "seconds": 8969,
+      "checkedAt": "2026-11-02T10:34:57.471Z"
     }
   },
   "parserVersion": 6,
