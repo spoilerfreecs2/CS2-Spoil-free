@@ -4180,7 +4180,7 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-02T00:48:34.128Z",
+    "checkedAt": "2026-11-02T04:34:21.961Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
       "matchesLookedFor": 12,
@@ -4191,8 +4191,8 @@
         "@ESLCS": {
           "uploads": 200,
           "sayHighlights": 0,
-          "oldest": "2026-06-20T21:00:35Z",
-          "newest": "2026-10-31T16:00:16Z"
+          "oldest": "2026-06-20T23:13:37Z",
+          "newest": "2026-11-02T04:04:28Z"
         },
         "@BLASTPremier": {
           "uploads": 200,
