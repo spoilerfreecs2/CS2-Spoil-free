@@ -76,9 +76,11 @@ Visitors mark matches as watched themselves. The site never does it for them, be
 
 Once a match is marked as watched, its page offers **Show me the result**. Nothing is revealed on the site itself: it opens a warning that Liquipedia's page also lists the event's other results, and only **Open Liquipedia** there opens it in a new tab. Cancel has the focus, so pressing Enter or a stray key can't open it. Matches on a stage subpage (Majors and similar) link to that subpage once the watcher has re-read it; until then they link to the event's main page.
 
-## "Worth watching" ratings
+## Star ratings
 
-After marking a match as watched, a visitor can rate the whole series: **Must watch**, **Worth a watch** or **Only for fans**. Once at least 3 people have voted, match cards and the match page show a badge, but only for the two good tiers, so a missing badge can just as well mean too few votes. Votes never mention scores or maps, so they can't tell who won or how many maps were played. Anyone who'd rather not see badges can press **Hide ratings** at the bottom of the page.
+After marking a match as watched, a visitor can rate the whole series out of 5 stars, in half stars. Once at least 3 people have rated a match, anyone who has marked it as watched sees its average in stars. Everyone else only sees a badge, **Must watch** (4 stars or more) or **Worth a watch** (3.25 or more), and nothing for lower averages, so a low score can't hint at a one-sided series and a missing badge can just as well mean too few votes. Ratings never mention scores or maps, so they can't tell who won or how many maps were played. Anyone who'd rather not see ratings can press **Hide ratings** at the bottom of the page.
+
+Star votes are stored under `stars/<match>/<visitor>` as 1 to 10 half stars. Votes from the earlier three-button version (`votes/`) still count, as 2, 3.5 and 5 stars. **After updating to the star version, paste `ratings/database.rules.json` into the Firebase Rules tab again and press Publish**, or star votes are refused.
 
 Votes are shared between visitors through a free Firebase Realtime Database. Each browser gets an anonymous sign-in, so there's one vote per browser and nobody makes an account. Until it's set up, the site simply leaves ratings out.
 
@@ -117,7 +119,7 @@ A match can also have a **short version**: the organiser's own highlight video o
 To keep this spoiler-free:
 
 - The short version is only offered once **every match in that round** has one. Organisers don't cut highlights of every match, so a round where only some do could hint at which matches were worth watching.
-- It plays like any map: length hidden, and the cover hides YouTube's titles and end screens.
+- It plays like any map: length hidden, and the cover hides YouTube's end screens and suggestions.
 - It covers the whole series, so you learn how many maps were played as you watch it, the same as live.
 
 Liquipedia doesn't record when each round starts in a video, so a "key rounds only" cut of the full match isn't possible from the data we have.
