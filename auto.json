@@ -12316,21 +12316,21 @@
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Ancient",
           "notPlayed": false
         },
         {
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Inferno",
           "notPlayed": false
         },
         {
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Mirage",
           "notPlayed": false
         }
       ]
@@ -12366,21 +12366,21 @@
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Nuke",
           "notPlayed": false
         },
         {
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Inferno",
           "notPlayed": false
         },
         {
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Dust II",
           "notPlayed": false
         }
       ]
@@ -12511,6 +12511,6 @@
       ]
     }
   },
-  "updatedAt": "2026-11-02T16:00:08.706Z",
+  "updatedAt": "2026-11-03T02:52:25.780Z",
   "featured": "intel-extreme-masters-beijing-2026"
 }
