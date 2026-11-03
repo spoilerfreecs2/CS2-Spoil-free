@@ -5273,7 +5273,7 @@
       "b": "lp-b8",
       "bo": 3,
       "date": "4 Nov",
-      "time": "2026-11-04T00:50:00.000Z"
+      "time": "2026-11-04T01:00:00.000Z"
     },
     {
       "id": "lp-cc7a8a93fb",
@@ -5304,32 +5304,18 @@
       "time": "2026-11-04T00:15:00.000Z"
     },
     {
-      "id": "lp-bbd7ec31fc",
-      "tournamentId": "intel-extreme-masters-beijing-2026",
-      "tournament": "Intel Extreme Masters Beijing 2026",
-      "stage": "Group Stage",
-      "stageOrder": 0,
-      "round": "Group B: Upper Bracket Final",
-      "roundOrder": 7,
-      "a": "lp-mouz",
-      "b": "lp-parivision",
-      "bo": 3,
-      "date": "4 Nov",
-      "time": "2026-11-04T12:00:00.000Z"
-    },
-    {
       "id": "lp-bc96f8d2d1",
       "tournamentId": "intel-extreme-masters-beijing-2026",
       "tournament": "Intel Extreme Masters Beijing 2026",
       "stage": "Group Stage",
       "stageOrder": 0,
       "round": "Group B: Lower Bracket Semifinal",
-      "roundOrder": 8,
+      "roundOrder": 7,
       "a": "lp-team-liquid",
       "b": "lp-tyloo",
       "bo": 3,
       "date": "4 Nov",
-      "time": "2026-11-04T12:00:00.000Z"
+      "time": "2026-11-04T16:00:00.000Z"
     },
     {
       "id": "lp-5bcec3cc5f",
@@ -5338,12 +5324,40 @@
       "stage": "Group Stage",
       "stageOrder": 0,
       "round": "Group B: Lower Bracket Semifinal",
-      "roundOrder": 8,
+      "roundOrder": 7,
       "a": "lp-betboom-team",
       "b": "lp-aurora-gaming",
       "bo": 3,
       "date": "4 Nov",
-      "time": "2026-11-04T12:00:00.000Z"
+      "time": "2026-11-04T16:00:00.000Z"
+    },
+    {
+      "id": "lp-6fdf64a0fc",
+      "tournamentId": "intel-extreme-masters-beijing-2026",
+      "tournament": "Intel Extreme Masters Beijing 2026",
+      "stage": "Group Stage",
+      "stageOrder": 0,
+      "round": "Group A: Lower Bracket Semifinal",
+      "roundOrder": 8,
+      "a": "lp-heroic",
+      "b": "lp-team-falcons",
+      "bo": 3,
+      "date": "4 Nov",
+      "time": "2026-11-04T18:30:00.000Z"
+    },
+    {
+      "id": "lp-bbd7ec31fc",
+      "tournamentId": "intel-extreme-masters-beijing-2026",
+      "tournament": "Intel Extreme Masters Beijing 2026",
+      "stage": "Group Stage",
+      "stageOrder": 0,
+      "round": "Group B: Upper Bracket Final",
+      "roundOrder": 9,
+      "a": "lp-mouz",
+      "b": "lp-parivision",
+      "bo": 3,
+      "date": "4 Nov",
+      "time": "2026-11-04T21:00:00.000Z"
     }
   ],
   "videos": {
@@ -12455,22 +12469,22 @@
     "lp-52ba9ce6c5": {
       "maps": [
         {
-          "video": "",
-          "start": "",
-          "end": "",
+          "video": "https://youtu.be/iCRPFlmBlY8",
+          "start": "33",
+          "end": "2028",
           "name": "Ancient",
           "notPlayed": false
         },
         {
-          "video": "",
-          "start": "",
-          "end": "",
+          "video": "https://youtu.be/iCRPFlmBlY8",
+          "start": "2028",
+          "end": "5249",
           "name": "Anubis",
           "notPlayed": false
         },
         {
-          "video": "",
-          "start": "",
+          "video": "https://youtu.be/iCRPFlmBlY8",
+          "start": "5249",
           "end": "",
           "name": "Mirage",
           "notPlayed": false
@@ -12483,21 +12497,21 @@
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Dust II",
           "notPlayed": false
         },
         {
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Cache",
           "notPlayed": false
         },
         {
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Mirage",
           "notPlayed": false
         }
       ]
@@ -12523,7 +12537,7 @@
           "start": "",
           "end": "",
           "name": "Ancient",
-          "notPlayed": false
+          "notPlayed": true
         }
       ]
     },
@@ -12548,31 +12562,6 @@
           "start": "",
           "end": "",
           "name": "Cache",
-          "notPlayed": false
-        }
-      ]
-    },
-    "lp-bbd7ec31fc": {
-      "maps": [
-        {
-          "video": "",
-          "start": "",
-          "end": "",
-          "name": "",
-          "notPlayed": false
-        },
-        {
-          "video": "",
-          "start": "",
-          "end": "",
-          "name": "",
-          "notPlayed": false
-        },
-        {
-          "video": "",
-          "start": "",
-          "end": "",
-          "name": "",
           "notPlayed": false
         }
       ]
@@ -12626,8 +12615,58 @@
           "notPlayed": false
         }
       ]
+    },
+    "lp-6fdf64a0fc": {
+      "maps": [
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        }
+      ]
+    },
+    "lp-bbd7ec31fc": {
+      "maps": [
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        }
+      ]
     }
   },
-  "updatedAt": "2026-11-03T10:29:46.841Z",
+  "updatedAt": "2026-11-03T11:27:12.713Z",
   "featured": "intel-extreme-masters-beijing-2026"
 }
