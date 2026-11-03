@@ -5273,7 +5273,7 @@
       "b": "lp-b8",
       "bo": 3,
       "date": "4 Nov",
-      "time": "2026-11-04T00:15:00.000Z"
+      "time": "2026-11-04T00:50:00.000Z"
     },
     {
       "id": "lp-cc7a8a93fb",
@@ -5300,8 +5300,8 @@
       "a": "lp-furia",
       "b": "lp-natus-vincere",
       "bo": 3,
-      "date": "3 Nov",
-      "time": "2026-11-03T23:30:00.000Z"
+      "date": "4 Nov",
+      "time": "2026-11-04T00:15:00.000Z"
     },
     {
       "id": "lp-bbd7ec31fc",
@@ -12533,21 +12533,21 @@
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Ancient",
           "notPlayed": false
         },
         {
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Nuke",
           "notPlayed": false
         },
         {
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Cache",
           "notPlayed": false
         }
       ]
@@ -12628,6 +12628,6 @@
       ]
     }
   },
-  "updatedAt": "2026-11-03T09:26:58.128Z",
+  "updatedAt": "2026-11-03T10:29:46.841Z",
   "featured": "intel-extreme-masters-beijing-2026"
 }
