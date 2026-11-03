@@ -5217,7 +5217,7 @@
       "b": "lp-betboom-team",
       "bo": 3,
       "date": "3 Nov",
-      "time": "2026-11-03T18:30:00.000Z"
+      "time": "2026-11-03T20:00:00.000Z"
     },
     {
       "id": "lp-5c0dbf5078",
@@ -5245,7 +5245,7 @@
       "b": "lp-9z-team",
       "bo": 3,
       "date": "3 Nov",
-      "time": "2026-11-03T18:30:00.000Z"
+      "time": "2026-11-03T18:35:00.000Z"
     },
     {
       "id": "lp-cc7a8a93fb",
@@ -12313,15 +12313,15 @@
     "lp-803e3d7472": {
       "maps": [
         {
-          "video": "",
-          "start": "",
-          "end": "",
+          "video": "https://youtu.be/9O18QW0gaQQ",
+          "start": "21",
+          "end": "2911",
           "name": "Ancient",
           "notPlayed": false
         },
         {
-          "video": "",
-          "start": "",
+          "video": "https://youtu.be/9O18QW0gaQQ",
+          "start": "2911",
           "end": "",
           "name": "Inferno",
           "notPlayed": false
@@ -12331,7 +12331,7 @@
           "start": "",
           "end": "",
           "name": "Mirage",
-          "notPlayed": false
+          "notPlayed": true
         }
       ]
     },
@@ -12391,21 +12391,21 @@
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Inferno",
           "notPlayed": false
         },
         {
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Cache",
           "notPlayed": false
         },
         {
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Ancient",
           "notPlayed": false
         }
       ]
@@ -12511,6 +12511,6 @@
       ]
     }
   },
-  "updatedAt": "2026-11-03T02:52:25.780Z",
+  "updatedAt": "2026-11-03T05:55:40.493Z",
   "featured": "intel-extreme-masters-beijing-2026"
 }
