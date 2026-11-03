@@ -40,17 +40,17 @@
       "result": "106 matches, 202 map videos"
     },
     "Intel Extreme Masters/2026/Beijing": {
-      "revid": 3466008,
+      "revid": 3466040,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-11-03T05:55:40.493Z",
-      "result": "16 matches, 22 map videos"
+      "fetchedAt": "2026-11-03T08:31:56.912Z",
+      "result": "19 matches, 27 map videos"
     },
     "BLAST/Rivals/2026/Fall": {
-      "revid": 3463988,
+      "revid": 3466036,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-10-28T12:54:22.825Z",
+      "fetchedAt": "2026-11-03T08:31:56.912Z",
       "result": "4 matches, 0 map videos"
     },
     "PGL/2026/Singapore": {
@@ -2221,6 +2221,16 @@
       "ok": true,
       "seconds": 6122,
       "checkedAt": "2026-11-03T05:55:40.493Z"
+    },
+    "VMbUFAHNacQ": {
+      "ok": true,
+      "seconds": 10871,
+      "checkedAt": "2026-11-03T08:31:56.912Z"
+    },
+    "CZFs1Bzga7M": {
+      "ok": true,
+      "seconds": 5996,
+      "checkedAt": "2026-11-03T08:31:56.912Z"
     }
   },
   "parserVersion": 6,
@@ -4225,10 +4235,10 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-03T04:55:42.038Z",
+    "checkedAt": "2026-11-03T08:31:56.912Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
-      "matchesLookedFor": 20,
+      "matchesLookedFor": 23,
       "matchesFrom": "2026-11-02",
       "matchesTo": "2026-11-11",
       "found": 0,
@@ -4236,8 +4246,8 @@
         "@ESLCS": {
           "uploads": 200,
           "sayHighlights": 0,
-          "oldest": "2026-07-13T14:00:03Z",
-          "newest": "2026-11-03T03:43:03Z"
+          "oldest": "2026-07-25T10:00:14Z",
+          "newest": "2026-11-03T07:45:32Z"
         },
         "@BLASTPremier": {
           "uploads": 200,
