@@ -5358,6 +5358,20 @@
       "bo": 3,
       "date": "4 Nov",
       "time": "2026-11-04T21:00:00.000Z"
+    },
+    {
+      "id": "lp-ab79290927",
+      "tournamentId": "intel-extreme-masters-beijing-2026",
+      "tournament": "Intel Extreme Masters Beijing 2026",
+      "stage": "Group Stage",
+      "stageOrder": 0,
+      "round": "Group A: Upper Bracket Final",
+      "roundOrder": 10,
+      "a": "lp-the-mongolz",
+      "b": "lp-furia",
+      "bo": 3,
+      "date": "4 Nov",
+      "time": "2026-11-04T23:30:00.000Z"
     }
   ],
   "videos": {
@@ -12665,8 +12679,33 @@
           "notPlayed": false
         }
       ]
+    },
+    "lp-ab79290927": {
+      "maps": [
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        }
+      ]
     }
   },
-  "updatedAt": "2026-11-03T12:26:06.882Z",
+  "updatedAt": "2026-11-03T13:44:40.101Z",
   "featured": "intel-extreme-masters-beijing-2026"
 }
