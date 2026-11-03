@@ -12519,15 +12519,15 @@
     "lp-cc7a8a93fb": {
       "maps": [
         {
-          "video": "",
-          "start": "",
-          "end": "",
+          "video": "https://youtu.be/LBnen5q4p-4",
+          "start": "34",
+          "end": "2986",
           "name": "Inferno",
           "notPlayed": false
         },
         {
-          "video": "",
-          "start": "",
+          "video": "https://youtu.be/LBnen5q4p-4",
+          "start": "2986",
           "end": "",
           "name": "Nuke",
           "notPlayed": false
@@ -12667,6 +12667,6 @@
       ]
     }
   },
-  "updatedAt": "2026-11-03T11:27:12.713Z",
+  "updatedAt": "2026-11-03T12:26:06.882Z",
   "featured": "intel-extreme-masters-beijing-2026"
 }
