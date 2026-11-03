@@ -109,10 +109,10 @@
       "name": "PGL September 2027",
       "page": "PGL/2027/September",
       "year": "2027",
-      "sdate": "2027-09-03",
+      "sdate": "2027-09-02",
       "edate": "2027-09-12",
-      "dates": "3–12 September 2027",
-      "location": "World",
+      "dates": "2–12 September 2027",
+      "location": "Europe",
       "teamsText": "16 teams",
       "image": "PGL allmode.png",
       "imageDark": "",
@@ -5330,6 +5330,20 @@
       "bo": 3,
       "date": "4 Nov",
       "time": "2026-11-04T16:00:00.000Z"
+    },
+    {
+      "id": "lp-a2c5b1126b",
+      "tournamentId": "intel-extreme-masters-beijing-2026",
+      "tournament": "Intel Extreme Masters Beijing 2026",
+      "stage": "Group Stage",
+      "stageOrder": 0,
+      "round": "Group A: Lower Bracket Semifinal",
+      "roundOrder": 8,
+      "a": "lp-natus-vincere",
+      "b": "lp-b8",
+      "bo": 3,
+      "date": "4 Nov",
+      "time": "2026-11-04T18:30:00.000Z"
     },
     {
       "id": "lp-6fdf64a0fc",
@@ -12630,6 +12644,31 @@
         }
       ]
     },
+    "lp-a2c5b1126b": {
+      "maps": [
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        }
+      ]
+    },
     "lp-6fdf64a0fc": {
       "maps": [
         {
@@ -12706,6 +12745,6 @@
       ]
     }
   },
-  "updatedAt": "2026-11-03T13:44:40.101Z",
+  "updatedAt": "2026-11-03T14:57:39.123Z",
   "featured": "intel-extreme-masters-beijing-2026"
 }

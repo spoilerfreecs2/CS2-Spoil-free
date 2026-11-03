@@ -8,14 +8,14 @@ X-WR-CALDESC:When each day is ready to watch. No teams\, no results.
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:pgl-september-2027-20270903@cs2-spoiler-free
+UID:pgl-september-2027-20270902@cs2-spoiler-free
 DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20270904
-DTEND;VALUE=DATE:20270905
-SUMMARY:PGL September 2027: Friday’s matches ready to watch
-DESCRIPTION:Videos from Friday’s matches of PGL September 2027 should be 
- up by now. Watch spoiler-free: https://spoilerfreecs2.github.io/CS2-Spoil-
- free/#/t/pgl-september-2027
+DTSTART;VALUE=DATE:20270903
+DTEND;VALUE=DATE:20270904
+SUMMARY:PGL September 2027: Thursday’s matches ready to watch
+DESCRIPTION:Videos from Thursday’s matches of PGL September 2027 should b
+ e up by now. Watch spoiler-free: https://spoilerfreecs2.github.io/CS2-Spoi
+ l-free/#/t/pgl-september-2027
 URL:https://spoilerfreecs2.github.io/CS2-Spoil-free/#/t/pgl-september-2027
 TRANSP:TRANSPARENT
 BEGIN:VALARM

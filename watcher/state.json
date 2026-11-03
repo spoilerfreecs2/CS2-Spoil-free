@@ -40,11 +40,11 @@
       "result": "106 matches, 202 map videos"
     },
     "Intel Extreme Masters/2026/Beijing": {
-      "revid": 3466150,
+      "revid": 3466154,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-11-03T13:44:40.101Z",
-      "result": "21 matches, 34 map videos"
+      "fetchedAt": "2026-11-03T14:57:39.123Z",
+      "result": "22 matches, 34 map videos"
     },
     "BLAST/Rivals/2026/Fall": {
       "revid": 3466036,
@@ -239,10 +239,10 @@
       "result": "coming up, no matches drawn yet"
     },
     "PGL/2027/September": {
-      "revid": 3456929,
+      "revid": 3466155,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-11-02T08:27:07.037Z",
+      "fetchedAt": "2026-11-03T14:57:39.123Z",
       "result": "coming up, no matches drawn yet"
     },
     "PGL/2027/Łódź": {
@@ -3989,7 +3989,7 @@
       "YaLLa Compass/2026/Summer",
       "YaLLa Compass/2026/UAE"
     ],
-    "checkedAt": "2026-11-03T02:00:18.962Z",
+    "checkedAt": "2026-11-03T14:57:39.123Z",
     "key": "{\"categories\":[\"Category:S-Tier Tournaments\"],\"from\":\"2026-06-01\",\"to\":\"2027-12-31\",\"exclude\":[\"FISSURE/\"]}"
   },
   "images": {
