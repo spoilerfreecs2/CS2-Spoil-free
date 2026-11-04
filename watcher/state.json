@@ -40,10 +40,10 @@
       "result": "106 matches, 202 map videos"
     },
     "Intel Extreme Masters/2026/Beijing": {
-      "revid": 3466369,
+      "revid": 3466394,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-11-04T02:51:37.935Z",
+      "fetchedAt": "2026-11-04T03:53:56.704Z",
       "result": "22 matches, 40 map videos"
     },
     "BLAST/Rivals/2026/Fall": {
@@ -3999,7 +3999,7 @@
       "YaLLa Compass/2026/Summer",
       "YaLLa Compass/2026/UAE"
     ],
-    "checkedAt": "2026-11-03T14:57:39.123Z",
+    "checkedAt": "2026-11-04T03:53:56.704Z",
     "key": "{\"categories\":[\"Category:S-Tier Tournaments\"],\"from\":\"2026-06-01\",\"to\":\"2027-12-31\",\"exclude\":[\"FISSURE/\"]}"
   },
   "images": {
