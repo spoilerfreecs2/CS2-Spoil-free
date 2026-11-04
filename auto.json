@@ -12743,7 +12743,7 @@
           "start": "",
           "end": "",
           "name": "Cache",
-          "notPlayed": false
+          "notPlayed": true
         }
       ]
     },
@@ -12823,6 +12823,6 @@
       ]
     }
   },
-  "updatedAt": "2026-11-04T08:24:44.051Z",
+  "updatedAt": "2026-11-04T08:48:24.293Z",
   "featured": "intel-extreme-masters-beijing-2026"
 }
