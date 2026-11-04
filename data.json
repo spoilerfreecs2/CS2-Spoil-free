@@ -30,7 +30,8 @@
     "firebase": {
       "apiKey": "AIzaSyAm1M2gGfYOvipzRtqhN37OxcnjuYKapnQ",
       "databaseURL": "https://cs2spoilerfree-default-rtdb.firebaseio.com"
-    }
+    },
+    "googleVerification": "WThpd1rmnXj1Db1UUtmuG4bixIIdpTEKRhoa8oihILA"
   },
   "teams": [],
   "tournaments": []
