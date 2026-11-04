@@ -5415,6 +5415,34 @@
       "bo": 3,
       "date": "5 Nov",
       "time": "2026-11-05T00:20:00.000Z"
+    },
+    {
+      "id": "lp-deee751ec3",
+      "tournamentId": "intel-extreme-masters-beijing-2026",
+      "tournament": "Intel Extreme Masters Beijing 2026",
+      "stage": "Playoffs",
+      "stageOrder": 1,
+      "round": "Quarterfinals",
+      "roundOrder": 13,
+      "a": "lp-parivision",
+      "b": "lp-natus-vincere",
+      "bo": 3,
+      "date": "6 Nov",
+      "time": "2026-11-06T20:30:00.000Z"
+    },
+    {
+      "id": "lp-64e40f410a",
+      "tournamentId": "intel-extreme-masters-beijing-2026",
+      "tournament": "Intel Extreme Masters Beijing 2026",
+      "stage": "Playoffs",
+      "stageOrder": 1,
+      "round": "Quarterfinals",
+      "roundOrder": 13,
+      "a": "lp-furia",
+      "b": "lp-betboom-team",
+      "bo": 3,
+      "date": "6 Nov",
+      "time": "2026-11-06T23:45:00.000Z"
     }
   ],
   "videos": {
@@ -12822,8 +12850,58 @@
           "notPlayed": false
         }
       ]
+    },
+    "lp-deee751ec3": {
+      "maps": [
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        }
+      ]
+    },
+    "lp-64e40f410a": {
+      "maps": [
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        }
+      ]
     }
   },
-  "updatedAt": "2026-11-04T11:57:15.793Z",
+  "updatedAt": "2026-11-04T13:03:37.177Z",
   "featured": "intel-extreme-masters-beijing-2026"
 }
