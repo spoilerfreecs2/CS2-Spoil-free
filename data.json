@@ -28,10 +28,15 @@
     "footer": "Videos are played from YouTube.",
     "featuredId": "",
     "example": false,
+    "contact": {
+      "email": "",
+      "issues": "https://github.com/spoilerfreecs2/CS2-Spoil-free/issues"
+    },
     "firebase": {
       "apiKey": "AIzaSyAm1M2gGfYOvipzRtqhN37OxcnjuYKapnQ",
       "databaseURL": "https://cs2spoilerfree-default-rtdb.firebaseio.com"
-    }
+    },
+    "googleVerification": "WThpd1rmnXj1Db1UUtmuG4bixIIdpTEKRhoa8oihILA"
   },
   "teams": [],
   "tournaments": []
