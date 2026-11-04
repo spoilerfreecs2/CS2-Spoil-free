@@ -12751,22 +12751,22 @@
     "lp-f9c297fa93": {
       "maps": [
         {
-          "video": "",
-          "start": "",
-          "end": "",
+          "video": "https://youtu.be/1LJ1ln6wGYU",
+          "start": "34",
+          "end": "2361",
           "name": "Anubis",
           "notPlayed": false
         },
         {
-          "video": "",
-          "start": "",
-          "end": "",
+          "video": "https://youtu.be/1LJ1ln6wGYU",
+          "start": "2361",
+          "end": "5605",
           "name": "Nuke",
           "notPlayed": false
         },
         {
-          "video": "",
-          "start": "",
+          "video": "https://youtu.be/1LJ1ln6wGYU",
+          "start": "5605",
           "end": "",
           "name": "Mirage",
           "notPlayed": false
@@ -12824,6 +12824,6 @@
       ]
     }
   },
-  "updatedAt": "2026-11-04T10:43:12.165Z",
+  "updatedAt": "2026-11-04T11:57:15.793Z",
   "featured": "intel-extreme-masters-beijing-2026"
 }
