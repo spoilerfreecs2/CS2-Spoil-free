@@ -12522,22 +12522,22 @@
     "lp-c2922e2649": {
       "maps": [
         {
-          "video": "",
-          "start": "",
-          "end": "",
+          "video": "https://youtu.be/S0oKNB9ztuY",
+          "start": "37",
+          "end": "3178",
           "name": "Dust II",
           "notPlayed": false
         },
         {
-          "video": "",
-          "start": "",
-          "end": "",
+          "video": "https://youtu.be/S0oKNB9ztuY",
+          "start": "3178",
+          "end": "5603",
           "name": "Cache",
           "notPlayed": false
         },
         {
-          "video": "",
-          "start": "",
+          "video": "https://youtu.be/S0oKNB9ztuY",
+          "start": "5603",
           "end": "",
           "name": "Mirage",
           "notPlayed": false
@@ -12572,22 +12572,22 @@
     "lp-5e130f3771": {
       "maps": [
         {
-          "video": "",
-          "start": "",
-          "end": "",
+          "video": "https://youtu.be/4nDGR_8igIY",
+          "start": "26",
+          "end": "3799",
           "name": "Ancient",
           "notPlayed": false
         },
         {
-          "video": "",
-          "start": "",
-          "end": "",
+          "video": "https://youtu.be/4nDGR_8igIY",
+          "start": "3799",
+          "end": "7647",
           "name": "Nuke",
           "notPlayed": false
         },
         {
-          "video": "",
-          "start": "",
+          "video": "https://youtu.be/4nDGR_8igIY",
+          "start": "7647",
           "end": "",
           "name": "Cache",
           "notPlayed": false
@@ -12600,21 +12600,21 @@
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Mirage",
           "notPlayed": false
         },
         {
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Anubis",
           "notPlayed": false
         },
         {
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Inferno",
           "notPlayed": false
         }
       ]
@@ -12625,21 +12625,21 @@
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Mirage",
           "notPlayed": false
         },
         {
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Cache",
           "notPlayed": false
         },
         {
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Dust II",
           "notPlayed": false
         }
       ]
@@ -12745,6 +12745,6 @@
       ]
     }
   },
-  "updatedAt": "2026-11-03T14:57:39.123Z",
+  "updatedAt": "2026-11-04T02:51:37.935Z",
   "featured": "intel-extreme-masters-beijing-2026"
 }
