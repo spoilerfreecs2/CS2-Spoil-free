@@ -1,9 +1,9 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Spoiler-Free CS2//Calendar//EN
+PRODID:-//Live Again CS//Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Spoiler-Free CS2
+X-WR-CALNAME:Live Again CS
 X-WR-CALDESC:When each day is ready to watch. No teams\, no results.
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
