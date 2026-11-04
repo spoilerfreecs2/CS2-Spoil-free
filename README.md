@@ -1,4 +1,4 @@
-# Spoiler-free CS2
+# Live Again CS
 
 A website for watching Counter-Strike tournaments as if they were live: no scores, no video lengths, nothing that gives a result away.
 
