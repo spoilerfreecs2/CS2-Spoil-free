@@ -12804,22 +12804,22 @@
     "lp-ab79290927": {
       "maps": [
         {
-          "video": "",
-          "start": "",
-          "end": "",
+          "video": "https://youtu.be/lW4fo1YSfCA",
+          "start": "33",
+          "end": "3304",
           "name": "Inferno",
           "notPlayed": false
         },
         {
-          "video": "",
-          "start": "",
-          "end": "",
+          "video": "https://youtu.be/lW4fo1YSfCA",
+          "start": "3304",
+          "end": "6067",
           "name": "Cache",
           "notPlayed": false
         },
         {
-          "video": "",
-          "start": "",
+          "video": "https://youtu.be/lW4fo1YSfCA",
+          "start": "6067",
           "end": "",
           "name": "Dust II",
           "notPlayed": false
@@ -12829,22 +12829,22 @@
     "lp-a73199146e": {
       "maps": [
         {
-          "video": "",
-          "start": "",
-          "end": "",
+          "video": "https://youtu.be/O1bVHYEiggI",
+          "start": "28",
+          "end": "3291",
           "name": "Ancient",
           "notPlayed": false
         },
         {
-          "video": "",
-          "start": "",
-          "end": "",
+          "video": "https://youtu.be/O1bVHYEiggI",
+          "start": "3291",
+          "end": "5665",
           "name": "Inferno",
           "notPlayed": false
         },
         {
-          "video": "",
-          "start": "",
+          "video": "https://youtu.be/O1bVHYEiggI",
+          "start": "5665",
           "end": "",
           "name": "Mirage",
           "notPlayed": false
@@ -12902,6 +12902,6 @@
       ]
     }
   },
-  "updatedAt": "2026-11-04T13:03:37.177Z",
+  "updatedAt": "2026-11-04T15:26:43.984Z",
   "featured": "intel-extreme-masters-beijing-2026"
 }
