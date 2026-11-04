@@ -98,7 +98,7 @@ function page(html, o) {
 function build(html, d, auto, config) {
   const data = siteData(html, d, auto);
   const base = siteUrl(config);
-  const siteName = data.site.name || 'Spoiler-Free CS2';
+  const siteName = data.site.name || 'Live Again CS';
   const verify = str(d && d.site && d.site.googleVerification);
   const teamById = new Map(data.teams.map(t => [t.id, t]));
   const teamName = id => (teamById.get(id) || {}).name || 'TBD';

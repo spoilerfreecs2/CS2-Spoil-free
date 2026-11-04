@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /*
-  Video watcher for the spoiler-free CS2 site.
+  Video watcher for Live Again CS, the spoiler-free CS2 site.
 
   Every run it:
     1. asks Liquipedia which of the tournament pages in watcher/config.json changed since last time,
