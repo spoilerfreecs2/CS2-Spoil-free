@@ -5414,7 +5414,7 @@
       "b": "lp-team-falcons",
       "bo": 3,
       "date": "5 Nov",
-      "time": "2026-11-05T00:30:00.000Z"
+      "time": "2026-11-05T00:20:00.000Z"
     }
   ],
   "videos": {
@@ -12726,15 +12726,15 @@
     "lp-bbd7ec31fc": {
       "maps": [
         {
-          "video": "",
-          "start": "",
-          "end": "",
+          "video": "https://youtu.be/HE5dLEyXPOg",
+          "start": "26",
+          "end": "2097",
           "name": "Ancient",
           "notPlayed": false
         },
         {
-          "video": "",
-          "start": "",
+          "video": "https://youtu.be/HE5dLEyXPOg",
+          "start": "2097",
           "end": "",
           "name": "Mirage",
           "notPlayed": false
@@ -12804,26 +12804,26 @@
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Ancient",
           "notPlayed": false
         },
         {
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Inferno",
           "notPlayed": false
         },
         {
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Mirage",
           "notPlayed": false
         }
       ]
     }
   },
-  "updatedAt": "2026-11-04T09:33:09.082Z",
+  "updatedAt": "2026-11-04T10:43:12.165Z",
   "featured": "intel-extreme-masters-beijing-2026"
 }
