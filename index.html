@@ -2069,9 +2069,11 @@ function renderFooter() {
     ed('span', 'footer-text', data.site.footer, v => { data.site.footer = v; }, { label: 'Footer text', placeholder: 'Footer text' }),
     !editing() ? h('button', { type: 'button', class: 'text-btn', 'aria-keyshortcuts': 'Shift+?', onClick: openKeys }, 'Keyboard shortcuts (?)') : null,
     // Liquipedia's content is CC BY-SA, so its use is credited whenever the watcher's data is on the page.
-    AUTO && AUTO.source ? h('span', { class: 'footer-text' }, 'Match data from ', h('a', { href: 'https://liquipedia.net/counterstrike/', target: '_blank', rel: 'noopener' }, 'Liquipedia'),
+    AUTO && AUTO.source ? h('span', { class: 'footer-text' }, 'Match data, team logos and event pictures from ', h('a', { href: 'https://liquipedia.net/counterstrike/', target: '_blank', rel: 'noopener' }, 'Liquipedia'),
       ', under ', h('a', { href: 'https://creativecommons.org/licenses/by-sa/3.0/', target: '_blank', rel: 'noopener' }, 'CC BY-SA 3.0'), '.') : null,
-    h('nav', { class: 'footer-links', 'aria-label': 'About this site' }, h('a', { href: '#/privacy' }, 'Privacy'), h('a', { href: '#/terms' }, 'Terms'), h('a', { href: '#/contact' }, 'Contact')),
+    h('nav', { class: 'footer-links', 'aria-label': 'About this site' }, h('a', { href: '#/privacy' }, 'Privacy'), h('a', { href: '#/terms' }, 'Terms'), h('a', { href: '#/contact' }, 'Contact'),
+      // Videos play through YouTube's player, so its terms are one click away on every page.
+      h('a', { href: 'https://www.youtube.com/t/terms', target: '_blank', rel: 'noopener' }, 'YouTube Terms')),
     syncReady() ? h('button', { type: 'button', class: 'text-btn', onClick: () => openSyncDialog() }, syncCode() ? 'Synced devices' : 'Sync my devices') : null,
     ratingsReady() && !editing() ? h('button', { type: 'button', class: 'text-btn', id: 'rate-toggle', onClick: () => { store.set('hideRatings', !store.get('hideRatings', false)); paintRatings(); } }, 'Hide ratings') : null,
     // Not an official site: the game's owner is named on every page.
