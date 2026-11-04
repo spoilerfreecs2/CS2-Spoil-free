@@ -12779,21 +12779,21 @@
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Inferno",
           "notPlayed": false
         },
         {
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Cache",
           "notPlayed": false
         },
         {
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Dust II",
           "notPlayed": false
         }
       ]
@@ -12824,6 +12824,6 @@
       ]
     }
   },
-  "updatedAt": "2026-11-04T09:12:59.519Z",
+  "updatedAt": "2026-11-04T09:33:09.082Z",
   "featured": "intel-extreme-masters-beijing-2026"
 }
