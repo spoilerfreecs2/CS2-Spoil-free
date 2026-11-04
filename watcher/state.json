@@ -4039,7 +4039,7 @@
       "YaLLa Compass/2026/Summer",
       "YaLLa Compass/2026/UAE"
     ],
-    "checkedAt": "2026-11-04T03:53:56.704Z",
+    "checkedAt": "2026-11-04T16:30:32.726Z",
     "key": "{\"categories\":[\"Category:S-Tier Tournaments\"],\"from\":\"2026-06-01\",\"to\":\"2027-12-31\",\"exclude\":[\"FISSURE/\"]}"
   },
   "images": {
@@ -4300,7 +4300,7 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-04T13:03:37.177Z",
+    "checkedAt": "2026-11-04T16:30:32.726Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
       "matchesLookedFor": 30,
@@ -4311,8 +4311,8 @@
         "@ESLCS": {
           "uploads": 200,
           "sayHighlights": 0,
-          "oldest": "2026-09-04T12:51:49Z",
-          "newest": "2026-11-04T13:00:55Z"
+          "oldest": "2026-09-09T09:00:35Z",
+          "newest": "2026-11-04T15:43:23Z"
         },
         "@BLASTPremier": {
           "uploads": 200,
