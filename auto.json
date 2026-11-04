@@ -5343,7 +5343,7 @@
       "b": "lp-b8",
       "bo": 3,
       "date": "4 Nov",
-      "time": "2026-11-04T18:30:00.000Z"
+      "time": "2026-11-04T18:35:00.000Z"
     },
     {
       "id": "lp-6fdf64a0fc",
@@ -5357,7 +5357,7 @@
       "b": "lp-team-falcons",
       "bo": 3,
       "date": "4 Nov",
-      "time": "2026-11-04T18:30:00.000Z"
+      "time": "2026-11-04T18:35:00.000Z"
     },
     {
       "id": "lp-bbd7ec31fc",
@@ -5374,13 +5374,27 @@
       "time": "2026-11-04T21:00:00.000Z"
     },
     {
+      "id": "lp-f9c297fa93",
+      "tournamentId": "intel-extreme-masters-beijing-2026",
+      "tournament": "Intel Extreme Masters Beijing 2026",
+      "stage": "Group Stage",
+      "stageOrder": 0,
+      "round": "Group B: Lower Bracket Final",
+      "roundOrder": 10,
+      "a": "lp-team-liquid",
+      "b": "lp-betboom-team",
+      "bo": 3,
+      "date": "4 Nov",
+      "time": "2026-11-04T21:00:00.000Z"
+    },
+    {
       "id": "lp-ab79290927",
       "tournamentId": "intel-extreme-masters-beijing-2026",
       "tournament": "Intel Extreme Masters Beijing 2026",
       "stage": "Group Stage",
       "stageOrder": 0,
       "round": "Group A: Upper Bracket Final",
-      "roundOrder": 10,
+      "roundOrder": 11,
       "a": "lp-the-mongolz",
       "b": "lp-furia",
       "bo": 3,
@@ -12640,7 +12654,7 @@
           "start": "",
           "end": "",
           "name": "Dust II",
-          "notPlayed": false
+          "notPlayed": true
         }
       ]
     },
@@ -12650,21 +12664,21 @@
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Ancient",
           "notPlayed": false
         },
         {
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Dust II",
           "notPlayed": false
         },
         {
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Cache",
           "notPlayed": false
         }
       ]
@@ -12675,6 +12689,31 @@
           "video": "",
           "start": "",
           "end": "",
+          "name": "Ancient",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "Dust II",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "Inferno",
+          "notPlayed": false
+        }
+      ]
+    },
+    "lp-bbd7ec31fc": {
+      "maps": [
+        {
+          "video": "",
+          "start": "",
+          "end": "",
           "name": "",
           "notPlayed": false
         },
@@ -12694,7 +12733,7 @@
         }
       ]
     },
-    "lp-bbd7ec31fc": {
+    "lp-f9c297fa93": {
       "maps": [
         {
           "video": "",
@@ -12745,6 +12784,6 @@
       ]
     }
   },
-  "updatedAt": "2026-11-04T03:53:56.704Z",
+  "updatedAt": "2026-11-04T05:58:55.998Z",
   "featured": "intel-extreme-masters-beijing-2026"
 }
