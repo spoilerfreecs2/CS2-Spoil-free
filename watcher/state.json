@@ -4300,7 +4300,7 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-05T10:03:57.396Z",
+    "checkedAt": "2026-11-05T13:09:40.110Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
       "matchesLookedFor": 30,
@@ -4311,8 +4311,8 @@
         "@ESLCS": {
           "uploads": 200,
           "sayHighlights": 0,
-          "oldest": "2026-09-12T09:00:18Z",
-          "newest": "2026-11-05T09:41:59Z"
+          "oldest": "2026-09-14T09:00:10Z",
+          "newest": "2026-11-05T12:51:35Z"
         },
         "@BLASTPremier": {
           "uploads": 200,
@@ -4329,8 +4329,8 @@
         "@Counter_Strike_Highlights": {
           "uploads": 200,
           "sayHighlights": 41,
-          "oldest": "2026-09-03T11:56:41Z",
-          "newest": "2026-11-04T13:00:31Z"
+          "oldest": "2026-09-04T12:00:27Z",
+          "newest": "2026-11-05T13:00:26Z"
         }
       },
       "samples": [
@@ -4368,6 +4368,11 @@
           "channel": "@pgl",
           "at": "2026-11-04T20:32",
           "title": "HIGHLIGHTS RERUN: PGL Masters Bucharest 2026"
+        },
+        {
+          "channel": "@Counter_Strike_Highlights",
+          "at": "2026-11-05T13:00",
+          "title": "💲 Another NoScope Masterpiece — m0NESY Does It Again on Dust2 #m0nesy #pgl #cs #cs2 #edit"
         },
         {
           "channel": "@Counter_Strike_Highlights",
@@ -4413,11 +4418,6 @@
           "channel": "@Counter_Strike_Highlights",
           "at": "2026-10-31T15:51",
           "title": "Best Moments of PGL Masters Bucharest 2026 Playoffs in 3 min"
-        },
-        {
-          "channel": "@Counter_Strike_Highlights",
-          "at": "2026-10-31T15:31",
-          "title": "khaN REFUSES to Fall and Shuts Down <team> in a 1v3 #pgl #Bucharest #cs #cs2"
         }
       ]
     }
