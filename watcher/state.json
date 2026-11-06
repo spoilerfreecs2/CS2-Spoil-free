@@ -40,10 +40,10 @@
       "result": "106 matches, 202 map videos"
     },
     "Intel Extreme Masters/2026/Beijing": {
-      "revid": 3466721,
+      "revid": 3466977,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-11-05T07:18:35.279Z",
+      "fetchedAt": "2026-11-06T06:37:05.744Z",
       "result": "26 matches, 59 map videos"
     },
     "BLAST/Rivals/2026/Fall": {
@@ -4039,7 +4039,7 @@
       "YaLLa Compass/2026/Summer",
       "YaLLa Compass/2026/UAE"
     ],
-    "checkedAt": "2026-11-05T17:56:35.110Z",
+    "checkedAt": "2026-11-06T06:37:05.744Z",
     "key": "{\"categories\":[\"Category:S-Tier Tournaments\"],\"from\":\"2026-06-01\",\"to\":\"2027-12-31\",\"exclude\":[\"FISSURE/\"]}"
   },
   "images": {
@@ -4300,7 +4300,7 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-06T03:26:01.055Z",
+    "checkedAt": "2026-11-06T06:37:05.744Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
       "matchesLookedFor": 30,
@@ -4312,7 +4312,7 @@
           "uploads": 200,
           "sayHighlights": 0,
           "oldest": "2026-09-20T10:00:15Z",
-          "newest": "2026-11-05T22:43:14Z"
+          "newest": "2026-11-06T05:07:19Z"
         },
         "@BLASTPremier": {
           "uploads": 200,
