@@ -40,11 +40,11 @@
       "result": "106 matches, 202 map videos"
     },
     "Intel Extreme Masters/2026/Beijing": {
-      "revid": 3467010,
+      "revid": 3467021,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-11-06T11:03:58.876Z",
-      "result": "27 matches, 59 map videos"
+      "fetchedAt": "2026-11-06T11:54:46.793Z",
+      "result": "27 matches, 62 map videos"
     },
     "BLAST/Rivals/2026/Fall": {
       "revid": 3466827,
@@ -2296,6 +2296,11 @@
       "ok": true,
       "seconds": 7908,
       "checkedAt": "2026-11-04T15:26:43.984Z"
+    },
+    "8K77MlqK0AY": {
+      "ok": true,
+      "seconds": 10783,
+      "checkedAt": "2026-11-06T11:54:46.793Z"
     }
   },
   "parserVersion": 6,

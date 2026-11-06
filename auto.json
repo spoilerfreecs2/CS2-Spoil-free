@@ -5441,8 +5441,8 @@
       "a": "lp-furia",
       "b": "lp-betboom-team",
       "bo": 3,
-      "date": "6 Nov",
-      "time": "2026-11-06T23:45:00.000Z"
+      "date": "7 Nov",
+      "time": "2026-11-07T01:00:00.000Z"
     },
     {
       "id": "lp-d98908b507",
@@ -12868,22 +12868,22 @@
     "lp-deee751ec3": {
       "maps": [
         {
-          "video": "",
-          "start": "",
-          "end": "",
+          "video": "https://youtu.be/8K77MlqK0AY",
+          "start": "27",
+          "end": "4124",
           "name": "Mirage",
           "notPlayed": false
         },
         {
-          "video": "",
-          "start": "",
-          "end": "",
+          "video": "https://youtu.be/8K77MlqK0AY",
+          "start": "4124",
+          "end": "7576",
           "name": "Inferno",
           "notPlayed": false
         },
         {
-          "video": "",
-          "start": "",
+          "video": "https://youtu.be/8K77MlqK0AY",
+          "start": "7576",
           "end": "",
           "name": "Ancient",
           "notPlayed": false
@@ -12941,6 +12941,6 @@
       ]
     }
   },
-  "updatedAt": "2026-11-06T11:03:58.876Z",
+  "updatedAt": "2026-11-06T11:54:46.793Z",
   "featured": "intel-extreme-masters-beijing-2026"
 }
