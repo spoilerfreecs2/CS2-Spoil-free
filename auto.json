@@ -5457,6 +5457,20 @@
       "bo": 3,
       "date": "7 Nov",
       "time": "2026-11-07T20:30:00.000Z"
+    },
+    {
+      "id": "lp-911ea5c0a0",
+      "tournamentId": "intel-extreme-masters-beijing-2026",
+      "tournament": "Intel Extreme Masters Beijing 2026",
+      "stage": "Playoffs",
+      "stageOrder": 1,
+      "round": "Semifinals",
+      "roundOrder": 14,
+      "a": "lp-mouz",
+      "b": "lp-betboom-team",
+      "bo": 3,
+      "date": "7 Nov",
+      "time": "2026-11-07T23:45:00.000Z"
     }
   ],
   "videos": {
@@ -12939,8 +12953,33 @@
           "notPlayed": false
         }
       ]
+    },
+    "lp-911ea5c0a0": {
+      "maps": [
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        }
+      ]
     }
   },
-  "updatedAt": "2026-11-06T11:54:46.793Z",
+  "updatedAt": "2026-11-06T15:20:17.524Z",
   "featured": "intel-extreme-masters-beijing-2026"
 }
