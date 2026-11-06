@@ -40,10 +40,10 @@
       "result": "106 matches, 202 map videos"
     },
     "Intel Extreme Masters/2026/Beijing": {
-      "revid": 3466988,
+      "revid": 3466995,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-11-06T08:58:07.746Z",
+      "fetchedAt": "2026-11-06T10:03:23.372Z",
       "result": "26 matches, 59 map videos"
     },
     "BLAST/Rivals/2026/Fall": {
@@ -4300,7 +4300,7 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-06T06:37:05.744Z",
+    "checkedAt": "2026-11-06T10:03:23.372Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
       "matchesLookedFor": 30,
@@ -4311,8 +4311,8 @@
         "@ESLCS": {
           "uploads": 200,
           "sayHighlights": 0,
-          "oldest": "2026-09-20T10:00:15Z",
-          "newest": "2026-11-06T05:07:19Z"
+          "oldest": "2026-09-27T17:02:51Z",
+          "newest": "2026-11-06T10:01:06Z"
         },
         "@BLASTPremier": {
           "uploads": 200,
