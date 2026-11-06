@@ -5443,6 +5443,20 @@
       "bo": 3,
       "date": "6 Nov",
       "time": "2026-11-06T23:45:00.000Z"
+    },
+    {
+      "id": "lp-d98908b507",
+      "tournamentId": "intel-extreme-masters-beijing-2026",
+      "tournament": "Intel Extreme Masters Beijing 2026",
+      "stage": "Playoffs",
+      "stageOrder": 1,
+      "round": "Semifinals",
+      "roundOrder": 14,
+      "a": "lp-the-mongolz",
+      "b": "lp-natus-vincere",
+      "bo": 3,
+      "date": "7 Nov",
+      "time": "2026-11-07T20:30:00.000Z"
     }
   ],
   "videos": {
@@ -12882,6 +12896,31 @@
           "video": "",
           "start": "",
           "end": "",
+          "name": "Ancient",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "Dust II",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "Nuke",
+          "notPlayed": false
+        }
+      ]
+    },
+    "lp-d98908b507": {
+      "maps": [
+        {
+          "video": "",
+          "start": "",
+          "end": "",
           "name": "",
           "notPlayed": false
         },
@@ -12902,6 +12941,6 @@
       ]
     }
   },
-  "updatedAt": "2026-11-06T06:37:05.744Z",
+  "updatedAt": "2026-11-06T11:03:58.876Z",
   "featured": "intel-extreme-masters-beijing-2026"
 }
