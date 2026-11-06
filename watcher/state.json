@@ -40,10 +40,10 @@
       "result": "106 matches, 202 map videos"
     },
     "Intel Extreme Masters/2026/Beijing": {
-      "revid": 3467043,
+      "revid": 3467069,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-11-06T13:02:33.791Z",
+      "fetchedAt": "2026-11-06T14:17:56.689Z",
       "result": "27 matches, 62 map videos"
     },
     "BLAST/Rivals/2026/Fall": {
@@ -4305,10 +4305,10 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-06T10:03:23.372Z",
+    "checkedAt": "2026-11-06T14:17:56.689Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
-      "matchesLookedFor": 30,
+      "matchesLookedFor": 31,
       "matchesFrom": "2026-11-02",
       "matchesTo": "2026-11-11",
       "found": 0,
@@ -4316,8 +4316,8 @@
         "@ESLCS": {
           "uploads": 200,
           "sayHighlights": 0,
-          "oldest": "2026-09-27T17:02:51Z",
-          "newest": "2026-11-06T10:01:06Z"
+          "oldest": "2026-10-01T13:02:59Z",
+          "newest": "2026-11-06T12:56:00Z"
         },
         "@BLASTPremier": {
           "uploads": 200,
@@ -4334,8 +4334,8 @@
         "@Counter_Strike_Highlights": {
           "uploads": 200,
           "sayHighlights": 41,
-          "oldest": "2026-09-04T12:00:27Z",
-          "newest": "2026-11-05T13:00:26Z"
+          "oldest": "2026-09-05T12:00:09Z",
+          "newest": "2026-11-06T13:00:25Z"
         }
       },
       "samples": [
@@ -4373,6 +4373,11 @@
           "channel": "@pgl",
           "at": "2026-11-04T20:32",
           "title": "HIGHLIGHTS RERUN: PGL Masters Bucharest 2026"
+        },
+        {
+          "channel": "@Counter_Strike_Highlights",
+          "at": "2026-11-06T13:00",
+          "title": "💀 Techno4K Delivers a Mind-Blowing Ace & 1v4 CLUTCH! #techno4k #pgl #cs #cs2 #edit"
         },
         {
           "channel": "@Counter_Strike_Highlights",
@@ -4418,11 +4423,6 @@
           "channel": "@Counter_Strike_Highlights",
           "at": "2026-10-31T15:53",
           "title": "Best Moments of PGL Masters Bucharest 2026 Playoffs"
-        },
-        {
-          "channel": "@Counter_Strike_Highlights",
-          "at": "2026-10-31T15:51",
-          "title": "Best Moments of PGL Masters Bucharest 2026 Playoffs in 3 min"
         }
       ]
     }
