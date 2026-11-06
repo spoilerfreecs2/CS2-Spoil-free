@@ -40,10 +40,10 @@
       "result": "106 matches, 202 map videos"
     },
     "Intel Extreme Masters/2026/Beijing": {
-      "revid": 3466977,
+      "revid": 3466988,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-11-06T06:37:05.744Z",
+      "fetchedAt": "2026-11-06T08:58:07.746Z",
       "result": "26 matches, 59 map videos"
     },
     "BLAST/Rivals/2026/Fall": {
@@ -57,17 +57,17 @@
       "revid": 3466763,
       "subpages": [
         "PGL/2026/Singapore/Playoffs",
-        "PGL/2026/Singapore/Stage 1",
         "PGL/2026/Singapore/Stage 2",
+        "PGL/2026/Singapore/Stage 1",
         "PGL/2026/Singapore/Stage 3"
       ],
       "subRevids": {
         "PGL/2026/Singapore/Playoffs": 3465427,
-        "PGL/2026/Singapore/Stage 1": 3466751,
-        "PGL/2026/Singapore/Stage 2": 3466752,
-        "PGL/2026/Singapore/Stage 3": 3466754
+        "PGL/2026/Singapore/Stage 2": 3466993,
+        "PGL/2026/Singapore/Stage 1": 3466992,
+        "PGL/2026/Singapore/Stage 3": 3466994
       },
-      "fetchedAt": "2026-11-05T11:59:45.185Z",
+      "fetchedAt": "2026-11-06T08:58:07.746Z",
       "result": "coming up, no matches drawn yet"
     },
     "BLAST/Bounty/2026/Summer": {
