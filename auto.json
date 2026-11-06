@@ -12907,22 +12907,22 @@
     "lp-64e40f410a": {
       "maps": [
         {
-          "video": "",
-          "start": "",
-          "end": "",
+          "video": "https://youtu.be/lwjvtUp-ets",
+          "start": "27",
+          "end": "2353",
           "name": "Ancient",
           "notPlayed": false
         },
         {
-          "video": "",
-          "start": "",
-          "end": "",
+          "video": "https://youtu.be/lwjvtUp-ets",
+          "start": "2353",
+          "end": "5688",
           "name": "Dust II",
           "notPlayed": false
         },
         {
-          "video": "",
-          "start": "",
+          "video": "https://youtu.be/lwjvtUp-ets",
+          "start": "5688",
           "end": "",
           "name": "Nuke",
           "notPlayed": false
@@ -12980,6 +12980,6 @@
       ]
     }
   },
-  "updatedAt": "2026-11-06T15:20:17.524Z",
+  "updatedAt": "2026-11-06T20:22:57.789Z",
   "featured": "intel-extreme-masters-beijing-2026"
 }
