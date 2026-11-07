@@ -130,6 +130,10 @@ export function parseInfobox(text) {
       sdate: stripComments(p.sdate || p.date).trim(), edate: stripComments(p.edate || p.date).trim(),
       city: plain(p.city), country: plain(p.country), type: plain(p.type), tier: plain(p.liquipediatier),
       teamNumber: plain(p.team_number), prizepool: plain(p.prizepoolusd || p.prizepool),
+      // The prize pool in dollars when Liquipedia gives one, otherwise in the event's own currency.
+      prizepoolUsd: plain(p.prizepoolusd), prizepoolLocal: plain(p.prizepool), currency: plain(p.localcurrency || p.currency),
+      // "Major" for Valve's Majors (older pages say valvetier=Major).
+      publisherTier: plain(p.publishertier || p.valvetier),
       // Logo file names on Liquipedia: one for light backgrounds, and one for dark if there is one.
       image: plain(p.image), imageDark: plain(p.imagedark || p.imagedarkmode)
     });

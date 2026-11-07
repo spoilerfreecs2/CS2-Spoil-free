@@ -37,7 +37,8 @@ const FILES = {
   autoImages: path.join(ROOT, 'images', 'auto'),
   teamImages: path.join(ROOT, 'images', 'teams'),
   calendar: path.join(ROOT, 'calendar'),
-  ownImages: path.join(ROOT, 'images', 'events')
+  ownImages: path.join(ROOT, 'images', 'events'),
+  trophies: path.join(ROOT, 'images', 'trophies')
 };
 const YT_KEY = process.env.YOUTUBE_API_KEY || '';
 const YT_API = process.env.YOUTUBE_API_BASE || 'https://www.googleapis.com/youtube/v3';
@@ -49,7 +50,8 @@ const GH_REPO = process.env.GITHUB_REPOSITORY || '';
 const NOW = process.env.WATCHER_NOW ? new Date(process.env.WATCHER_NOW) : new Date();
 const HOUR = 3600 * 1000;
 // 2: matches keep their start time (for highlights and calendars), and events their match days.
-const BUILD_VERSION = 2;
+// 3: events keep their tier, whether they're a Major and their prize pool.
+const BUILD_VERSION = 3;
 // Who is asking, for the sites the watcher reads: the site's name, its address and a way to reach whoever
 // runs it (Liquipedia's API rules ask for this). The contact is site.contact.email in data.json once one
 // is set, and the GitHub issues page until then.
@@ -181,6 +183,25 @@ async function updateReviewIssue(problems) {
 
 /* ---------- building one tournament ---------- */
 
+// Liquipedia's tier ("S-Tier", "A-Tier", or 1 to 4 on older pages) as one letter.
+function tierLetter(v) {
+  v = str(v).trim();
+  const m = v.match(/^([SABCD])(?:[-\s]?tier)?$/i);
+  if (m) return m[1].toUpperCase();
+  return { 1: 'S', 2: 'A', 3: 'B', 4: 'C' }[v] || '';
+}
+const CURRENCY = { usd: '$', eur: '€', gbp: '£', cny: '¥', jpy: '¥', brl: 'R$', aud: 'A$', cad: 'C$', inr: '₹', krw: '₩' };
+// "1,250,000" -> "$1,250,000". In dollars when Liquipedia has the dollar amount, otherwise in the event's currency.
+function prizeText(info) {
+  const num = v => { const d = str(v).replace(/[^\d.]/g, ''); return d && +d > 0 ? Math.round(+d).toLocaleString('en-US') : ''; };
+  const usd = num(info.prizepoolUsd);
+  if (usd) return '$' + usd;
+  const local = num(info.prizepoolLocal);
+  if (!local) return '';
+  const c = str(info.currency).toLowerCase();
+  return c && c !== 'usd' ? (CURRENCY[c] ? CURRENCY[c] + local : local + ' ' + c.toUpperCase()) : '$' + local;
+}
+
 // Turns parsed Liquipedia pages into the site's tournament, matches and map videos.
 function buildTournament(tc, pages, teamOf) {
   const main = pages[0];
@@ -193,6 +214,9 @@ function buildTournament(tc, pages, teamOf) {
     dates: datesText(sdate, edate),
     location: [info.city, info.country].filter(Boolean).join(', ') || (info.type === 'Online' ? 'Online' : ''),
     teamsText: info.teamNumber ? info.teamNumber + ' teams' : '',
+    tier: tierLetter(info.tier), major: /major/i.test(info.publisherTier || ''),
+    // The whole prize pool only. Who won what is never kept: it would give results away.
+    prize: prizeText(info),
     image: info.image || '', imageDark: info.imageDark || ''
   };
 
@@ -509,11 +533,17 @@ async function main() {
   try { own = await readdir(FILES.ownImages); } catch (e) { /* no folder yet */ }
   let have = [];
   try { have = await readdir(FILES.autoImages); } catch (e) { /* no folder yet */ }
+  let trophies = [];
+  try { trophies = await readdir(FILES.trophies); } catch (e) { /* no folder yet */ }
   state.images = (state.images && typeof state.images === 'object') ? state.images : {};
   const wantFiles = [];
   for (const t of auto.tournaments) {
     const mine = own.find(f => f.replace(/\.(jpe?g|png|webp|avif)$/i, '') === t.id);
     t.art = mine ? 'images/events/' + mine : '';
+    // A real picture of the event's trophy, if you add one as images/trophies/<id>.png (or .jpg/.webp).
+    // Without one the site draws a trophy. Liquipedia has no trophy pictures.
+    const cup = trophies.find(f => f.replace(/\.(jpe?g|png|webp|avif)$/i, '') === t.id);
+    t.trophy = cup ? 'images/trophies/' + cup : '';
     for (const [field, file, suffix] of [['logo', t.image, ''], ['logoDark', t.imageDark, '-dark']]) {
       t[field] = '';
       if (!file) continue;

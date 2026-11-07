@@ -196,6 +196,28 @@ kbd{font:600 13px/1 var(--body);display:inline-block;min-width:26px;padding:5px 
 .poster .cap{position:absolute;left:12px;right:12px;bottom:12px;z-index:1;display:grid;gap:3px}
 .poster .nm{font:900 22px/.92 var(--display);text-transform:uppercase;overflow-wrap:anywhere}
 .poster .s{font-size:12px;color:#d8d4ce}
+.poster .art-logo{top:32%;max-height:40%}
+.poster .s.prize{display:inline-flex;align-items:center;gap:5px;color:#f7d68a;font-weight:700}
+.badge.gold{background:linear-gradient(90deg,#f7d68a,#d9a441);color:#1a1206}
+.shelf-side{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px}
+/* Events page: the three sections down the page, a sticky bar to jump between them, and filters. */
+.ev-head{padding-bottom:6px}
+.ev-bar{position:sticky;top:var(--head-h,63px);z-index:20;background:var(--header-bg);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-bottom:1px solid var(--line);margin-top:14px}
+.ev-bar>.wrap{display:flex;flex-direction:column;gap:10px;padding-block:10px}
+.ev-tabs{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none}
+.ev-tab{display:inline-flex;align-items:center;gap:8px;min-height:40px;padding:6px 14px;border-radius:6px;color:var(--soft);text-decoration:none;font-weight:700;border:1px solid var(--line2);white-space:nowrap}
+.ev-tab em{font-style:normal;font-size:12px;color:var(--muted);background:var(--card);border-radius:999px;padding:1px 8px}
+.ev-tab.on,.ev-tab:hover{color:var(--fg);border-color:var(--orange)}
+.ev-tab.on em{background:var(--orange);color:var(--on-orange)}
+.ev-tab[aria-disabled="true"]{opacity:.45}
+.ev-filters{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center}
+.ev-group{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.ev-label{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-right:2px}
+.input.ev-search{width:200px;min-height:34px;padding:5px 10px}
+.ev-count{color:var(--muted);font-size:14px}
+.ev-sec{scroll-margin-top:190px}
+.poster-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:14px}
+@media (max-width:760px){.ev-filters{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}.ev-group{flex-wrap:nowrap}.ev-filters .chip{white-space:nowrap}.input.ev-search{width:150px}.poster-grid{grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px}.ev-sec{scroll-margin-top:130px}}
 .thumbs{display:grid;grid-auto-flow:column;grid-auto-columns:max(240px,calc((100% - 36px) / 4));gap:12px;overflow-x:auto;padding-bottom:8px;scrollbar-width:thin;scrollbar-color:var(--scroll) transparent}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(260px,100%),1fr));gap:20px 14px}
 .wide3{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(240px,100%),1fr));gap:12px}
@@ -216,6 +238,20 @@ a.wtile:hover{background:var(--hover);color:var(--fg)}
 .hero-title{font:900 clamp(46px,8vw,94px)/.88 var(--display);text-transform:uppercase;overflow-wrap:anywhere}
 .lede{color:var(--soft);font-size:17px;max-width:46ch}
 @media (max-width:760px){.hero .art-logo{width:46vw;top:30%;right:16px;opacity:.9}.hero-text{padding-top:210px}}
+/* The marquee's right side: the event's trophy with its logo under it (the logo moves out of the art). */
+.hero>.art .art-logo{display:none}
+.hero-show{position:absolute;z-index:1;right:max(24px,env(safe-area-inset-right,0px));top:50%;transform:translateY(-46%);width:min(30vw,380px);display:flex;flex-direction:column;align-items:center;gap:18px;pointer-events:none}
+.hero-show .trophy-svg,.hero-show .trophy-img{display:block;width:62%;max-height:min(46vh,380px);aspect-ratio:2/3;filter:drop-shadow(0 18px 30px rgba(0,0,0,.65))}
+.hero-show .trophy-svg svg{width:100%;height:100%}
+.hero-show .trophy-img{object-fit:contain}
+.hero-logo{width:100%;max-height:96px;object-fit:contain;filter:drop-shadow(0 6px 18px rgba(0,0,0,.6))}
+.facts{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.fact{display:inline-flex;align-items:center;gap:6px;min-height:30px;padding:4px 11px;border-radius:999px;border:1px solid rgba(255,255,255,.18);background:rgba(10,10,11,.55);color:#e9e5df;font-size:13px;font-weight:600;letter-spacing:.02em}
+.fact.major{background:linear-gradient(90deg,#f7d68a,#d9a441);color:#1a1206;border-color:transparent;text-transform:uppercase;letter-spacing:.1em;font-weight:800}
+.fact.prize b{color:#f7d68a;font-weight:800}
+.fact.prize .ic{color:#f7d68a;display:inline-flex}
+@media (max-width:1000px){.hero-show{width:min(26vw,300px)}.hero-show .hero-logo{max-height:64px}}
+@media (max-width:760px){.hero-show{top:84px;transform:none;right:12px;width:38vw;gap:10px;opacity:.95}.hero-show .trophy-svg,.hero-show .trophy-img{width:58%;max-height:120px}.hero-show .hero-logo{max-height:36px}.hero-show~.hero-text{padding-top:250px}}
 .rules{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(220px,100%),1fr));gap:10px 28px;padding-block:16px;border-block:1px solid var(--line)}
 .rule{font-size:14px;color:var(--soft)}
 .rule h3{display:inline;font:700 14px var(--body);color:var(--fg)}
@@ -680,7 +716,7 @@ html.fs-lock .tab-bar{display:none}
     <a class="brand" id="brand" href="#/">Live Again <i>CS</i></a>
     <nav class="main-nav" aria-label="Main">
       <a href="#/" data-nav="home">Home</a>
-      <a href="#/tournaments" data-nav="tournaments">Events</a>
+      <a href="#/events" data-nav="tournaments">Events</a>
       <a href="#/teams" data-nav="teams">Teams</a>
       <a href="#/collections" data-nav="collections">Collections</a>
       <a href="#/how" data-nav="how">How it works</a>
@@ -698,7 +734,7 @@ html.fs-lock .tab-bar{display:none}
 <footer class="site-footer" id="footer"></footer>
 <nav class="tab-bar" aria-label="Main">
   <a href="#/" data-nav="home"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"></path></svg>Home</a>
-  <a href="#/tournaments" data-nav="tournaments"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="3" width="7" height="11" rx="1"></rect><rect x="13" y="3" width="7" height="11" rx="1"></rect><path d="M4 18h16M4 21h10"></path></svg>Events</a>
+  <a href="#/events" data-nav="tournaments"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="3" width="7" height="11" rx="1"></rect><rect x="13" y="3" width="7" height="11" rx="1"></rect><path d="M4 18h16M4 21h10"></path></svg>Events</a>
   <a href="#/teams" data-nav="teams"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6z"></path></svg>Teams</a>
   <a href="#/collections" data-nav="collections"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"></path><circle cx="4" cy="6" r="1"></circle><circle cx="4" cy="12" r="1"></circle><circle cx="4" cy="18" r="1"></circle></svg>Collections</a>
   <a href="#/how" data-nav="how"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M9.5 9a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6V14"></path><circle cx="12" cy="17.5" r=".6"></circle></svg>How it works</a>
@@ -841,6 +877,7 @@ const ICONS = {
   lock: '<rect x="5" y="11" width="14" height="10" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path>',
   x: '<line x1="6" y1="6" x2="18" y2="18"></line><line x1="18" y1="6" x2="6" y2="18"></line>',
   check: '<polyline points="4 12 10 18 20 6"></polyline>',
+  cup: '<path d="M7 4h10v5a5 5 0 0 1-10 0z"></path><path d="M7 6H4v1a3 3 0 0 0 3 3M17 6h3v1a3 3 0 0 1-3 3"></path><path d="M12 14v4M8 21h8M9 18h6"></path>',
   pin: '<line x1="12" y1="17" x2="12" y2="22"></line><path d="M5 17h14v-1.8a2 2 0 0 0-1.1-1.8l-1.8-.9A2 2 0 0 1 15 10.8V6h1a2 2 0 0 0 0-4H8a2 2 0 0 0 0 4h1v4.8a2 2 0 0 1-1.1 1.8l-1.8.9A2 2 0 0 0 5 15.2z"></path>'
 };
 function icon(name, size, fill) {
@@ -883,6 +920,8 @@ function normalize(d) {
   const tournaments = arr(d.tournaments).filter(t => t && t.id).map(t => ({
     id: str(t.id), name: str(t.name), year: str(t.year), dates: str(t.dates), location: str(t.location),
     teamsText: str(t.teamsText), logo: str(t.logo), art: str(t.art),
+    ...(t.tier ? { tier: str(t.tier).toUpperCase().slice(0, 1) } : {}), ...(t.major ? { major: true } : {}),
+    ...(t.prize ? { prize: str(t.prize) } : {}), ...(t.trophy ? { trophy: str(t.trophy) } : {}),
     stages: arr(t.stages).filter(x => x && x.id).map(st => ({
       id: str(st.id), name: str(st.name), info: str(st.info),
       rounds: arr(st.rounds).filter(x => x && x.id).map(r => ({
@@ -933,7 +972,9 @@ function mergeAuto(d, auto) {
   arr(auto.tournaments).forEach(at => {
     if (!at || !at.id || hidden.has(str(at.id)) || d.tournaments.some(x => x.id === str(at.id))) return;
     d.tournaments.push({ id: str(at.id), name: str(at.name), page: str(at.page), year: str(at.year), dates: str(at.dates), location: str(at.location),
-      teamsText: str(at.teamsText), logo: str(at.logo), logoDark: str(at.logoDark), art: str(at.art), sdate: str(at.sdate), edate: str(at.edate), stages: [] });
+      teamsText: str(at.teamsText), logo: str(at.logo), logoDark: str(at.logoDark), art: str(at.art), sdate: str(at.sdate), edate: str(at.edate),
+      // Tier, Major, the whole prize pool (never who won what) and a trophy picture if one was added.
+      tier: str(at.tier), major: !!at.major, prize: str(at.prize), trophy: str(at.trophy), stages: [] });
   });
   const all = new Map();
   d.tournaments.forEach(t => t.stages.forEach(s => s.rounds.forEach(r => r.matches.forEach(m => all.set(m.id, m)))));
@@ -1999,6 +2040,7 @@ function pageFor(r) {
   if (r.name === 'tournament') return findT(r.tid) ? 'event/' + encodeURIComponent(r.tid) + '/' : '';
   if (r.name === 'player') return findMatch(r.mid) ? 'match/' + encodeURIComponent(r.mid) + '/' : '';
   if (r.name === 'teams' || r.name === 'legal') return (r.page || 'teams') + '/';
+  if (r.name === 'events') return 'events/';
   // Team pages exist only for teams with a match in an open round (the same rule as pages.mjs).
   if (r.name === 'team' && team(r.id) && teamName(r.id) !== 'TBD' && data.tournaments.some(t => t.stages.some(s => s.rounds.some(rd => !rd.locked && rd.matches.some(m => m.a === r.id || m.b === r.id)))))
     return 'team/' + encodeURIComponent(r.id) + '/';
@@ -2025,8 +2067,9 @@ function parseRoute() {
   if (p[0] === 'c' && p[1]) return { name: 'collection', cid: p[1] };
   if (p[0] === 'team' && p[1]) return { name: 'team', id: p[1] };
   if (p[0] === 'teams') return { name: 'teams' };
+  if (p[0] === 'events' || p[0] === 'tournaments') return { name: 'events', section: p[1] || '' };
   if (p[0] === 'privacy' || p[0] === 'terms' || p[0] === 'contact') return { name: 'legal', page: p[0] };
-  if (p[0] === 'tournaments' || p[0] === 'how' || p[0] === 'collections') return { name: 'home', section: p[0] };
+  if (p[0] === 'how' || p[0] === 'collections') return { name: 'home', section: p[0] };
   return { name: 'home' };
 }
 let routedHash = null;
@@ -2047,6 +2090,7 @@ function route(keepScroll, initial) {
   else if (r.name === 'collection') renderCollection(app, r);
   else if (r.name === 'team') renderTeam(app, r);
   else if (r.name === 'teams') renderTeams(app);
+  else if (r.name === 'events') renderEvents(app, r);
   else if (r.name === 'legal') renderLegal(app, r);
   else renderHome(app, r);
   renderHeader();
@@ -2054,7 +2098,7 @@ function route(keepScroll, initial) {
   syncAddress(r);
   paintRatings();
   if (keepScroll) { window.scrollTo(0, y); return; }
-  const sec = r.section && document.getElementById('sec-' + r.section);
+  const sec = r.section && document.getElementById((r.name === 'events' ? 'ev-' : 'sec-') + r.section);
   if (sec) sec.scrollIntoView();
   else window.scrollTo(0, 0);
   if (!initial && !editing()) {
@@ -2086,7 +2130,7 @@ function renderHeader() {
   document.querySelectorAll('[data-nav]').forEach(a => {
     const k = a.dataset.nav;
     const cur = (k === 'home' && r.name === 'home' && !r.section) ||
-      (k === 'tournaments' && ((r.name !== 'home' && r.name !== 'collection' && r.name !== 'team' && r.name !== 'teams' && r.name !== 'legal') || r.section === 'tournaments')) ||
+      (k === 'tournaments' && r.name !== 'home' && r.name !== 'collection' && r.name !== 'team' && r.name !== 'teams' && r.name !== 'legal') ||
       (k === 'teams' && (r.name === 'team' || r.name === 'teams')) ||
       (k === 'collections' && (r.name === 'collection' || r.section === 'collections')) ||
       (k === 'how' && r.section === 'how');
@@ -2155,7 +2199,8 @@ function renderHome(app) {
     const row = h('div', { class: 'posters' });
     if (editing()) row.append(h('button', { type: 'button', class: 'add-tile', onClick: addTournament }, '+ Add tournament'));
     done.filter(t => homeYear === 'all' || t.year.trim() === homeYear).forEach(t => row.append(tCard(t)));
-    wrap.append(shelf('grp-done', 'Ready to watch', 'Finished events. Start from the first match and watch it unfold.', row, chips));
+    wrap.append(shelf('grp-done', 'Ready to watch', 'Finished events. Start from the first match and watch it unfold.', row,
+      h('div', { class: 'shelf-side' }, chips, editing() ? null : h('a', { class: 'btn btn-sm', href: '#/events' }, 'All events'))));
   }
   const teamsRow = editing() ? null : homeTeams();
   if (teamsRow) wrap.append(teamsRow);
@@ -2183,6 +2228,84 @@ function homeTeams() {
       h('span', {}, h('b', {}, tm.name), plural(n, 'match', 'matches'))))),
     list.length > top.length ? h('a', { class: 'btn btn-sm', href: '#/teams' }, 'All ' + list.length + ' teams') : null);
 }
+/* ---------- events ----------
+   Every event in three sections down the page: Live, Ready to watch and Upcoming, with a bar that jumps
+   between them and filters for tier, Majors, year and name. Only what the event is (never how it went). */
+const evFilter = { tier: 'all', major: false, year: 'all', q: '', show: { live: true, done: true, upcoming: true } };
+const EV_SECTIONS = [
+  { k: 'live', title: 'Live', note: 'On now. Matches are added as their videos come out, usually within a day.' },
+  { k: 'done', title: 'Ready to watch', note: 'Finished events, newest first. Start from the first match and watch it unfold.' },
+  { k: 'upcoming', title: 'Upcoming', note: 'Soonest first. Matches show up once they’re drawn.' }
+];
+const EV_SLUG = { live: 'live', done: 'ready', upcoming: 'upcoming' };
+function renderEvents(app) {
+  pageTitle = 'Events';
+  const all = data.tournaments;
+  const pass = t => (evFilter.tier === 'all' || t.tier === evFilter.tier) && (!evFilter.major || t.major) &&
+    (evFilter.year === 'all' || str(t.year).trim() === evFilter.year) &&
+    (!evFilter.q || looseName(t.name).includes(looseName(evFilter.q)) || looseName(t.location).includes(looseName(evFilter.q)));
+  const groups = { live: [], done: [], upcoming: [] };
+  all.forEach(t => groups[tStatus(t)].push(t));
+  const byStart = (a, b) => str(a.sdate) < str(b.sdate) ? -1 : str(a.sdate) > str(b.sdate) ? 1 : 0;
+  groups.upcoming.sort(byStart);
+  groups.done.sort((a, b) => byStart(b, a));
+  groups.live.sort(byStart);
+  const shown = { live: groups.live.filter(pass), done: groups.done.filter(pass), upcoming: groups.upcoming.filter(pass) };
+
+  const head = h('section', { class: 'wrap t-head ev-head' },
+    h('h1', { class: 't-title' }, 'Events'),
+    h('p', { class: 'shelf-note', style: 'margin:0' }, 'Every event on the site, live, finished and coming up. Prize pools are the whole event’s, never who won what.'));
+
+  // The jump bar: one tab per section, with how many events it holds under the current filters.
+  const tabs = h('nav', { class: 'ev-tabs', 'aria-label': 'Sections' }, EV_SECTIONS.map(sec => h('a', {
+    href: '#/events/' + EV_SLUG[sec.k], class: 'ev-tab', 'data-sec': sec.k, 'aria-disabled': String(!evFilter.show[sec.k]),
+    onClick: e => { e.preventDefault(); const el = document.getElementById('ev-' + EV_SLUG[sec.k]); if (el) el.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' }); }
+  }, sec.k === 'live' ? h('span', { class: 'live-dot', 'aria-hidden': 'true' }) : null, sec.title, h('em', {}, String(shown[sec.k].length)))));
+
+  const chip = (label, on, fn, extra) => h('button', { type: 'button', class: 'chip', 'aria-pressed': String(!!on), onClick: () => { fn(); rerender(); }, ...(extra || {}) }, label);
+  const tiers = ['S', 'A'].concat([...new Set(all.map(t => t.tier).filter(x => x && x !== 'S' && x !== 'A'))].sort());
+  const years = [...new Set(all.map(t => str(t.year).trim()).filter(Boolean))].sort().reverse();
+  if (evFilter.year !== 'all' && !years.includes(evFilter.year)) evFilter.year = 'all';
+  const q = h('input', { class: 'input ev-search', id: 'ev-search', type: 'search', placeholder: 'Event or city', value: evFilter.q, autocomplete: 'off' });
+  let qt;
+  q.addEventListener('input', () => { clearTimeout(qt); qt = setTimeout(() => { evFilter.q = q.value; rerender(); const n = document.getElementById('ev-search'); if (n) { n.focus(); n.setSelectionRange(n.value.length, n.value.length); } }, 200); });
+  const group = (label, kids) => h('div', { class: 'ev-group', role: 'group', 'aria-label': label }, h('span', { class: 'ev-label' }, label), kids);
+  const filters = h('div', { class: 'ev-filters' },
+    group('Show', EV_SECTIONS.map(sec => chip(sec.k === 'done' ? 'Finished' : sec.title, evFilter.show[sec.k], () => { evFilter.show[sec.k] = !evFilter.show[sec.k]; }))),
+    group('Tier', ['all'].concat(tiers).map(x => chip(x === 'all' ? 'All' : x + '-Tier', evFilter.tier === x, () => { evFilter.tier = x; },
+      x !== 'all' && !all.some(t => t.tier === x) ? { title: 'No ' + x + '-Tier events on the site yet' } : null))),
+    group('Type', [chip('Majors only', evFilter.major, () => { evFilter.major = !evFilter.major; })]),
+    years.length > 1 ? group('Year', ['all'].concat(years).map(y => chip(y === 'all' ? 'All' : y, evFilter.year === y, () => { evFilter.year = y; }))) : null,
+    h('div', { class: 'ev-group' }, h('label', { class: 'ev-label', for: 'ev-search' }, 'Find'), q),
+    (evFilter.tier !== 'all' || evFilter.major || evFilter.year !== 'all' || evFilter.q || !evFilter.show.live || !evFilter.show.done || !evFilter.show.upcoming)
+      ? h('button', { type: 'button', class: 'text-btn', onClick: () => { Object.assign(evFilter, { tier: 'all', major: false, year: 'all', q: '', show: { live: true, done: true, upcoming: true } }); rerender(); } }, 'Clear filters') : null);
+
+  const bar = h('div', { class: 'ev-bar' }, h('div', { class: 'wrap' }, tabs, filters));
+  const wrap = h('div', { class: 'wrap ev-body' });
+  EV_SECTIONS.forEach(sec => {
+    if (!evFilter.show[sec.k]) return;
+    const list = shown[sec.k];
+    const body = list.length ? h('div', { class: 'poster-grid' }, list.map(tCard))
+      : h('p', { class: 'empty' }, groups[sec.k].length ? 'No ' + (sec.k === 'done' ? 'finished' : sec.title.toLowerCase()) + ' events match these filters.' : sec.k === 'live' ? 'Nothing is on right now.' : 'None yet.');
+    const s = shelf('ev-' + EV_SLUG[sec.k], sec.k === 'live' ? [h('span', { class: 'live-dot', 'aria-hidden': 'true', style: 'margin-right:10px;align-self:center' }), sec.title] : sec.title, sec.note, body,
+      h('span', { class: 'ev-count' }, plural(list.length, 'event')));
+    s.classList.add('ev-sec');
+    wrap.append(s);
+  });
+  app.append(head, bar, wrap);
+  // The bar sticks just under the site's header, whatever its height on this screen.
+  const sh = document.querySelector('.site-header');
+  if (sh) document.documentElement.style.setProperty('--head-h', sh.offsetHeight + 'px');
+  // The tab of the section being read is lit as you scroll.
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver(es => es.forEach(en => {
+      if (!en.isIntersecting) return;
+      const k = Object.keys(EV_SLUG).find(x => 'ev-' + EV_SLUG[x] === en.target.id);
+      tabs.querySelectorAll('.ev-tab').forEach(a => a.classList.toggle('on', a.dataset.sec === k));
+    }), { rootMargin: '-40% 0px -55% 0px' });
+    wrap.querySelectorAll('.ev-sec').forEach(x => io.observe(x));
+  }
+}
 function shelf(id, title, note, body, side) {
   return h('section', { class: 'shelf', id },
     h('div', { class: 'shelf-head' }, h('h2', { class: 'sh' }, title), side || null),
@@ -2199,6 +2322,8 @@ function heroView(t) {
       ? h('span', { class: 'live' }, h('span', { class: 'live-dot', 'aria-hidden': 'true' }), 'Happening now' + (when ? ' · ' + when : ''))
       : h('span', { class: 'eyebrow' }, (st === 'upcoming' ? 'Coming up' : 'Featured') + (when ? ' · ' + when : '')),
       h('h1', { class: 'hero-title' }, t.name || 'Untitled tournament'));
+    const facts = eventFacts(t);
+    if (facts) text.append(facts);
   } else {
     text.append(h('span', { class: 'eyebrow' }, 'CS2 tournaments, spoiler-free'), h('h1', { class: 'hero-title' }, data.site.name || 'Live Again CS'));
   }
@@ -2209,7 +2334,7 @@ function heroView(t) {
     btns.append(h('a', { class: 'btn btn-accent', href: fm ? '#/match/' + fm.id + '/0' : '#/t/' + t.id }, fm ? [icon('play', 16, 'currentColor'), 'Watch from match one'] : 'Open event'));
     if (fm) btns.append(h('a', { class: 'btn', href: '#/t/' + t.id }, 'Open event'));
     if (calendarOk(t) && !editing()) btns.append(h('button', { type: 'button', class: 'btn btn-outline', onClick: () => openCalendarDialog([t]) }, 'Add to calendar'));
-  } else btns.append(h('a', { class: 'btn btn-outline', href: '#/tournaments' }, 'All events'));
+  } else btns.append(h('a', { class: 'btn btn-outline', href: '#/events' }, 'All events'));
   text.append(btns);
   const ts = data.tournaments;
   if (editing() && ts.length > 1) {
@@ -2220,10 +2345,50 @@ function heroView(t) {
   const hero = h('section', { class: 'hero wrap' });
   if (t) {
     const city = str(t.location).split(',')[0].trim();
-    hero.append(artView(t), h('span', { class: 'ghost', 'aria-hidden': 'true' }, city && !/online/i.test(city) ? city : t.year || ''));
+    hero.append(artView(t), h('span', { class: 'ghost', 'aria-hidden': 'true' }, city && !/online/i.test(city) ? city : t.year || ''), heroShowcase(t));
   }
   hero.append(text);
   return hero;
+}
+/* An event's prize pool, tier and Major badge in a row. Only the whole prize pool: never who won what. */
+function eventFacts(t, cls) {
+  const bits = [];
+  if (t.major) bits.push(h('span', { class: 'fact major' }, 'Major'));
+  if (t.tier) bits.push(h('span', { class: 'fact' }, t.tier + '-Tier'));
+  if (t.prize) bits.push(h('span', { class: 'fact prize' }, icon('cup', 15), h('b', {}, t.prize), ' prize pool'));
+  return bits.length ? h('div', { class: 'facts ' + (cls || '') }, bits) : null;
+}
+/* A trophy for the event: a real picture when one was added (images/trophies/<id>.png), otherwise a drawn cup.
+   Liquipedia has no trophy pictures, and photos of a trophy usually show who lifted it. */
+function trophyView(t) {
+  if (t.trophy) return h('img', { class: 'trophy-img', src: t.trophy, alt: '' });
+  const label = t.major ? 'MAJOR' : (t.year || '');
+  const svg = '<svg viewBox="0 0 200 300" aria-hidden="true"><defs>'
+    + '<linearGradient id="tg-gold" x1="0" x2="1"><stop offset="0" stop-color="#8a5a14"/><stop offset=".22" stop-color="#f7d68a"/><stop offset=".45" stop-color="#fff4cf"/><stop offset=".7" stop-color="#d9a441"/><stop offset="1" stop-color="#7a4c0e"/></linearGradient>'
+    + '<linearGradient id="tg-base" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#2b2b30"/><stop offset="1" stop-color="#0e0e10"/></linearGradient>'
+    + '<radialGradient id="tg-glow"><stop offset="0" stop-color="#ffb366" stop-opacity=".5"/><stop offset="1" stop-color="#ff8a3d" stop-opacity="0"/></radialGradient></defs>'
+    + '<ellipse cx="100" cy="110" rx="100" ry="110" fill="url(#tg-glow)"/>'
+    + '<path d="M50 52c-34 0-36 58 14 66" fill="none" stroke="url(#tg-gold)" stroke-width="9" stroke-linecap="round"/>'
+    + '<path d="M150 52c34 0 36 58-14 66" fill="none" stroke="url(#tg-gold)" stroke-width="9" stroke-linecap="round"/>'
+    + '<path d="M44 34h112c0 78-18 118-56 128C62 152 44 112 44 34z" fill="url(#tg-gold)"/>'
+    + '<ellipse cx="100" cy="34" rx="56" ry="9" fill="#fff1c2"/><ellipse cx="100" cy="35" rx="48" ry="5.5" fill="#a8721f"/>'
+    + '<path d="M62 48c2 46 12 76 28 92-24-10-34-44-36-92z" fill="#fff" opacity=".35"/>'
+    + (t.major ? '<path d="M100 66l7.6 15.4 17 2.5-12.3 12 2.9 16.9L100 104.8l-15.2 8 2.9-16.9-12.3-12 17-2.5z" fill="#fff6d8" opacity=".9"/>' : '<circle cx="100" cy="88" r="15" fill="none" stroke="#fff6d8" stroke-width="3" opacity=".8"/>')
+    + '<path d="M93 160h14l5 34H88z" fill="url(#tg-gold)"/><ellipse cx="100" cy="196" rx="24" ry="6" fill="url(#tg-gold)"/>'
+    + '<path d="M70 202h60l10 42H60z" fill="url(#tg-base)" stroke="#d9a441" stroke-width="2"/>'
+    + '<rect x="50" y="244" width="100" height="26" rx="2" fill="url(#tg-base)" stroke="#d9a441" stroke-width="2"/>'
+    + (label ? '<text x="100" y="262" text-anchor="middle" font-family="Big Shoulders Display, Impact, sans-serif" font-weight="900" font-size="15" letter-spacing="3" fill="#f7d68a">' + escHtml(label) + '</text>' : '')
+    + '</svg>';
+  const box = h('span', { class: 'trophy-svg' });
+  box.innerHTML = svg;
+  return box;
+}
+/* The right side of the marquee: the event's logo and its trophy. */
+function heroShowcase(t) {
+  const logo = t.logoDark || t.logo;
+  return h('div', { class: 'hero-show', 'aria-hidden': 'true' },
+    trophyView(t),
+    logo ? h('img', { class: 'hero-logo', src: logo, alt: '' }) : null);
 }
 /* The spoiler rules, in one line each, under the marquee. "How it works" in the menu leads here. */
 function rulesBand() {
@@ -2273,13 +2438,15 @@ function tCard(t) {
   const st = tStatus(t);
   const al = tournamentAlert(t);
   const badges = [st === 'live' ? h('span', { class: 'badge or' }, 'Live') : null,
+    t.major ? h('span', { class: 'badge gold' }, 'Major') : null,
     al ? h('span', { class: 'badge or' }, al.mids.length + ' new') : null,
     isPinned('tournaments', t.id) ? h('span', { class: 'badge' }, 'Pinned') : null].filter(Boolean);
   const sub = [t.dates || (st === 'upcoming' ? 'Dates to come' : ''), n ? plural(n, 'match', 'matches') : (st === 'upcoming' ? t.teamsText : '')].filter(Boolean).join(' · ');
   return h('a', { class: 'poster', href: '#/t/' + t.id },
     artView(t),
     badges.length ? h('span', { class: 'badges' }, badges) : null,
-    h('span', { class: 'cap' }, h('span', { class: 'nm' }, t.name || 'Untitled tournament'), sub ? h('span', { class: 's' }, sub) : null));
+    h('span', { class: 'cap' }, h('span', { class: 'nm' }, t.name || 'Untitled tournament'), sub ? h('span', { class: 's' }, sub) : null,
+      t.prize ? h('span', { class: 's prize' }, icon('cup', 13), t.prize) : null));
 }
 function addTournament() {
   const t = {
@@ -2308,7 +2475,7 @@ function renderTournament(app, r) {
   app.append(h('section', { class: 'ehead wrap' }, artView(t),
     h('div', { class: 'poster', 'aria-hidden': 'true' }, artView(t)),
     h('div', { class: 'e-title-col' },
-      h('nav', { class: 'crumbs', 'aria-label': 'Breadcrumb' }, h('a', { href: '#/' }, 'Home'), sep(), h('a', { href: '#/tournaments' }, 'Events'), sep(), h('span', { class: 'crumb-cur' }, t.name || 'Untitled tournament')),
+      h('nav', { class: 'crumbs', 'aria-label': 'Breadcrumb' }, h('a', { href: '#/' }, 'Home'), sep(), h('a', { href: '#/events' }, 'Events'), sep(), h('span', { class: 'crumb-cur' }, t.name || 'Untitled tournament')),
       st === 'live' ? h('span', { class: 'live' }, h('span', { class: 'live-dot', 'aria-hidden': 'true' }), 'Happening now' + (when ? ' · ' + when : '')) : (when ? h('span', { class: 'meta' }, when) : null),
       h('h1', { class: 't-title' }, t.name || 'Untitled tournament'),
       h('div', { class: 'pin-row' }, pinButton('tournaments', t.id, 'event'),
@@ -2410,7 +2577,7 @@ function renderTournamentEdit(app, r) {
         ed('span', '', t.teamsText, v => { t.teamsText = v; }, { label: 'Number of teams', placeholder: 'e.g. 16 teams' }))
     : metaLine([t.dates, t.location, t.teamsText]);
   const head = h('section', { class: 'wrap t-head' },
-    h('nav', { class: 'crumbs', 'aria-label': 'Breadcrumb' }, h('a', { href: '#/' }, 'Home'), sep(), h('a', { href: '#/tournaments' }, 'Tournaments'), sep(), h('span', { class: 'crumb-cur' }, t.name || 'Untitled tournament')),
+    h('nav', { class: 'crumbs', 'aria-label': 'Breadcrumb' }, h('a', { href: '#/' }, 'Home'), sep(), h('a', { href: '#/events' }, 'Events'), sep(), h('span', { class: 'crumb-cur' }, t.name || 'Untitled tournament')),
     h('div', { class: 't-title-row' },
       imgSlot({ src: t.logo, alt: (t.name || 'Tournament') + ' logo', kind: 'logo', cls: 't-logo', what: 'logo', onChange: v => { t.logo = v; }, fallback: () => monogram(t.name) }),
       h('div', { class: 't-title-col' }, title, meta, editing() ? null : h('div', { class: 'pin-row' }, pinButton('tournaments', t.id, 'event'),

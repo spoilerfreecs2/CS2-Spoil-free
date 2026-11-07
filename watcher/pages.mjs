@@ -206,6 +206,15 @@ async function build(html, d, auto, config, out) {
       body: `<section class="wrap legal">${lp.html}</section>` }, { file: 'site.png', shared: true });
     urls.push(base + k + '/');
   }
+  // Every event, in the same three groups as the site's Events page.
+  const today = new Date().toISOString().slice(0, 10);
+  const evStatus = t => { const sd = str(t.sdate).slice(0, 10), ed = str(t.edate).slice(0, 10) || sd; return !sd ? 'done' : sd > today ? 'upcoming' : ed && ed < today ? 'done' : 'live'; };
+  const evList = k => data.tournaments.filter(t => evStatus(t) === k).map(t => `<li>${link('event/' + t.id + '/', t.name)}${t.dates ? ' · ' + esc(t.dates) : ''}${t.prize ? ' · ' + esc(t.prize) + ' prize pool' : ''}</li>`).join('');
+  preview('events/index.html', { ...common, url: base + 'events/', hash: '#/events', title: 'Events',
+    desc: game + ' events live, finished and coming up, to watch without spoilers: no scores, no video lengths.',
+    body: '<section class="wrap t-head"><h1 class="t-title">Events</h1>' + [['live', 'Live'], ['done', 'Ready to watch'], ['upcoming', 'Upcoming']]
+      .map(([k, n]) => { const li = evList(k); return li ? `<h2>${n}</h2><ul>${li}</ul>` : ''; }).join('') + '</section>' }, { file: 'site.png', shared: true });
+  urls.push(base + 'events/');
   preview('teams/index.html', { ...common, url: base + 'teams/', hash: '#/teams', title: 'Teams',
     desc: 'CS2 teams and their matches, to watch without spoilers.',
     body: '<section class="wrap t-head"><h1 class="t-title">Teams</h1><ul>' + teams.map(id => `<li>${link('team/' + id + '/', teamName(id))}</li>`).join('') + '</ul></section>' },
@@ -217,7 +226,7 @@ async function build(html, d, auto, config, out) {
       chips: ['No scores', 'No video lengths', 'Every map listed', 'Later rounds locked'] });
   // Any other address: event/<id>/<stage>/<round>, match/<id>/<map> and the rest open the site's own.
   files['404.html'] = page(html, { ...common, url: base, noindex: true, title: 'Page not found', desc: 'Page not found',
-    script: `<script>(function () { var p = location.pathname.slice(${JSON.stringify(root)}.length).split('/').filter(Boolean), k = { event: 't', match: 'match', team: 'team', teams: 'teams', collection: 'c', privacy: 'privacy', terms: 'terms', contact: 'contact' }[p[0]];
+    script: `<script>(function () { var p = location.pathname.slice(${JSON.stringify(root)}.length).split('/').filter(Boolean), k = { event: 't', match: 'match', team: 'team', teams: 'teams', events: 'events', collection: 'c', privacy: 'privacy', terms: 'terms', contact: 'contact' }[p[0]];
   if (k === 'match') window.SF_LANDING = { match: p[1] };
   if (k && !/^#\\//.test(location.hash)) try { history.replaceState(null, '', ${JSON.stringify(root)} + location.search + '#/' + [k].concat(p.slice(1)).join('/')); } catch (e) { /* stays here */ } })();</script>` });
 
