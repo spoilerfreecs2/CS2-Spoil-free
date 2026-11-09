@@ -3635,62 +3635,6 @@
       "page": "Intel Extreme Masters/2026/Cologne/Playoffs"
     },
     {
-      "id": "lp-24cf20d64e",
-      "tournamentId": "blast-rivals-fall-2026",
-      "tournament": "BLAST Rivals Fall 2026",
-      "stage": "Group Stage",
-      "stageOrder": 0,
-      "round": "Group A",
-      "roundOrder": 1,
-      "a": "lp-legacy",
-      "b": "lp-furia",
-      "bo": 3,
-      "date": "11 Nov",
-      "time": "2026-11-11T02:00:00.000Z"
-    },
-    {
-      "id": "lp-b89550d6b0",
-      "tournamentId": "blast-rivals-fall-2026",
-      "tournament": "BLAST Rivals Fall 2026",
-      "stage": "Group Stage",
-      "stageOrder": 0,
-      "round": "Group A",
-      "roundOrder": 1,
-      "a": "lp-team-vitality",
-      "b": "lp-team-falcons",
-      "bo": 3,
-      "date": "11 Nov",
-      "time": "2026-11-11T04:30:00.000Z"
-    },
-    {
-      "id": "lp-91753f1117",
-      "tournamentId": "blast-rivals-fall-2026",
-      "tournament": "BLAST Rivals Fall 2026",
-      "stage": "Group Stage",
-      "stageOrder": 0,
-      "round": "Group B",
-      "roundOrder": 2,
-      "a": "lp-team-spirit",
-      "b": "lp-fut-esports",
-      "bo": 3,
-      "date": "11 Nov",
-      "time": "2026-11-11T07:00:00.000Z"
-    },
-    {
-      "id": "lp-711493665e",
-      "tournamentId": "blast-rivals-fall-2026",
-      "tournament": "BLAST Rivals Fall 2026",
-      "stage": "Group Stage",
-      "stageOrder": 0,
-      "round": "Group B",
-      "roundOrder": 2,
-      "a": "lp-mouz",
-      "b": "lp-g2-esports",
-      "bo": 3,
-      "date": "11 Nov",
-      "time": "2026-11-11T09:30:00.000Z"
-    },
-    {
       "id": "lp-32eb71c7bc",
       "tournamentId": "blast-bounty-summer-2026",
       "tournament": "BLAST Bounty Summer 2026",
@@ -5881,6 +5825,62 @@
       "date": "",
       "time": "",
       "page": "PGL/2026/Singapore/Stage 1"
+    },
+    {
+      "id": "lp-24cf20d64e",
+      "tournamentId": "blast-rivals-fall-2026",
+      "tournament": "BLAST Rivals Fall 2026",
+      "stage": "Group Stage",
+      "stageOrder": 0,
+      "round": "Group A",
+      "roundOrder": 1,
+      "a": "lp-legacy",
+      "b": "lp-furia",
+      "bo": 3,
+      "date": "11 Nov",
+      "time": "2026-11-11T02:00:00.000Z"
+    },
+    {
+      "id": "lp-b89550d6b0",
+      "tournamentId": "blast-rivals-fall-2026",
+      "tournament": "BLAST Rivals Fall 2026",
+      "stage": "Group Stage",
+      "stageOrder": 0,
+      "round": "Group A",
+      "roundOrder": 1,
+      "a": "lp-team-vitality",
+      "b": "lp-team-falcons",
+      "bo": 3,
+      "date": "11 Nov",
+      "time": "2026-11-11T04:30:00.000Z"
+    },
+    {
+      "id": "lp-91753f1117",
+      "tournamentId": "blast-rivals-fall-2026",
+      "tournament": "BLAST Rivals Fall 2026",
+      "stage": "Group Stage",
+      "stageOrder": 0,
+      "round": "Group B",
+      "roundOrder": 2,
+      "a": "lp-team-spirit",
+      "b": "lp-fut-esports",
+      "bo": 3,
+      "date": "11 Nov",
+      "time": "2026-11-11T07:00:00.000Z"
+    },
+    {
+      "id": "lp-711493665e",
+      "tournamentId": "blast-rivals-fall-2026",
+      "tournament": "BLAST Rivals Fall 2026",
+      "stage": "Group Stage",
+      "stageOrder": 0,
+      "round": "Group B",
+      "roundOrder": 2,
+      "a": "lp-mouz",
+      "b": "lp-g2-esports",
+      "bo": 3,
+      "date": "11 Nov",
+      "time": "2026-11-11T09:30:00.000Z"
     }
   ],
   "videos": {
@@ -9807,106 +9807,6 @@
         }
       ]
     },
-    "lp-24cf20d64e": {
-      "maps": [
-        {
-          "video": "",
-          "start": "",
-          "end": "",
-          "name": "",
-          "notPlayed": false
-        },
-        {
-          "video": "",
-          "start": "",
-          "end": "",
-          "name": "",
-          "notPlayed": false
-        },
-        {
-          "video": "",
-          "start": "",
-          "end": "",
-          "name": "",
-          "notPlayed": false
-        }
-      ]
-    },
-    "lp-b89550d6b0": {
-      "maps": [
-        {
-          "video": "",
-          "start": "",
-          "end": "",
-          "name": "",
-          "notPlayed": false
-        },
-        {
-          "video": "",
-          "start": "",
-          "end": "",
-          "name": "",
-          "notPlayed": false
-        },
-        {
-          "video": "",
-          "start": "",
-          "end": "",
-          "name": "",
-          "notPlayed": false
-        }
-      ]
-    },
-    "lp-91753f1117": {
-      "maps": [
-        {
-          "video": "",
-          "start": "",
-          "end": "",
-          "name": "",
-          "notPlayed": false
-        },
-        {
-          "video": "",
-          "start": "",
-          "end": "",
-          "name": "",
-          "notPlayed": false
-        },
-        {
-          "video": "",
-          "start": "",
-          "end": "",
-          "name": "",
-          "notPlayed": false
-        }
-      ]
-    },
-    "lp-711493665e": {
-      "maps": [
-        {
-          "video": "",
-          "start": "",
-          "end": "",
-          "name": "",
-          "notPlayed": false
-        },
-        {
-          "video": "",
-          "start": "",
-          "end": "",
-          "name": "",
-          "notPlayed": false
-        },
-        {
-          "video": "",
-          "start": "",
-          "end": "",
-          "name": "",
-          "notPlayed": false
-        }
-      ]
-    },
     "lp-32eb71c7bc": {
       "maps": [
         {
@@ -13540,8 +13440,108 @@
           "notPlayed": false
         }
       ]
+    },
+    "lp-24cf20d64e": {
+      "maps": [
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        }
+      ]
+    },
+    "lp-b89550d6b0": {
+      "maps": [
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        }
+      ]
+    },
+    "lp-91753f1117": {
+      "maps": [
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        }
+      ]
+    },
+    "lp-711493665e": {
+      "maps": [
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        }
+      ]
     }
   },
-  "updatedAt": "2026-11-09T18:56:28.504Z",
+  "updatedAt": "2026-11-09T20:54:25.524Z",
   "featured": "intel-extreme-masters-beijing-2026"
 }
