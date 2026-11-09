@@ -40,10 +40,10 @@
       "result": "106 matches, 202 map videos"
     },
     "Intel Extreme Masters/2026/Beijing": {
-      "revid": 3468202,
+      "revid": 3468485,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-11-09T16:40:02.236Z",
+      "fetchedAt": "2026-11-09T18:56:28.504Z",
       "result": "30 matches, 74 map videos"
     },
     "BLAST/Rivals/2026/Fall": {
@@ -54,21 +54,21 @@
       "result": "4 matches, 0 map videos"
     },
     "PGL/2026/Singapore": {
-      "revid": 3468355,
+      "revid": 3468486,
       "subpages": [
-        "PGL/2026/Singapore/Stage 1",
-        "PGL/2026/Singapore/Stage 3",
+        "PGL/2026/Singapore/Playoffs",
         "PGL/2026/Singapore/Stage 2",
-        "PGL/2026/Singapore/Playoffs"
+        "PGL/2026/Singapore/Stage 1",
+        "PGL/2026/Singapore/Stage 3"
       ],
       "subRevids": {
-        "PGL/2026/Singapore/Stage 1": 3466992,
-        "PGL/2026/Singapore/Stage 3": 3466994,
-        "PGL/2026/Singapore/Stage 2": 3466993,
-        "PGL/2026/Singapore/Playoffs": 3465427
+        "PGL/2026/Singapore/Playoffs": 3465427,
+        "PGL/2026/Singapore/Stage 2": 3468477,
+        "PGL/2026/Singapore/Stage 1": 3468474,
+        "PGL/2026/Singapore/Stage 3": 3468480
       },
-      "fetchedAt": "2026-11-09T16:40:02.236Z",
-      "result": "coming up, no matches drawn yet"
+      "fetchedAt": "2026-11-09T18:56:28.504Z",
+      "result": "8 matches, 0 map videos"
     },
     "BLAST/Bounty/2026/Summer": {
       "revid": 3454780,
@@ -504,6 +504,30 @@
     "vitality": {
       "id": "lp-team-vitality",
       "name": "Vitality"
+    },
+    "pvision": {
+      "id": "lp-parivision",
+      "name": "PARIVISION"
+    },
+    "imp": {
+      "id": "lp-imperial-esports",
+      "name": "Imperial"
+    },
+    "gosh": {
+      "id": "lp-bc-game-esports",
+      "name": "BC.Game"
+    },
+    "ef": {
+      "id": "lp-eternal-fire",
+      "name": "Eternal Fire"
+    },
+    "chinggis": {
+      "id": "lp-chinggis-warriors",
+      "name": "Chinggis Warriors"
+    },
+    "bb team": {
+      "id": "lp-betboom-team",
+      "name": "BetBoom"
     }
   },
   "videos": {
@@ -1875,12 +1899,12 @@
     "YwF-Dqki9Xw": {
       "ok": true,
       "seconds": 8611,
-      "checkedAt": "2026-10-26T18:48:38.803Z"
+      "checkedAt": "2026-11-09T18:56:28.504Z"
     },
     "RcLSC2T1f9I": {
       "ok": true,
       "seconds": 5715,
-      "checkedAt": "2026-10-26T18:48:38.803Z"
+      "checkedAt": "2026-11-09T18:56:28.504Z"
     },
     "QQNRNtZDJ1E": {
       "ok": true,
@@ -4827,6 +4851,34 @@
       "saved": {
         "logo": "Wildcard 2024 lightmode.png",
         "logoDark": "Wildcard 2024 darkmode.png"
+      }
+    },
+    "lp-imperial-esports": {
+      "light": "Imperial Esports 2025 allmode.png",
+      "dark": "",
+      "saved": {
+        "logo": "Imperial Esports 2025 allmode.png"
+      }
+    },
+    "lp-bc-game-esports": {
+      "light": "BC.Game 2025 allmode.png",
+      "dark": "",
+      "saved": {
+        "logo": "BC.Game 2025 allmode.png"
+      }
+    },
+    "lp-eternal-fire": {
+      "light": "Eternal Fire 2023 allmode.png",
+      "dark": "",
+      "saved": {
+        "logo": "Eternal Fire 2023 allmode.png"
+      }
+    },
+    "lp-chinggis-warriors": {
+      "light": "CW allmode.png",
+      "dark": "",
+      "saved": {
+        "logo": "CW allmode.png"
       }
     }
   }

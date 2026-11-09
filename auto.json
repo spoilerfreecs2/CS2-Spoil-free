@@ -838,6 +838,11 @@
       "logoDark": "images/teams/lp-b8-dark.png"
     },
     {
+      "id": "lp-bc-game-esports",
+      "name": "BC.Game",
+      "logo": "images/teams/lp-bc-game-esports.png"
+    },
+    {
       "id": "lp-betboom-team",
       "name": "BetBoom",
       "logo": "images/teams/lp-betboom-team.png"
@@ -849,6 +854,11 @@
       "logoDark": "images/teams/lp-big-dark.png"
     },
     {
+      "id": "lp-chinggis-warriors",
+      "name": "Chinggis Warriors",
+      "logo": "images/teams/lp-chinggis-warriors.png"
+    },
+    {
       "id": "lp-off-chops",
       "name": "Chops",
       "logo": "images/teams/lp-off-chops.png",
@@ -858,6 +868,11 @@
       "id": "lp-dendele-cs",
       "name": "DENDELE",
       "logo": "images/teams/lp-dendele-cs.png"
+    },
+    {
+      "id": "lp-eternal-fire",
+      "name": "Eternal Fire",
+      "logo": "images/teams/lp-eternal-fire.png"
     },
     {
       "id": "lp-team-falcons",
@@ -911,6 +926,11 @@
       "id": "lp-ic-esports",
       "name": "IC",
       "logo": "images/teams/lp-ic-esports.png"
+    },
+    {
+      "id": "lp-imperial-esports",
+      "name": "Imperial",
+      "logo": "images/teams/lp-imperial-esports.png"
     },
     {
       "id": "lp-jijiehao",
@@ -4343,426 +4363,6 @@
       "time": "2026-10-11T15:00:00.000Z"
     },
     {
-      "id": "lp-1144bd1cb8",
-      "tournamentId": "intel-extreme-masters-beijing-2026",
-      "tournament": "Intel Extreme Masters Beijing 2026",
-      "stage": "Group Stage",
-      "stageOrder": 0,
-      "round": "Group A: Upper Bracket Quarterfinals",
-      "roundOrder": 1,
-      "a": "lp-legacy",
-      "b": "lp-the-mongolz",
-      "bo": 3,
-      "date": "2 Nov",
-      "time": "2026-11-02T16:00:00.000Z"
-    },
-    {
-      "id": "lp-34a1fee10a",
-      "tournamentId": "intel-extreme-masters-beijing-2026",
-      "tournament": "Intel Extreme Masters Beijing 2026",
-      "stage": "Group Stage",
-      "stageOrder": 0,
-      "round": "Group A: Upper Bracket Quarterfinals",
-      "roundOrder": 1,
-      "a": "lp-heroic",
-      "b": "lp-b8",
-      "bo": 3,
-      "date": "2 Nov",
-      "time": "2026-11-02T16:00:00.000Z"
-    },
-    {
-      "id": "lp-dbfa622f88",
-      "tournamentId": "intel-extreme-masters-beijing-2026",
-      "tournament": "Intel Extreme Masters Beijing 2026",
-      "stage": "Group Stage",
-      "stageOrder": 0,
-      "round": "Group A: Upper Bracket Quarterfinals",
-      "roundOrder": 1,
-      "a": "lp-furia",
-      "b": "lp-faze-clan",
-      "bo": 3,
-      "date": "2 Nov",
-      "time": "2026-11-02T22:50:00.000Z"
-    },
-    {
-      "id": "lp-0ff6e121ef",
-      "tournamentId": "intel-extreme-masters-beijing-2026",
-      "tournament": "Intel Extreme Masters Beijing 2026",
-      "stage": "Group Stage",
-      "stageOrder": 0,
-      "round": "Group A: Upper Bracket Quarterfinals",
-      "roundOrder": 1,
-      "a": "lp-natus-vincere",
-      "b": "lp-team-falcons",
-      "bo": 3,
-      "date": "3 Nov",
-      "time": "2026-11-03T01:45:00.000Z"
-    },
-    {
-      "id": "lp-87a240523e",
-      "tournamentId": "intel-extreme-masters-beijing-2026",
-      "tournament": "Intel Extreme Masters Beijing 2026",
-      "stage": "Group Stage",
-      "stageOrder": 0,
-      "round": "Group B: Upper Bracket Quarterfinals",
-      "roundOrder": 2,
-      "a": "lp-aurora-gaming",
-      "b": "lp-team-liquid",
-      "bo": 3,
-      "date": "2 Nov",
-      "time": "2026-11-02T18:30:00.000Z"
-    },
-    {
-      "id": "lp-b4a46d837a",
-      "tournamentId": "intel-extreme-masters-beijing-2026",
-      "tournament": "Intel Extreme Masters Beijing 2026",
-      "stage": "Group Stage",
-      "stageOrder": 0,
-      "round": "Group B: Upper Bracket Quarterfinals",
-      "roundOrder": 2,
-      "a": "lp-parivision",
-      "b": "lp-g2-esports",
-      "bo": 3,
-      "date": "2 Nov",
-      "time": "2026-11-02T19:30:00.000Z"
-    },
-    {
-      "id": "lp-cbfa7e1e72",
-      "tournamentId": "intel-extreme-masters-beijing-2026",
-      "tournament": "Intel Extreme Masters Beijing 2026",
-      "stage": "Group Stage",
-      "stageOrder": 0,
-      "round": "Group B: Upper Bracket Quarterfinals",
-      "roundOrder": 2,
-      "a": "lp-9z-team",
-      "b": "lp-betboom-team",
-      "bo": 3,
-      "date": "2 Nov",
-      "time": "2026-11-02T21:00:00.000Z"
-    },
-    {
-      "id": "lp-ac9e34a298",
-      "tournamentId": "intel-extreme-masters-beijing-2026",
-      "tournament": "Intel Extreme Masters Beijing 2026",
-      "stage": "Group Stage",
-      "stageOrder": 0,
-      "round": "Group B: Upper Bracket Quarterfinals",
-      "roundOrder": 2,
-      "a": "lp-mouz",
-      "b": "lp-tyloo",
-      "bo": 3,
-      "date": "3 Nov",
-      "time": "2026-11-03T00:15:00.000Z"
-    },
-    {
-      "id": "lp-803e3d7472",
-      "tournamentId": "intel-extreme-masters-beijing-2026",
-      "tournament": "Intel Extreme Masters Beijing 2026",
-      "stage": "Group Stage",
-      "stageOrder": 0,
-      "round": "Group B: Upper Bracket Semifinals",
-      "roundOrder": 3,
-      "a": "lp-team-liquid",
-      "b": "lp-parivision",
-      "bo": 3,
-      "date": "3 Nov",
-      "time": "2026-11-03T16:00:00.000Z"
-    },
-    {
-      "id": "lp-b9c40a0059",
-      "tournamentId": "intel-extreme-masters-beijing-2026",
-      "tournament": "Intel Extreme Masters Beijing 2026",
-      "stage": "Group Stage",
-      "stageOrder": 0,
-      "round": "Group B: Upper Bracket Semifinals",
-      "roundOrder": 3,
-      "a": "lp-mouz",
-      "b": "lp-betboom-team",
-      "bo": 3,
-      "date": "3 Nov",
-      "time": "2026-11-03T20:00:00.000Z"
-    },
-    {
-      "id": "lp-5c0dbf5078",
-      "tournamentId": "intel-extreme-masters-beijing-2026",
-      "tournament": "Intel Extreme Masters Beijing 2026",
-      "stage": "Group Stage",
-      "stageOrder": 0,
-      "round": "Group B: Lower Bracket Quarterfinals",
-      "roundOrder": 4,
-      "a": "lp-aurora-gaming",
-      "b": "lp-g2-esports",
-      "bo": 3,
-      "date": "3 Nov",
-      "time": "2026-11-03T16:00:00.000Z"
-    },
-    {
-      "id": "lp-9d142d629c",
-      "tournamentId": "intel-extreme-masters-beijing-2026",
-      "tournament": "Intel Extreme Masters Beijing 2026",
-      "stage": "Group Stage",
-      "stageOrder": 0,
-      "round": "Group B: Lower Bracket Quarterfinals",
-      "roundOrder": 4,
-      "a": "lp-tyloo",
-      "b": "lp-9z-team",
-      "bo": 3,
-      "date": "3 Nov",
-      "time": "2026-11-03T18:35:00.000Z"
-    },
-    {
-      "id": "lp-52ba9ce6c5",
-      "tournamentId": "intel-extreme-masters-beijing-2026",
-      "tournament": "Intel Extreme Masters Beijing 2026",
-      "stage": "Group Stage",
-      "stageOrder": 0,
-      "round": "Group A: Lower Bracket Quarterfinals",
-      "roundOrder": 5,
-      "a": "lp-faze-clan",
-      "b": "lp-team-falcons",
-      "bo": 3,
-      "date": "3 Nov",
-      "time": "2026-11-03T21:00:00.000Z"
-    },
-    {
-      "id": "lp-c2922e2649",
-      "tournamentId": "intel-extreme-masters-beijing-2026",
-      "tournament": "Intel Extreme Masters Beijing 2026",
-      "stage": "Group Stage",
-      "stageOrder": 0,
-      "round": "Group A: Lower Bracket Quarterfinals",
-      "roundOrder": 5,
-      "a": "lp-legacy",
-      "b": "lp-b8",
-      "bo": 3,
-      "date": "4 Nov",
-      "time": "2026-11-04T01:00:00.000Z"
-    },
-    {
-      "id": "lp-cc7a8a93fb",
-      "tournamentId": "intel-extreme-masters-beijing-2026",
-      "tournament": "Intel Extreme Masters Beijing 2026",
-      "stage": "Group Stage",
-      "stageOrder": 0,
-      "round": "Group A: Upper Bracket Semifinals",
-      "roundOrder": 6,
-      "a": "lp-the-mongolz",
-      "b": "lp-heroic",
-      "bo": 3,
-      "date": "3 Nov",
-      "time": "2026-11-03T22:10:00.000Z"
-    },
-    {
-      "id": "lp-5e130f3771",
-      "tournamentId": "intel-extreme-masters-beijing-2026",
-      "tournament": "Intel Extreme Masters Beijing 2026",
-      "stage": "Group Stage",
-      "stageOrder": 0,
-      "round": "Group A: Upper Bracket Semifinals",
-      "roundOrder": 6,
-      "a": "lp-furia",
-      "b": "lp-natus-vincere",
-      "bo": 3,
-      "date": "4 Nov",
-      "time": "2026-11-04T00:15:00.000Z"
-    },
-    {
-      "id": "lp-bc96f8d2d1",
-      "tournamentId": "intel-extreme-masters-beijing-2026",
-      "tournament": "Intel Extreme Masters Beijing 2026",
-      "stage": "Group Stage",
-      "stageOrder": 0,
-      "round": "Group B: Lower Bracket Semifinal",
-      "roundOrder": 7,
-      "a": "lp-team-liquid",
-      "b": "lp-tyloo",
-      "bo": 3,
-      "date": "4 Nov",
-      "time": "2026-11-04T16:00:00.000Z"
-    },
-    {
-      "id": "lp-5bcec3cc5f",
-      "tournamentId": "intel-extreme-masters-beijing-2026",
-      "tournament": "Intel Extreme Masters Beijing 2026",
-      "stage": "Group Stage",
-      "stageOrder": 0,
-      "round": "Group B: Lower Bracket Semifinal",
-      "roundOrder": 7,
-      "a": "lp-betboom-team",
-      "b": "lp-aurora-gaming",
-      "bo": 3,
-      "date": "4 Nov",
-      "time": "2026-11-04T16:00:00.000Z"
-    },
-    {
-      "id": "lp-a2c5b1126b",
-      "tournamentId": "intel-extreme-masters-beijing-2026",
-      "tournament": "Intel Extreme Masters Beijing 2026",
-      "stage": "Group Stage",
-      "stageOrder": 0,
-      "round": "Group A: Lower Bracket Semifinal",
-      "roundOrder": 8,
-      "a": "lp-natus-vincere",
-      "b": "lp-b8",
-      "bo": 3,
-      "date": "4 Nov",
-      "time": "2026-11-04T18:35:00.000Z"
-    },
-    {
-      "id": "lp-6fdf64a0fc",
-      "tournamentId": "intel-extreme-masters-beijing-2026",
-      "tournament": "Intel Extreme Masters Beijing 2026",
-      "stage": "Group Stage",
-      "stageOrder": 0,
-      "round": "Group A: Lower Bracket Semifinal",
-      "roundOrder": 8,
-      "a": "lp-heroic",
-      "b": "lp-team-falcons",
-      "bo": 3,
-      "date": "4 Nov",
-      "time": "2026-11-04T18:35:00.000Z"
-    },
-    {
-      "id": "lp-bbd7ec31fc",
-      "tournamentId": "intel-extreme-masters-beijing-2026",
-      "tournament": "Intel Extreme Masters Beijing 2026",
-      "stage": "Group Stage",
-      "stageOrder": 0,
-      "round": "Group B: Upper Bracket Final",
-      "roundOrder": 9,
-      "a": "lp-mouz",
-      "b": "lp-parivision",
-      "bo": 3,
-      "date": "4 Nov",
-      "time": "2026-11-04T21:00:00.000Z"
-    },
-    {
-      "id": "lp-f9c297fa93",
-      "tournamentId": "intel-extreme-masters-beijing-2026",
-      "tournament": "Intel Extreme Masters Beijing 2026",
-      "stage": "Group Stage",
-      "stageOrder": 0,
-      "round": "Group B: Lower Bracket Final",
-      "roundOrder": 10,
-      "a": "lp-team-liquid",
-      "b": "lp-betboom-team",
-      "bo": 3,
-      "date": "4 Nov",
-      "time": "2026-11-04T21:00:00.000Z"
-    },
-    {
-      "id": "lp-ab79290927",
-      "tournamentId": "intel-extreme-masters-beijing-2026",
-      "tournament": "Intel Extreme Masters Beijing 2026",
-      "stage": "Group Stage",
-      "stageOrder": 0,
-      "round": "Group A: Upper Bracket Final",
-      "roundOrder": 11,
-      "a": "lp-the-mongolz",
-      "b": "lp-furia",
-      "bo": 3,
-      "date": "4 Nov",
-      "time": "2026-11-04T23:30:00.000Z"
-    },
-    {
-      "id": "lp-a73199146e",
-      "tournamentId": "intel-extreme-masters-beijing-2026",
-      "tournament": "Intel Extreme Masters Beijing 2026",
-      "stage": "Group Stage",
-      "stageOrder": 0,
-      "round": "Group A: Lower Bracket Final",
-      "roundOrder": 12,
-      "a": "lp-natus-vincere",
-      "b": "lp-team-falcons",
-      "bo": 3,
-      "date": "5 Nov",
-      "time": "2026-11-05T00:20:00.000Z"
-    },
-    {
-      "id": "lp-deee751ec3",
-      "tournamentId": "intel-extreme-masters-beijing-2026",
-      "tournament": "Intel Extreme Masters Beijing 2026",
-      "stage": "Playoffs",
-      "stageOrder": 1,
-      "round": "Quarterfinals",
-      "roundOrder": 13,
-      "a": "lp-parivision",
-      "b": "lp-natus-vincere",
-      "bo": 3,
-      "date": "6 Nov",
-      "time": "2026-11-06T20:30:00.000Z"
-    },
-    {
-      "id": "lp-64e40f410a",
-      "tournamentId": "intel-extreme-masters-beijing-2026",
-      "tournament": "Intel Extreme Masters Beijing 2026",
-      "stage": "Playoffs",
-      "stageOrder": 1,
-      "round": "Quarterfinals",
-      "roundOrder": 13,
-      "a": "lp-furia",
-      "b": "lp-betboom-team",
-      "bo": 3,
-      "date": "7 Nov",
-      "time": "2026-11-07T01:00:00.000Z"
-    },
-    {
-      "id": "lp-d98908b507",
-      "tournamentId": "intel-extreme-masters-beijing-2026",
-      "tournament": "Intel Extreme Masters Beijing 2026",
-      "stage": "Playoffs",
-      "stageOrder": 1,
-      "round": "Semifinals",
-      "roundOrder": 14,
-      "a": "lp-the-mongolz",
-      "b": "lp-natus-vincere",
-      "bo": 3,
-      "date": "7 Nov",
-      "time": "2026-11-07T20:30:00.000Z"
-    },
-    {
-      "id": "lp-911ea5c0a0",
-      "tournamentId": "intel-extreme-masters-beijing-2026",
-      "tournament": "Intel Extreme Masters Beijing 2026",
-      "stage": "Playoffs",
-      "stageOrder": 1,
-      "round": "Semifinals",
-      "roundOrder": 14,
-      "a": "lp-mouz",
-      "b": "lp-betboom-team",
-      "bo": 3,
-      "date": "7 Nov",
-      "time": "2026-11-07T23:45:00.000Z"
-    },
-    {
-      "id": "lp-940b1cf418",
-      "tournamentId": "intel-extreme-masters-beijing-2026",
-      "tournament": "Intel Extreme Masters Beijing 2026",
-      "stage": "Playoffs",
-      "stageOrder": 1,
-      "round": "Third Place Match",
-      "roundOrder": 15,
-      "a": "lp-natus-vincere",
-      "b": "lp-betboom-team",
-      "bo": 3,
-      "date": "8 Nov",
-      "time": "2026-11-08T18:00:00.000Z"
-    },
-    {
-      "id": "lp-06fa1e13aa",
-      "tournamentId": "intel-extreme-masters-beijing-2026",
-      "tournament": "Intel Extreme Masters Beijing 2026",
-      "stage": "Playoffs",
-      "stageOrder": 1,
-      "round": "Grand Final",
-      "roundOrder": 16,
-      "a": "lp-the-mongolz",
-      "b": "lp-mouz",
-      "bo": 5,
-      "date": "8 Nov",
-      "time": "2026-11-08T21:30:00.000Z"
-    },
-    {
       "id": "lp-a47e5407c5",
       "tournamentId": "esports-world-cup-2026",
       "tournament": "Esports World Cup 2026",
@@ -5741,6 +5341,546 @@
       "bo": 5,
       "date": "20 Sept",
       "time": "2026-09-20T15:00:00.000Z"
+    },
+    {
+      "id": "lp-1144bd1cb8",
+      "tournamentId": "intel-extreme-masters-beijing-2026",
+      "tournament": "Intel Extreme Masters Beijing 2026",
+      "stage": "Group Stage",
+      "stageOrder": 0,
+      "round": "Group A: Upper Bracket Quarterfinals",
+      "roundOrder": 1,
+      "a": "lp-legacy",
+      "b": "lp-the-mongolz",
+      "bo": 3,
+      "date": "2 Nov",
+      "time": "2026-11-02T16:00:00.000Z"
+    },
+    {
+      "id": "lp-34a1fee10a",
+      "tournamentId": "intel-extreme-masters-beijing-2026",
+      "tournament": "Intel Extreme Masters Beijing 2026",
+      "stage": "Group Stage",
+      "stageOrder": 0,
+      "round": "Group A: Upper Bracket Quarterfinals",
+      "roundOrder": 1,
+      "a": "lp-heroic",
+      "b": "lp-b8",
+      "bo": 3,
+      "date": "2 Nov",
+      "time": "2026-11-02T16:00:00.000Z"
+    },
+    {
+      "id": "lp-dbfa622f88",
+      "tournamentId": "intel-extreme-masters-beijing-2026",
+      "tournament": "Intel Extreme Masters Beijing 2026",
+      "stage": "Group Stage",
+      "stageOrder": 0,
+      "round": "Group A: Upper Bracket Quarterfinals",
+      "roundOrder": 1,
+      "a": "lp-furia",
+      "b": "lp-faze-clan",
+      "bo": 3,
+      "date": "2 Nov",
+      "time": "2026-11-02T22:50:00.000Z"
+    },
+    {
+      "id": "lp-0ff6e121ef",
+      "tournamentId": "intel-extreme-masters-beijing-2026",
+      "tournament": "Intel Extreme Masters Beijing 2026",
+      "stage": "Group Stage",
+      "stageOrder": 0,
+      "round": "Group A: Upper Bracket Quarterfinals",
+      "roundOrder": 1,
+      "a": "lp-natus-vincere",
+      "b": "lp-team-falcons",
+      "bo": 3,
+      "date": "3 Nov",
+      "time": "2026-11-03T01:45:00.000Z"
+    },
+    {
+      "id": "lp-87a240523e",
+      "tournamentId": "intel-extreme-masters-beijing-2026",
+      "tournament": "Intel Extreme Masters Beijing 2026",
+      "stage": "Group Stage",
+      "stageOrder": 0,
+      "round": "Group B: Upper Bracket Quarterfinals",
+      "roundOrder": 2,
+      "a": "lp-aurora-gaming",
+      "b": "lp-team-liquid",
+      "bo": 3,
+      "date": "2 Nov",
+      "time": "2026-11-02T18:30:00.000Z"
+    },
+    {
+      "id": "lp-b4a46d837a",
+      "tournamentId": "intel-extreme-masters-beijing-2026",
+      "tournament": "Intel Extreme Masters Beijing 2026",
+      "stage": "Group Stage",
+      "stageOrder": 0,
+      "round": "Group B: Upper Bracket Quarterfinals",
+      "roundOrder": 2,
+      "a": "lp-parivision",
+      "b": "lp-g2-esports",
+      "bo": 3,
+      "date": "2 Nov",
+      "time": "2026-11-02T19:30:00.000Z"
+    },
+    {
+      "id": "lp-cbfa7e1e72",
+      "tournamentId": "intel-extreme-masters-beijing-2026",
+      "tournament": "Intel Extreme Masters Beijing 2026",
+      "stage": "Group Stage",
+      "stageOrder": 0,
+      "round": "Group B: Upper Bracket Quarterfinals",
+      "roundOrder": 2,
+      "a": "lp-9z-team",
+      "b": "lp-betboom-team",
+      "bo": 3,
+      "date": "2 Nov",
+      "time": "2026-11-02T21:00:00.000Z"
+    },
+    {
+      "id": "lp-ac9e34a298",
+      "tournamentId": "intel-extreme-masters-beijing-2026",
+      "tournament": "Intel Extreme Masters Beijing 2026",
+      "stage": "Group Stage",
+      "stageOrder": 0,
+      "round": "Group B: Upper Bracket Quarterfinals",
+      "roundOrder": 2,
+      "a": "lp-mouz",
+      "b": "lp-tyloo",
+      "bo": 3,
+      "date": "3 Nov",
+      "time": "2026-11-03T00:15:00.000Z"
+    },
+    {
+      "id": "lp-803e3d7472",
+      "tournamentId": "intel-extreme-masters-beijing-2026",
+      "tournament": "Intel Extreme Masters Beijing 2026",
+      "stage": "Group Stage",
+      "stageOrder": 0,
+      "round": "Group B: Upper Bracket Semifinals",
+      "roundOrder": 3,
+      "a": "lp-team-liquid",
+      "b": "lp-parivision",
+      "bo": 3,
+      "date": "3 Nov",
+      "time": "2026-11-03T16:00:00.000Z"
+    },
+    {
+      "id": "lp-b9c40a0059",
+      "tournamentId": "intel-extreme-masters-beijing-2026",
+      "tournament": "Intel Extreme Masters Beijing 2026",
+      "stage": "Group Stage",
+      "stageOrder": 0,
+      "round": "Group B: Upper Bracket Semifinals",
+      "roundOrder": 3,
+      "a": "lp-mouz",
+      "b": "lp-betboom-team",
+      "bo": 3,
+      "date": "3 Nov",
+      "time": "2026-11-03T20:00:00.000Z"
+    },
+    {
+      "id": "lp-5c0dbf5078",
+      "tournamentId": "intel-extreme-masters-beijing-2026",
+      "tournament": "Intel Extreme Masters Beijing 2026",
+      "stage": "Group Stage",
+      "stageOrder": 0,
+      "round": "Group B: Lower Bracket Quarterfinals",
+      "roundOrder": 4,
+      "a": "lp-aurora-gaming",
+      "b": "lp-g2-esports",
+      "bo": 3,
+      "date": "3 Nov",
+      "time": "2026-11-03T16:00:00.000Z"
+    },
+    {
+      "id": "lp-9d142d629c",
+      "tournamentId": "intel-extreme-masters-beijing-2026",
+      "tournament": "Intel Extreme Masters Beijing 2026",
+      "stage": "Group Stage",
+      "stageOrder": 0,
+      "round": "Group B: Lower Bracket Quarterfinals",
+      "roundOrder": 4,
+      "a": "lp-tyloo",
+      "b": "lp-9z-team",
+      "bo": 3,
+      "date": "3 Nov",
+      "time": "2026-11-03T18:35:00.000Z"
+    },
+    {
+      "id": "lp-52ba9ce6c5",
+      "tournamentId": "intel-extreme-masters-beijing-2026",
+      "tournament": "Intel Extreme Masters Beijing 2026",
+      "stage": "Group Stage",
+      "stageOrder": 0,
+      "round": "Group A: Lower Bracket Quarterfinals",
+      "roundOrder": 5,
+      "a": "lp-faze-clan",
+      "b": "lp-team-falcons",
+      "bo": 3,
+      "date": "3 Nov",
+      "time": "2026-11-03T21:00:00.000Z"
+    },
+    {
+      "id": "lp-c2922e2649",
+      "tournamentId": "intel-extreme-masters-beijing-2026",
+      "tournament": "Intel Extreme Masters Beijing 2026",
+      "stage": "Group Stage",
+      "stageOrder": 0,
+      "round": "Group A: Lower Bracket Quarterfinals",
+      "roundOrder": 5,
+      "a": "lp-legacy",
+      "b": "lp-b8",
+      "bo": 3,
+      "date": "4 Nov",
+      "time": "2026-11-04T01:00:00.000Z"
+    },
+    {
+      "id": "lp-cc7a8a93fb",
+      "tournamentId": "intel-extreme-masters-beijing-2026",
+      "tournament": "Intel Extreme Masters Beijing 2026",
+      "stage": "Group Stage",
+      "stageOrder": 0,
+      "round": "Group A: Upper Bracket Semifinals",
+      "roundOrder": 6,
+      "a": "lp-the-mongolz",
+      "b": "lp-heroic",
+      "bo": 3,
+      "date": "3 Nov",
+      "time": "2026-11-03T22:10:00.000Z"
+    },
+    {
+      "id": "lp-5e130f3771",
+      "tournamentId": "intel-extreme-masters-beijing-2026",
+      "tournament": "Intel Extreme Masters Beijing 2026",
+      "stage": "Group Stage",
+      "stageOrder": 0,
+      "round": "Group A: Upper Bracket Semifinals",
+      "roundOrder": 6,
+      "a": "lp-furia",
+      "b": "lp-natus-vincere",
+      "bo": 3,
+      "date": "4 Nov",
+      "time": "2026-11-04T00:15:00.000Z"
+    },
+    {
+      "id": "lp-bc96f8d2d1",
+      "tournamentId": "intel-extreme-masters-beijing-2026",
+      "tournament": "Intel Extreme Masters Beijing 2026",
+      "stage": "Group Stage",
+      "stageOrder": 0,
+      "round": "Group B: Lower Bracket Semifinal",
+      "roundOrder": 7,
+      "a": "lp-team-liquid",
+      "b": "lp-tyloo",
+      "bo": 3,
+      "date": "4 Nov",
+      "time": "2026-11-04T16:00:00.000Z"
+    },
+    {
+      "id": "lp-5bcec3cc5f",
+      "tournamentId": "intel-extreme-masters-beijing-2026",
+      "tournament": "Intel Extreme Masters Beijing 2026",
+      "stage": "Group Stage",
+      "stageOrder": 0,
+      "round": "Group B: Lower Bracket Semifinal",
+      "roundOrder": 7,
+      "a": "lp-betboom-team",
+      "b": "lp-aurora-gaming",
+      "bo": 3,
+      "date": "4 Nov",
+      "time": "2026-11-04T16:00:00.000Z"
+    },
+    {
+      "id": "lp-a2c5b1126b",
+      "tournamentId": "intel-extreme-masters-beijing-2026",
+      "tournament": "Intel Extreme Masters Beijing 2026",
+      "stage": "Group Stage",
+      "stageOrder": 0,
+      "round": "Group A: Lower Bracket Semifinal",
+      "roundOrder": 8,
+      "a": "lp-natus-vincere",
+      "b": "lp-b8",
+      "bo": 3,
+      "date": "4 Nov",
+      "time": "2026-11-04T18:35:00.000Z"
+    },
+    {
+      "id": "lp-6fdf64a0fc",
+      "tournamentId": "intel-extreme-masters-beijing-2026",
+      "tournament": "Intel Extreme Masters Beijing 2026",
+      "stage": "Group Stage",
+      "stageOrder": 0,
+      "round": "Group A: Lower Bracket Semifinal",
+      "roundOrder": 8,
+      "a": "lp-heroic",
+      "b": "lp-team-falcons",
+      "bo": 3,
+      "date": "4 Nov",
+      "time": "2026-11-04T18:35:00.000Z"
+    },
+    {
+      "id": "lp-bbd7ec31fc",
+      "tournamentId": "intel-extreme-masters-beijing-2026",
+      "tournament": "Intel Extreme Masters Beijing 2026",
+      "stage": "Group Stage",
+      "stageOrder": 0,
+      "round": "Group B: Upper Bracket Final",
+      "roundOrder": 9,
+      "a": "lp-mouz",
+      "b": "lp-parivision",
+      "bo": 3,
+      "date": "4 Nov",
+      "time": "2026-11-04T21:00:00.000Z"
+    },
+    {
+      "id": "lp-f9c297fa93",
+      "tournamentId": "intel-extreme-masters-beijing-2026",
+      "tournament": "Intel Extreme Masters Beijing 2026",
+      "stage": "Group Stage",
+      "stageOrder": 0,
+      "round": "Group B: Lower Bracket Final",
+      "roundOrder": 10,
+      "a": "lp-team-liquid",
+      "b": "lp-betboom-team",
+      "bo": 3,
+      "date": "4 Nov",
+      "time": "2026-11-04T21:00:00.000Z"
+    },
+    {
+      "id": "lp-ab79290927",
+      "tournamentId": "intel-extreme-masters-beijing-2026",
+      "tournament": "Intel Extreme Masters Beijing 2026",
+      "stage": "Group Stage",
+      "stageOrder": 0,
+      "round": "Group A: Upper Bracket Final",
+      "roundOrder": 11,
+      "a": "lp-the-mongolz",
+      "b": "lp-furia",
+      "bo": 3,
+      "date": "4 Nov",
+      "time": "2026-11-04T23:30:00.000Z"
+    },
+    {
+      "id": "lp-a73199146e",
+      "tournamentId": "intel-extreme-masters-beijing-2026",
+      "tournament": "Intel Extreme Masters Beijing 2026",
+      "stage": "Group Stage",
+      "stageOrder": 0,
+      "round": "Group A: Lower Bracket Final",
+      "roundOrder": 12,
+      "a": "lp-natus-vincere",
+      "b": "lp-team-falcons",
+      "bo": 3,
+      "date": "5 Nov",
+      "time": "2026-11-05T00:20:00.000Z"
+    },
+    {
+      "id": "lp-deee751ec3",
+      "tournamentId": "intel-extreme-masters-beijing-2026",
+      "tournament": "Intel Extreme Masters Beijing 2026",
+      "stage": "Playoffs",
+      "stageOrder": 1,
+      "round": "Quarterfinals",
+      "roundOrder": 13,
+      "a": "lp-parivision",
+      "b": "lp-natus-vincere",
+      "bo": 3,
+      "date": "6 Nov",
+      "time": "2026-11-06T20:30:00.000Z"
+    },
+    {
+      "id": "lp-64e40f410a",
+      "tournamentId": "intel-extreme-masters-beijing-2026",
+      "tournament": "Intel Extreme Masters Beijing 2026",
+      "stage": "Playoffs",
+      "stageOrder": 1,
+      "round": "Quarterfinals",
+      "roundOrder": 13,
+      "a": "lp-furia",
+      "b": "lp-betboom-team",
+      "bo": 3,
+      "date": "7 Nov",
+      "time": "2026-11-07T01:00:00.000Z"
+    },
+    {
+      "id": "lp-d98908b507",
+      "tournamentId": "intel-extreme-masters-beijing-2026",
+      "tournament": "Intel Extreme Masters Beijing 2026",
+      "stage": "Playoffs",
+      "stageOrder": 1,
+      "round": "Semifinals",
+      "roundOrder": 14,
+      "a": "lp-the-mongolz",
+      "b": "lp-natus-vincere",
+      "bo": 3,
+      "date": "7 Nov",
+      "time": "2026-11-07T20:30:00.000Z"
+    },
+    {
+      "id": "lp-911ea5c0a0",
+      "tournamentId": "intel-extreme-masters-beijing-2026",
+      "tournament": "Intel Extreme Masters Beijing 2026",
+      "stage": "Playoffs",
+      "stageOrder": 1,
+      "round": "Semifinals",
+      "roundOrder": 14,
+      "a": "lp-mouz",
+      "b": "lp-betboom-team",
+      "bo": 3,
+      "date": "7 Nov",
+      "time": "2026-11-07T23:45:00.000Z"
+    },
+    {
+      "id": "lp-940b1cf418",
+      "tournamentId": "intel-extreme-masters-beijing-2026",
+      "tournament": "Intel Extreme Masters Beijing 2026",
+      "stage": "Playoffs",
+      "stageOrder": 1,
+      "round": "Third Place Match",
+      "roundOrder": 15,
+      "a": "lp-natus-vincere",
+      "b": "lp-betboom-team",
+      "bo": 3,
+      "date": "8 Nov",
+      "time": "2026-11-08T18:00:00.000Z"
+    },
+    {
+      "id": "lp-06fa1e13aa",
+      "tournamentId": "intel-extreme-masters-beijing-2026",
+      "tournament": "Intel Extreme Masters Beijing 2026",
+      "stage": "Playoffs",
+      "stageOrder": 1,
+      "round": "Grand Final",
+      "roundOrder": 16,
+      "a": "lp-the-mongolz",
+      "b": "lp-mouz",
+      "bo": 5,
+      "date": "8 Nov",
+      "time": "2026-11-08T21:30:00.000Z"
+    },
+    {
+      "id": "lp-71005fa8b2",
+      "tournamentId": "pgl-major-singapore-2026",
+      "tournament": "PGL Major Singapore 2026",
+      "stage": "Stage 1",
+      "stageOrder": 0,
+      "round": "Round 1",
+      "roundOrder": 1,
+      "a": "lp-ninjas-in-pyjamas",
+      "b": "lp-m80",
+      "bo": 1,
+      "date": "",
+      "time": "",
+      "page": "PGL/2026/Singapore/Stage 1"
+    },
+    {
+      "id": "lp-5cd3e9cb08",
+      "tournamentId": "pgl-major-singapore-2026",
+      "tournament": "PGL Major Singapore 2026",
+      "stage": "Stage 1",
+      "stageOrder": 0,
+      "round": "Round 1",
+      "roundOrder": 1,
+      "a": "lp-parivision",
+      "b": "lp-dendele-cs",
+      "bo": 1,
+      "date": "",
+      "time": "",
+      "page": "PGL/2026/Singapore/Stage 1"
+    },
+    {
+      "id": "lp-a88a8cd426",
+      "tournamentId": "pgl-major-singapore-2026",
+      "tournament": "PGL Major Singapore 2026",
+      "stage": "Stage 1",
+      "stageOrder": 0,
+      "round": "Round 1",
+      "roundOrder": 1,
+      "a": "lp-heroic",
+      "b": "lp-imperial-esports",
+      "bo": 1,
+      "date": "",
+      "time": "",
+      "page": "PGL/2026/Singapore/Stage 1"
+    },
+    {
+      "id": "lp-e0e6dd857c",
+      "tournamentId": "pgl-major-singapore-2026",
+      "tournament": "PGL Major Singapore 2026",
+      "stage": "Stage 1",
+      "stageOrder": 0,
+      "round": "Round 1",
+      "roundOrder": 1,
+      "a": "lp-faze-clan",
+      "b": "lp-wildcard",
+      "bo": 1,
+      "date": "",
+      "time": "",
+      "page": "PGL/2026/Singapore/Stage 1"
+    },
+    {
+      "id": "lp-dd5ab64f51",
+      "tournamentId": "pgl-major-singapore-2026",
+      "tournament": "PGL Major Singapore 2026",
+      "stage": "Stage 1",
+      "stageOrder": 0,
+      "round": "Round 1",
+      "roundOrder": 1,
+      "a": "lp-team-liquid",
+      "b": "lp-bc-game-esports",
+      "bo": 1,
+      "date": "",
+      "time": "",
+      "page": "PGL/2026/Singapore/Stage 1"
+    },
+    {
+      "id": "lp-23866a5cb2",
+      "tournamentId": "pgl-major-singapore-2026",
+      "tournament": "PGL Major Singapore 2026",
+      "stage": "Stage 1",
+      "stageOrder": 0,
+      "round": "Round 1",
+      "roundOrder": 1,
+      "a": "lp-eternal-fire",
+      "b": "lp-flyquest",
+      "bo": 1,
+      "date": "",
+      "time": "",
+      "page": "PGL/2026/Singapore/Stage 1"
+    },
+    {
+      "id": "lp-cd03c8d221",
+      "tournamentId": "pgl-major-singapore-2026",
+      "tournament": "PGL Major Singapore 2026",
+      "stage": "Stage 1",
+      "stageOrder": 0,
+      "round": "Round 1",
+      "roundOrder": 1,
+      "a": "lp-100-thieves",
+      "b": "lp-chinggis-warriors",
+      "bo": 1,
+      "date": "",
+      "time": "",
+      "page": "PGL/2026/Singapore/Stage 1"
+    },
+    {
+      "id": "lp-502bac73c2",
+      "tournamentId": "pgl-major-singapore-2026",
+      "tournament": "PGL Major Singapore 2026",
+      "stage": "Stage 1",
+      "stageOrder": 0,
+      "round": "Round 1",
+      "roundOrder": 1,
+      "a": "lp-9z-team",
+      "b": "lp-lynn-vision-gaming",
+      "bo": 1,
+      "date": "",
+      "time": "",
+      "page": "PGL/2026/Singapore/Stage 1"
     }
   ],
   "videos": {
@@ -10995,770 +11135,6 @@
         }
       ]
     },
-    "lp-1144bd1cb8": {
-      "maps": [
-        {
-          "video": "https://youtu.be/twMlSwT9qeI",
-          "start": "29",
-          "end": "4057",
-          "name": "Mirage",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/twMlSwT9qeI",
-          "start": "4057",
-          "end": "6355",
-          "name": "Dust II",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/twMlSwT9qeI",
-          "start": "6355",
-          "end": "",
-          "name": "Ancient",
-          "notPlayed": false
-        }
-      ]
-    },
-    "lp-34a1fee10a": {
-      "maps": [
-        {
-          "video": "https://youtu.be/NnKkX0H49tY",
-          "start": "31",
-          "end": "2332",
-          "name": "Nuke",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/NnKkX0H49tY",
-          "start": "2332",
-          "end": "",
-          "name": "Dust II",
-          "notPlayed": false
-        },
-        {
-          "video": "",
-          "start": "",
-          "end": "",
-          "name": "Cache",
-          "notPlayed": true
-        }
-      ]
-    },
-    "lp-dbfa622f88": {
-      "maps": [
-        {
-          "video": "https://youtu.be/JuP9R4l0r6A",
-          "start": "28",
-          "end": "2855",
-          "name": "Ancient",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/JuP9R4l0r6A",
-          "start": "2855",
-          "end": "5325",
-          "name": "Dust II",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/JuP9R4l0r6A",
-          "start": "5325",
-          "end": "",
-          "name": "Cache",
-          "notPlayed": false
-        }
-      ]
-    },
-    "lp-0ff6e121ef": {
-      "maps": [
-        {
-          "video": "https://youtu.be/jGjLsrSWvgc",
-          "start": "39",
-          "end": "2395",
-          "name": "Ancient",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/jGjLsrSWvgc",
-          "start": "2395",
-          "end": "",
-          "name": "Mirage",
-          "notPlayed": false
-        },
-        {
-          "video": "",
-          "start": "",
-          "end": "",
-          "name": "Anubis",
-          "notPlayed": true
-        }
-      ]
-    },
-    "lp-87a240523e": {
-      "maps": [
-        {
-          "video": "https://youtu.be/v2Is7NUPTBk",
-          "start": "24",
-          "end": "2191",
-          "name": "Inferno",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/v2Is7NUPTBk",
-          "start": "2191",
-          "end": "",
-          "name": "Anubis",
-          "notPlayed": false
-        },
-        {
-          "video": "",
-          "start": "",
-          "end": "",
-          "name": "Cache",
-          "notPlayed": true
-        }
-      ]
-    },
-    "lp-b4a46d837a": {
-      "maps": [
-        {
-          "video": "https://youtu.be/aOy8w4XeOvs",
-          "start": "27",
-          "end": "3183",
-          "name": "Dust II",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/aOy8w4XeOvs",
-          "start": "3183",
-          "end": "6141",
-          "name": "Anubis",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/aOy8w4XeOvs",
-          "start": "6141",
-          "end": "",
-          "name": "Ancient",
-          "notPlayed": false
-        }
-      ]
-    },
-    "lp-cbfa7e1e72": {
-      "maps": [
-        {
-          "video": "https://youtu.be/rHFwWNsahxE",
-          "start": "16",
-          "end": "2802",
-          "name": "Dust II",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/rHFwWNsahxE",
-          "start": "2802",
-          "end": "5245",
-          "name": "Ancient",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/rHFwWNsahxE",
-          "start": "5245",
-          "end": "",
-          "name": "Mirage",
-          "notPlayed": false
-        }
-      ]
-    },
-    "lp-ac9e34a298": {
-      "maps": [
-        {
-          "video": "https://youtu.be/ErMfFjclihw",
-          "start": "28",
-          "end": "2578",
-          "name": "Inferno",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/ErMfFjclihw",
-          "start": "2578",
-          "end": "",
-          "name": "Nuke",
-          "notPlayed": false
-        },
-        {
-          "video": "",
-          "start": "",
-          "end": "",
-          "name": "Mirage",
-          "notPlayed": true
-        }
-      ]
-    },
-    "lp-803e3d7472": {
-      "maps": [
-        {
-          "video": "https://youtu.be/9O18QW0gaQQ",
-          "start": "21",
-          "end": "2911",
-          "name": "Ancient",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/9O18QW0gaQQ",
-          "start": "2911",
-          "end": "",
-          "name": "Inferno",
-          "notPlayed": false
-        },
-        {
-          "video": "",
-          "start": "",
-          "end": "",
-          "name": "Mirage",
-          "notPlayed": true
-        }
-      ]
-    },
-    "lp-b9c40a0059": {
-      "maps": [
-        {
-          "video": "https://youtu.be/oxhuCuce5FI",
-          "start": "35",
-          "end": "2366",
-          "name": "Ancient",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/oxhuCuce5FI",
-          "start": "2366",
-          "end": "",
-          "name": "Mirage",
-          "notPlayed": false
-        },
-        {
-          "video": "",
-          "start": "",
-          "end": "",
-          "name": "Dust II",
-          "notPlayed": true
-        }
-      ]
-    },
-    "lp-5c0dbf5078": {
-      "maps": [
-        {
-          "video": "https://youtu.be/VMbUFAHNacQ",
-          "start": "26",
-          "end": "3377",
-          "name": "Nuke",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/VMbUFAHNacQ",
-          "start": "3377",
-          "end": "6598",
-          "name": "Inferno",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/VMbUFAHNacQ",
-          "start": "6598",
-          "end": "",
-          "name": "Dust II",
-          "notPlayed": false
-        }
-      ]
-    },
-    "lp-9d142d629c": {
-      "maps": [
-        {
-          "video": "https://youtu.be/CZFs1Bzga7M",
-          "start": "27",
-          "end": "2403",
-          "name": "Inferno",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/CZFs1Bzga7M",
-          "start": "2403",
-          "end": "",
-          "name": "Cache",
-          "notPlayed": false
-        },
-        {
-          "video": "",
-          "start": "",
-          "end": "",
-          "name": "Ancient",
-          "notPlayed": true
-        }
-      ]
-    },
-    "lp-52ba9ce6c5": {
-      "maps": [
-        {
-          "video": "https://youtu.be/iCRPFlmBlY8",
-          "start": "33",
-          "end": "2028",
-          "name": "Ancient",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/iCRPFlmBlY8",
-          "start": "2028",
-          "end": "5249",
-          "name": "Anubis",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/iCRPFlmBlY8",
-          "start": "5249",
-          "end": "",
-          "name": "Mirage",
-          "notPlayed": false
-        }
-      ]
-    },
-    "lp-c2922e2649": {
-      "maps": [
-        {
-          "video": "https://youtu.be/S0oKNB9ztuY",
-          "start": "37",
-          "end": "3178",
-          "name": "Dust II",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/S0oKNB9ztuY",
-          "start": "3178",
-          "end": "5603",
-          "name": "Cache",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/S0oKNB9ztuY",
-          "start": "5603",
-          "end": "",
-          "name": "Mirage",
-          "notPlayed": false
-        }
-      ]
-    },
-    "lp-cc7a8a93fb": {
-      "maps": [
-        {
-          "video": "https://youtu.be/LBnen5q4p-4",
-          "start": "34",
-          "end": "2986",
-          "name": "Inferno",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/LBnen5q4p-4",
-          "start": "2986",
-          "end": "",
-          "name": "Nuke",
-          "notPlayed": false
-        },
-        {
-          "video": "",
-          "start": "",
-          "end": "",
-          "name": "Ancient",
-          "notPlayed": true
-        }
-      ]
-    },
-    "lp-5e130f3771": {
-      "maps": [
-        {
-          "video": "https://youtu.be/4nDGR_8igIY",
-          "start": "26",
-          "end": "3799",
-          "name": "Ancient",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/4nDGR_8igIY",
-          "start": "3799",
-          "end": "7647",
-          "name": "Nuke",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/4nDGR_8igIY",
-          "start": "7647",
-          "end": "",
-          "name": "Cache",
-          "notPlayed": false
-        }
-      ]
-    },
-    "lp-bc96f8d2d1": {
-      "maps": [
-        {
-          "video": "https://youtu.be/Bg0rtkwvWPI",
-          "start": "",
-          "end": "2865",
-          "name": "Mirage",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/Bg0rtkwvWPI",
-          "start": "2865",
-          "end": "",
-          "name": "Anubis",
-          "notPlayed": false
-        },
-        {
-          "video": "",
-          "start": "",
-          "end": "",
-          "name": "Inferno",
-          "notPlayed": true
-        }
-      ]
-    },
-    "lp-5bcec3cc5f": {
-      "maps": [
-        {
-          "video": "https://youtu.be/CNZ9tKM_Qcc",
-          "start": "",
-          "end": "2573",
-          "name": "Mirage",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/CNZ9tKM_Qcc",
-          "start": "2573",
-          "end": "",
-          "name": "Cache",
-          "notPlayed": false
-        },
-        {
-          "video": "",
-          "start": "",
-          "end": "",
-          "name": "Dust II",
-          "notPlayed": true
-        }
-      ]
-    },
-    "lp-a2c5b1126b": {
-      "maps": [
-        {
-          "video": "https://youtu.be/-HjoIrPc5Sc",
-          "start": "",
-          "end": "",
-          "name": "Ancient",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/-HjoIrPc5Sc",
-          "start": "",
-          "end": "",
-          "name": "Dust II",
-          "notPlayed": false
-        },
-        {
-          "video": "",
-          "start": "",
-          "end": "",
-          "name": "Cache",
-          "notPlayed": true
-        }
-      ]
-    },
-    "lp-6fdf64a0fc": {
-      "maps": [
-        {
-          "video": "https://youtu.be/i8usPC1Ak8I",
-          "start": "",
-          "end": "2885",
-          "name": "Ancient",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/i8usPC1Ak8I",
-          "start": "2885",
-          "end": "",
-          "name": "Dust II",
-          "notPlayed": false
-        },
-        {
-          "video": "",
-          "start": "",
-          "end": "",
-          "name": "Inferno",
-          "notPlayed": true
-        }
-      ]
-    },
-    "lp-bbd7ec31fc": {
-      "maps": [
-        {
-          "video": "https://youtu.be/HE5dLEyXPOg",
-          "start": "26",
-          "end": "2097",
-          "name": "Ancient",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/HE5dLEyXPOg",
-          "start": "2097",
-          "end": "",
-          "name": "Mirage",
-          "notPlayed": false
-        },
-        {
-          "video": "",
-          "start": "",
-          "end": "",
-          "name": "Cache",
-          "notPlayed": true
-        }
-      ]
-    },
-    "lp-f9c297fa93": {
-      "maps": [
-        {
-          "video": "https://youtu.be/1LJ1ln6wGYU",
-          "start": "34",
-          "end": "2361",
-          "name": "Anubis",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/1LJ1ln6wGYU",
-          "start": "2361",
-          "end": "5605",
-          "name": "Nuke",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/1LJ1ln6wGYU",
-          "start": "5605",
-          "end": "",
-          "name": "Mirage",
-          "notPlayed": false
-        }
-      ]
-    },
-    "lp-ab79290927": {
-      "maps": [
-        {
-          "video": "https://youtu.be/lW4fo1YSfCA",
-          "start": "33",
-          "end": "3304",
-          "name": "Inferno",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/lW4fo1YSfCA",
-          "start": "3304",
-          "end": "6067",
-          "name": "Cache",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/lW4fo1YSfCA",
-          "start": "6067",
-          "end": "",
-          "name": "Dust II",
-          "notPlayed": false
-        }
-      ]
-    },
-    "lp-a73199146e": {
-      "maps": [
-        {
-          "video": "https://youtu.be/O1bVHYEiggI",
-          "start": "28",
-          "end": "3291",
-          "name": "Ancient",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/O1bVHYEiggI",
-          "start": "3291",
-          "end": "5665",
-          "name": "Inferno",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/O1bVHYEiggI",
-          "start": "5665",
-          "end": "",
-          "name": "Mirage",
-          "notPlayed": false
-        }
-      ]
-    },
-    "lp-deee751ec3": {
-      "maps": [
-        {
-          "video": "https://youtu.be/8K77MlqK0AY",
-          "start": "27",
-          "end": "4124",
-          "name": "Mirage",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/8K77MlqK0AY",
-          "start": "4124",
-          "end": "7576",
-          "name": "Inferno",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/8K77MlqK0AY",
-          "start": "7576",
-          "end": "",
-          "name": "Ancient",
-          "notPlayed": false
-        }
-      ]
-    },
-    "lp-64e40f410a": {
-      "maps": [
-        {
-          "video": "https://youtu.be/lwjvtUp-ets",
-          "start": "27",
-          "end": "2353",
-          "name": "Ancient",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/lwjvtUp-ets",
-          "start": "2353",
-          "end": "5688",
-          "name": "Dust II",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/lwjvtUp-ets",
-          "start": "5688",
-          "end": "",
-          "name": "Nuke",
-          "notPlayed": false
-        }
-      ]
-    },
-    "lp-d98908b507": {
-      "maps": [
-        {
-          "video": "https://youtu.be/xieUDAz7D1E",
-          "start": "29",
-          "end": "3574",
-          "name": "Cache",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/xieUDAz7D1E",
-          "start": "3574",
-          "end": "",
-          "name": "Inferno",
-          "notPlayed": false
-        },
-        {
-          "video": "",
-          "start": "",
-          "end": "",
-          "name": "Mirage",
-          "notPlayed": true
-        }
-      ]
-    },
-    "lp-911ea5c0a0": {
-      "maps": [
-        {
-          "video": "https://youtu.be/JGvHerBaz5E",
-          "start": "31",
-          "end": "2747",
-          "name": "Ancient",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/JGvHerBaz5E",
-          "start": "2747",
-          "end": "",
-          "name": "Mirage",
-          "notPlayed": false
-        },
-        {
-          "video": "",
-          "start": "",
-          "end": "",
-          "name": "Nuke",
-          "notPlayed": true
-        }
-      ]
-    },
-    "lp-940b1cf418": {
-      "maps": [
-        {
-          "video": "https://youtu.be/To8AW-Tgn04",
-          "start": "28",
-          "end": "2683",
-          "name": "Mirage",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/To8AW-Tgn04",
-          "start": "2683",
-          "end": "",
-          "name": "Ancient",
-          "notPlayed": false
-        },
-        {
-          "video": "",
-          "start": "",
-          "end": "",
-          "name": "Dust II",
-          "notPlayed": true
-        }
-      ]
-    },
-    "lp-06fa1e13aa": {
-      "maps": [
-        {
-          "video": "https://youtu.be/-dUpUx4AGns",
-          "start": "25",
-          "end": "2241",
-          "name": "Mirage",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/-dUpUx4AGns",
-          "start": "2241",
-          "end": "4729",
-          "name": "Dust II",
-          "notPlayed": false
-        },
-        {
-          "video": "https://youtu.be/-dUpUx4AGns",
-          "start": "4729",
-          "end": "",
-          "name": "Inferno",
-          "notPlayed": false
-        },
-        {
-          "video": "",
-          "start": "",
-          "end": "",
-          "name": "Ancient",
-          "notPlayed": true
-        },
-        {
-          "video": "",
-          "start": "",
-          "end": "",
-          "name": "Cache",
-          "notPlayed": true
-        }
-      ]
-    },
     "lp-a47e5407c5": {
       "maps": [
         {
@@ -13312,8 +12688,860 @@
           "notPlayed": true
         }
       ]
+    },
+    "lp-1144bd1cb8": {
+      "maps": [
+        {
+          "video": "https://youtu.be/twMlSwT9qeI",
+          "start": "29",
+          "end": "4057",
+          "name": "Mirage",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/twMlSwT9qeI",
+          "start": "4057",
+          "end": "6355",
+          "name": "Dust II",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/twMlSwT9qeI",
+          "start": "6355",
+          "end": "",
+          "name": "Ancient",
+          "notPlayed": false
+        }
+      ]
+    },
+    "lp-34a1fee10a": {
+      "maps": [
+        {
+          "video": "https://youtu.be/NnKkX0H49tY",
+          "start": "31",
+          "end": "2332",
+          "name": "Nuke",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/NnKkX0H49tY",
+          "start": "2332",
+          "end": "",
+          "name": "Dust II",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "Cache",
+          "notPlayed": true
+        }
+      ]
+    },
+    "lp-dbfa622f88": {
+      "maps": [
+        {
+          "video": "https://youtu.be/JuP9R4l0r6A",
+          "start": "28",
+          "end": "2855",
+          "name": "Ancient",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/JuP9R4l0r6A",
+          "start": "2855",
+          "end": "5325",
+          "name": "Dust II",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/JuP9R4l0r6A",
+          "start": "5325",
+          "end": "",
+          "name": "Cache",
+          "notPlayed": false
+        }
+      ]
+    },
+    "lp-0ff6e121ef": {
+      "maps": [
+        {
+          "video": "https://youtu.be/jGjLsrSWvgc",
+          "start": "39",
+          "end": "2395",
+          "name": "Ancient",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/jGjLsrSWvgc",
+          "start": "2395",
+          "end": "",
+          "name": "Mirage",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "Anubis",
+          "notPlayed": true
+        }
+      ]
+    },
+    "lp-87a240523e": {
+      "maps": [
+        {
+          "video": "https://youtu.be/v2Is7NUPTBk",
+          "start": "24",
+          "end": "2191",
+          "name": "Inferno",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/v2Is7NUPTBk",
+          "start": "2191",
+          "end": "",
+          "name": "Anubis",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "Cache",
+          "notPlayed": true
+        }
+      ]
+    },
+    "lp-b4a46d837a": {
+      "maps": [
+        {
+          "video": "https://youtu.be/aOy8w4XeOvs",
+          "start": "27",
+          "end": "3183",
+          "name": "Dust II",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/aOy8w4XeOvs",
+          "start": "3183",
+          "end": "6141",
+          "name": "Anubis",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/aOy8w4XeOvs",
+          "start": "6141",
+          "end": "",
+          "name": "Ancient",
+          "notPlayed": false
+        }
+      ]
+    },
+    "lp-cbfa7e1e72": {
+      "maps": [
+        {
+          "video": "https://youtu.be/rHFwWNsahxE",
+          "start": "16",
+          "end": "2802",
+          "name": "Dust II",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/rHFwWNsahxE",
+          "start": "2802",
+          "end": "5245",
+          "name": "Ancient",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/rHFwWNsahxE",
+          "start": "5245",
+          "end": "",
+          "name": "Mirage",
+          "notPlayed": false
+        }
+      ]
+    },
+    "lp-ac9e34a298": {
+      "maps": [
+        {
+          "video": "https://youtu.be/ErMfFjclihw",
+          "start": "28",
+          "end": "2578",
+          "name": "Inferno",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/ErMfFjclihw",
+          "start": "2578",
+          "end": "",
+          "name": "Nuke",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "Mirage",
+          "notPlayed": true
+        }
+      ]
+    },
+    "lp-803e3d7472": {
+      "maps": [
+        {
+          "video": "https://youtu.be/9O18QW0gaQQ",
+          "start": "21",
+          "end": "2911",
+          "name": "Ancient",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/9O18QW0gaQQ",
+          "start": "2911",
+          "end": "",
+          "name": "Inferno",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "Mirage",
+          "notPlayed": true
+        }
+      ]
+    },
+    "lp-b9c40a0059": {
+      "maps": [
+        {
+          "video": "https://youtu.be/oxhuCuce5FI",
+          "start": "35",
+          "end": "2366",
+          "name": "Ancient",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/oxhuCuce5FI",
+          "start": "2366",
+          "end": "",
+          "name": "Mirage",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "Dust II",
+          "notPlayed": true
+        }
+      ]
+    },
+    "lp-5c0dbf5078": {
+      "maps": [
+        {
+          "video": "https://youtu.be/VMbUFAHNacQ",
+          "start": "26",
+          "end": "3377",
+          "name": "Nuke",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/VMbUFAHNacQ",
+          "start": "3377",
+          "end": "6598",
+          "name": "Inferno",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/VMbUFAHNacQ",
+          "start": "6598",
+          "end": "",
+          "name": "Dust II",
+          "notPlayed": false
+        }
+      ]
+    },
+    "lp-9d142d629c": {
+      "maps": [
+        {
+          "video": "https://youtu.be/CZFs1Bzga7M",
+          "start": "27",
+          "end": "2403",
+          "name": "Inferno",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/CZFs1Bzga7M",
+          "start": "2403",
+          "end": "",
+          "name": "Cache",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "Ancient",
+          "notPlayed": true
+        }
+      ]
+    },
+    "lp-52ba9ce6c5": {
+      "maps": [
+        {
+          "video": "https://youtu.be/iCRPFlmBlY8",
+          "start": "33",
+          "end": "2028",
+          "name": "Ancient",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/iCRPFlmBlY8",
+          "start": "2028",
+          "end": "5249",
+          "name": "Anubis",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/iCRPFlmBlY8",
+          "start": "5249",
+          "end": "",
+          "name": "Mirage",
+          "notPlayed": false
+        }
+      ]
+    },
+    "lp-c2922e2649": {
+      "maps": [
+        {
+          "video": "https://youtu.be/S0oKNB9ztuY",
+          "start": "37",
+          "end": "3178",
+          "name": "Dust II",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/S0oKNB9ztuY",
+          "start": "3178",
+          "end": "5603",
+          "name": "Cache",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/S0oKNB9ztuY",
+          "start": "5603",
+          "end": "",
+          "name": "Mirage",
+          "notPlayed": false
+        }
+      ]
+    },
+    "lp-cc7a8a93fb": {
+      "maps": [
+        {
+          "video": "https://youtu.be/LBnen5q4p-4",
+          "start": "34",
+          "end": "2986",
+          "name": "Inferno",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/LBnen5q4p-4",
+          "start": "2986",
+          "end": "",
+          "name": "Nuke",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "Ancient",
+          "notPlayed": true
+        }
+      ]
+    },
+    "lp-5e130f3771": {
+      "maps": [
+        {
+          "video": "https://youtu.be/4nDGR_8igIY",
+          "start": "26",
+          "end": "3799",
+          "name": "Ancient",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/4nDGR_8igIY",
+          "start": "3799",
+          "end": "7647",
+          "name": "Nuke",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/4nDGR_8igIY",
+          "start": "7647",
+          "end": "",
+          "name": "Cache",
+          "notPlayed": false
+        }
+      ]
+    },
+    "lp-bc96f8d2d1": {
+      "maps": [
+        {
+          "video": "https://youtu.be/Bg0rtkwvWPI",
+          "start": "",
+          "end": "2865",
+          "name": "Mirage",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/Bg0rtkwvWPI",
+          "start": "2865",
+          "end": "",
+          "name": "Anubis",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "Inferno",
+          "notPlayed": true
+        }
+      ]
+    },
+    "lp-5bcec3cc5f": {
+      "maps": [
+        {
+          "video": "https://youtu.be/CNZ9tKM_Qcc",
+          "start": "",
+          "end": "2573",
+          "name": "Mirage",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/CNZ9tKM_Qcc",
+          "start": "2573",
+          "end": "",
+          "name": "Cache",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "Dust II",
+          "notPlayed": true
+        }
+      ]
+    },
+    "lp-a2c5b1126b": {
+      "maps": [
+        {
+          "video": "https://youtu.be/-HjoIrPc5Sc",
+          "start": "",
+          "end": "",
+          "name": "Ancient",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/-HjoIrPc5Sc",
+          "start": "",
+          "end": "",
+          "name": "Dust II",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "Cache",
+          "notPlayed": true
+        }
+      ]
+    },
+    "lp-6fdf64a0fc": {
+      "maps": [
+        {
+          "video": "https://youtu.be/i8usPC1Ak8I",
+          "start": "",
+          "end": "2885",
+          "name": "Ancient",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/i8usPC1Ak8I",
+          "start": "2885",
+          "end": "",
+          "name": "Dust II",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "Inferno",
+          "notPlayed": true
+        }
+      ]
+    },
+    "lp-bbd7ec31fc": {
+      "maps": [
+        {
+          "video": "https://youtu.be/HE5dLEyXPOg",
+          "start": "26",
+          "end": "2097",
+          "name": "Ancient",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/HE5dLEyXPOg",
+          "start": "2097",
+          "end": "",
+          "name": "Mirage",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "Cache",
+          "notPlayed": true
+        }
+      ]
+    },
+    "lp-f9c297fa93": {
+      "maps": [
+        {
+          "video": "https://youtu.be/1LJ1ln6wGYU",
+          "start": "34",
+          "end": "2361",
+          "name": "Anubis",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/1LJ1ln6wGYU",
+          "start": "2361",
+          "end": "5605",
+          "name": "Nuke",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/1LJ1ln6wGYU",
+          "start": "5605",
+          "end": "",
+          "name": "Mirage",
+          "notPlayed": false
+        }
+      ]
+    },
+    "lp-ab79290927": {
+      "maps": [
+        {
+          "video": "https://youtu.be/lW4fo1YSfCA",
+          "start": "33",
+          "end": "3304",
+          "name": "Inferno",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/lW4fo1YSfCA",
+          "start": "3304",
+          "end": "6067",
+          "name": "Cache",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/lW4fo1YSfCA",
+          "start": "6067",
+          "end": "",
+          "name": "Dust II",
+          "notPlayed": false
+        }
+      ]
+    },
+    "lp-a73199146e": {
+      "maps": [
+        {
+          "video": "https://youtu.be/O1bVHYEiggI",
+          "start": "28",
+          "end": "3291",
+          "name": "Ancient",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/O1bVHYEiggI",
+          "start": "3291",
+          "end": "5665",
+          "name": "Inferno",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/O1bVHYEiggI",
+          "start": "5665",
+          "end": "",
+          "name": "Mirage",
+          "notPlayed": false
+        }
+      ]
+    },
+    "lp-deee751ec3": {
+      "maps": [
+        {
+          "video": "https://youtu.be/8K77MlqK0AY",
+          "start": "27",
+          "end": "4124",
+          "name": "Mirage",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/8K77MlqK0AY",
+          "start": "4124",
+          "end": "7576",
+          "name": "Inferno",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/8K77MlqK0AY",
+          "start": "7576",
+          "end": "",
+          "name": "Ancient",
+          "notPlayed": false
+        }
+      ]
+    },
+    "lp-64e40f410a": {
+      "maps": [
+        {
+          "video": "https://youtu.be/lwjvtUp-ets",
+          "start": "27",
+          "end": "2353",
+          "name": "Ancient",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/lwjvtUp-ets",
+          "start": "2353",
+          "end": "5688",
+          "name": "Dust II",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/lwjvtUp-ets",
+          "start": "5688",
+          "end": "",
+          "name": "Nuke",
+          "notPlayed": false
+        }
+      ]
+    },
+    "lp-d98908b507": {
+      "maps": [
+        {
+          "video": "https://youtu.be/xieUDAz7D1E",
+          "start": "29",
+          "end": "3574",
+          "name": "Cache",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/xieUDAz7D1E",
+          "start": "3574",
+          "end": "",
+          "name": "Inferno",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "Mirage",
+          "notPlayed": true
+        }
+      ]
+    },
+    "lp-911ea5c0a0": {
+      "maps": [
+        {
+          "video": "https://youtu.be/JGvHerBaz5E",
+          "start": "31",
+          "end": "2747",
+          "name": "Ancient",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/JGvHerBaz5E",
+          "start": "2747",
+          "end": "",
+          "name": "Mirage",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "Nuke",
+          "notPlayed": true
+        }
+      ]
+    },
+    "lp-940b1cf418": {
+      "maps": [
+        {
+          "video": "https://youtu.be/To8AW-Tgn04",
+          "start": "28",
+          "end": "2683",
+          "name": "Mirage",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/To8AW-Tgn04",
+          "start": "2683",
+          "end": "",
+          "name": "Ancient",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "Dust II",
+          "notPlayed": true
+        }
+      ]
+    },
+    "lp-06fa1e13aa": {
+      "maps": [
+        {
+          "video": "https://youtu.be/-dUpUx4AGns",
+          "start": "25",
+          "end": "2241",
+          "name": "Mirage",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/-dUpUx4AGns",
+          "start": "2241",
+          "end": "4729",
+          "name": "Dust II",
+          "notPlayed": false
+        },
+        {
+          "video": "https://youtu.be/-dUpUx4AGns",
+          "start": "4729",
+          "end": "",
+          "name": "Inferno",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "Ancient",
+          "notPlayed": true
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "Cache",
+          "notPlayed": true
+        }
+      ]
+    },
+    "lp-71005fa8b2": {
+      "maps": [
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        }
+      ]
+    },
+    "lp-5cd3e9cb08": {
+      "maps": [
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        }
+      ]
+    },
+    "lp-a88a8cd426": {
+      "maps": [
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        }
+      ]
+    },
+    "lp-e0e6dd857c": {
+      "maps": [
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        }
+      ]
+    },
+    "lp-dd5ab64f51": {
+      "maps": [
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        }
+      ]
+    },
+    "lp-23866a5cb2": {
+      "maps": [
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        }
+      ]
+    },
+    "lp-cd03c8d221": {
+      "maps": [
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        }
+      ]
+    },
+    "lp-502bac73c2": {
+      "maps": [
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        }
+      ]
     }
   },
-  "updatedAt": "2026-11-09T16:40:02.236Z",
+  "updatedAt": "2026-11-09T18:56:28.504Z",
   "featured": "intel-extreme-masters-beijing-2026"
 }
