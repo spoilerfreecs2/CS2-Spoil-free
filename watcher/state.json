@@ -4359,7 +4359,7 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-10T13:43:19.516Z",
+    "checkedAt": "2026-11-10T16:54:33.514Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
       "matchesLookedFor": 34,
@@ -4381,9 +4381,9 @@
         },
         "@pgl": {
           "uploads": 200,
-          "sayHighlights": 1,
-          "oldest": "2026-02-14T12:20:29Z",
-          "newest": "2026-11-04T20:32:19Z"
+          "sayHighlights": 0,
+          "oldest": "2026-01-18T18:47:43Z",
+          "newest": "2026-11-03T19:00:02Z"
         },
         "@Counter_Strike_Highlights": {
           "uploads": 200,
@@ -4422,11 +4422,6 @@
           "channel": "@BLASTPremier",
           "at": "2026-09-04T16:18",
           "title": "​@<team>Esport  vs @G2esports 🔥 | 3 Minute Highlights - BLAST Premier Open Porto 2026"
-        },
-        {
-          "channel": "@pgl",
-          "at": "2026-11-04T20:32",
-          "title": "HIGHLIGHTS RERUN: PGL Masters Bucharest 2026"
         },
         {
           "channel": "@Counter_Strike_Highlights",
