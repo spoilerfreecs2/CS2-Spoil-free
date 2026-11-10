@@ -1914,7 +1914,7 @@
     "MOYBO0FEOsY": {
       "ok": true,
       "seconds": 9358,
-      "checkedAt": "2026-10-27T02:35:03.780Z"
+      "checkedAt": "2026-11-10T02:54:19.166Z"
     },
     "1iYkGc7TQJ8": {
       "ok": true,
@@ -4359,7 +4359,7 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-09T23:42:12.708Z",
+    "checkedAt": "2026-11-10T02:54:19.166Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
       "matchesLookedFor": 34,
