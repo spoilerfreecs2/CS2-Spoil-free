@@ -4359,7 +4359,7 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-10T09:28:17.761Z",
+    "checkedAt": "2026-11-10T13:43:19.516Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
       "matchesLookedFor": 34,
@@ -4388,8 +4388,8 @@
         "@Counter_Strike_Highlights": {
           "uploads": 200,
           "sayHighlights": 41,
-          "oldest": "2026-09-08T12:00:03Z",
-          "newest": "2026-11-07T13:00:37Z"
+          "oldest": "2026-09-09T12:00:27Z",
+          "newest": "2026-11-10T13:00:33Z"
         }
       },
       "samples": [
@@ -4427,6 +4427,11 @@
           "channel": "@pgl",
           "at": "2026-11-04T20:32",
           "title": "HIGHLIGHTS RERUN: PGL Masters Bucharest 2026"
+        },
+        {
+          "channel": "@Counter_Strike_Highlights",
+          "at": "2026-11-10T13:00",
+          "title": "😎 Four AWP on mid — The <team> take torzsi back to the good old CS days #<team> #pgl #cs #cs2"
         },
         {
           "channel": "@Counter_Strike_Highlights",
@@ -4472,11 +4477,6 @@
           "channel": "@Counter_Strike_Highlights",
           "at": "2026-11-01T17:43",
           "title": "Best Clutches of PGL Masters Bucharest 2026"
-        },
-        {
-          "channel": "@Counter_Strike_Highlights",
-          "at": "2026-10-31T15:58",
-          "title": "GRAND FINAL! Nemiga vs <team> - HIGHLIGHTS - PGL Masters Bucharest 2026 | CS2"
         }
       ]
     }
