@@ -1919,27 +1919,27 @@
     "1iYkGc7TQJ8": {
       "ok": true,
       "seconds": 9212,
-      "checkedAt": "2026-10-27T19:23:56.756Z"
+      "checkedAt": "2026-11-10T19:55:03.291Z"
     },
     "K7pG-3Vgyts": {
       "ok": true,
       "seconds": 4454,
-      "checkedAt": "2026-10-27T19:23:56.756Z"
+      "checkedAt": "2026-11-10T19:55:03.291Z"
     },
     "pOL5mZrMbm8": {
       "ok": true,
       "seconds": 5775,
-      "checkedAt": "2026-10-27T19:23:56.756Z"
+      "checkedAt": "2026-11-10T19:55:03.291Z"
     },
     "urtM5q6WVYo": {
       "ok": true,
       "seconds": 8561,
-      "checkedAt": "2026-10-27T19:23:56.756Z"
+      "checkedAt": "2026-11-10T19:55:03.291Z"
     },
     "0GbSsxAXFoM": {
       "ok": true,
       "seconds": 4054,
-      "checkedAt": "2026-10-27T19:23:56.756Z"
+      "checkedAt": "2026-11-10T19:55:03.291Z"
     },
     "c_fWIKhjYsg": {
       "ok": true,
@@ -4364,7 +4364,7 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-10T16:54:33.514Z",
+    "checkedAt": "2026-11-10T19:55:03.291Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
       "matchesLookedFor": 34,
