@@ -217,13 +217,6 @@
       "fetchedAt": "2026-11-10T15:50:44.355Z",
       "result": "coming up, no matches drawn yet"
     },
-    "PGL/2027/China": {
-      "revid": 3456893,
-      "subpages": [],
-      "subRevids": {},
-      "fetchedAt": "2026-11-09T16:40:02.236Z",
-      "result": "coming up, no matches drawn yet"
-    },
     "PGL/2027/Cluj-Napoca": {
       "revid": 3468695,
       "subpages": [],
@@ -292,6 +285,13 @@
       "subpages": [],
       "subRevids": {},
       "fetchedAt": "2026-11-09T16:40:02.236Z",
+      "result": "coming up, no matches drawn yet"
+    },
+    "PGL/2027/Ulaanbaatar": {
+      "revid": 3468696,
+      "subpages": [],
+      "subRevids": {},
+      "fetchedAt": "2026-11-10T17:50:15.338Z",
       "result": "coming up, no matches drawn yet"
     }
   },
@@ -3589,6 +3589,11 @@
         "name": "Thunderpick World Championship 2026",
         "sdate": "2026-10-14",
         "edate": "2026-10-18"
+      },
+      "PGL/2027/Ulaanbaatar": {
+        "name": "PGL Ulaanbaatar 2027",
+        "sdate": "2027-04-16",
+        "edate": "2027-04-25"
       }
     },
     "titles": [
@@ -4017,10 +4022,10 @@
       "PGL/2026/Singapore",
       "PGL/2026/Summer",
       "PGL/2027/Bucharest",
-      "PGL/2027/China",
       "PGL/2027/Cluj-Napoca",
       "PGL/2027/October",
       "PGL/2027/September",
+      "PGL/2027/Ulaanbaatar",
       "PGL/2027/Łódź",
       "PGL/2028/February",
       "PGL/2028/January",
@@ -4098,7 +4103,7 @@
       "YaLLa Compass/2026/Summer",
       "YaLLa Compass/2026/UAE"
     ],
-    "checkedAt": "2026-11-10T04:54:50.467Z",
+    "checkedAt": "2026-11-10T17:50:15.338Z",
     "key": "{\"categories\":[\"Category:S-Tier Tournaments\"],\"from\":\"2026-06-01\",\"to\":\"2027-12-31\",\"exclude\":[\"FISSURE/\"]}"
   },
   "images": {
@@ -4205,10 +4210,6 @@
     "intel-extreme-masters-brazil-2027-dark": {
       "file": "Intel Extreme Masters 2022 darkmode.png",
       "saved": "intel-extreme-masters-brazil-2027-dark.png"
-    },
-    "pgl-china-2027": {
-      "file": "PGL allmode.png",
-      "saved": "pgl-china-2027.png"
     },
     "intel-extreme-masters-usa-2027": {
       "file": "Intel Extreme Masters 2022 lightmode.png",
@@ -4349,6 +4350,10 @@
     "intel-extreme-masters-cologne-major-2026-dark": {
       "file": "IEM Cologne Major 2026 darkmode.png",
       "saved": "intel-extreme-masters-cologne-major-2026-dark.png"
+    },
+    "pgl-ulaanbaatar-2027": {
+      "file": "PGL allmode.png",
+      "saved": "pgl-ulaanbaatar-2027.png"
     }
   },
   "buildVersion": 3,

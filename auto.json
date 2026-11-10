@@ -297,14 +297,14 @@
       "logoDark": "images/auto/intel-extreme-masters-brazil-2027-dark.png"
     },
     {
-      "id": "pgl-china-2027",
-      "name": "PGL China 2027",
-      "page": "PGL/2027/China",
+      "id": "pgl-ulaanbaatar-2027",
+      "name": "PGL Ulaanbaatar 2027",
+      "page": "PGL/2027/Ulaanbaatar",
       "year": "2027",
       "sdate": "2027-04-16",
       "edate": "2027-04-25",
       "dates": "16–25 April 2027",
-      "location": "China",
+      "location": "Ulaanbaatar, Mongolia",
       "teamsText": "16 teams",
       "tier": "S",
       "major": false,
@@ -314,7 +314,7 @@
       "days": [],
       "art": "",
       "trophy": "",
-      "logo": "images/auto/pgl-china-2027.png",
+      "logo": "images/auto/pgl-ulaanbaatar-2027.png",
       "logoDark": ""
     },
     {
@@ -13542,6 +13542,6 @@
       ]
     }
   },
-  "updatedAt": "2026-11-10T15:50:44.355Z",
+  "updatedAt": "2026-11-10T17:50:15.338Z",
   "featured": "intel-extreme-masters-beijing-2026"
 }
