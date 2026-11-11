@@ -5911,6 +5911,34 @@
       "bo": 3,
       "date": "11 Nov",
       "time": "2026-11-11T09:30:00.000Z"
+    },
+    {
+      "id": "lp-dda5f2c649",
+      "tournamentId": "blast-rivals-fall-2026",
+      "tournament": "BLAST Rivals Fall 2026",
+      "stage": "Group Stage",
+      "stageOrder": 0,
+      "round": "Group B",
+      "roundOrder": 2,
+      "a": "lp-fut-esports",
+      "b": "lp-mouz",
+      "bo": 3,
+      "date": "12 Nov",
+      "time": "2026-11-12T07:00:00.000Z"
+    },
+    {
+      "id": "lp-19c4c2624c",
+      "tournamentId": "blast-rivals-fall-2026",
+      "tournament": "BLAST Rivals Fall 2026",
+      "stage": "Group Stage",
+      "stageOrder": 0,
+      "round": "Group B",
+      "roundOrder": 2,
+      "a": "lp-team-spirit",
+      "b": "lp-g2-esports",
+      "bo": 3,
+      "date": "12 Nov",
+      "time": "2026-11-12T09:30:00.000Z"
     }
   ],
   "videos": {
@@ -13620,8 +13648,58 @@
           "notPlayed": false
         }
       ]
+    },
+    "lp-dda5f2c649": {
+      "maps": [
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        }
+      ]
+    },
+    "lp-19c4c2624c": {
+      "maps": [
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        }
+      ]
     }
   },
-  "updatedAt": "2026-11-11T12:32:02.849Z",
+  "updatedAt": "2026-11-11T13:49:33.851Z",
   "featured": "blast-rivals-fall-2026"
 }
