@@ -47,11 +47,11 @@
       "result": "30 matches, 74 map videos"
     },
     "BLAST/Rivals/2026/Fall": {
-      "revid": 3469148,
+      "revid": 3469165,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-11-11T13:49:33.851Z",
-      "result": "8 matches, 7 map videos"
+      "fetchedAt": "2026-11-11T15:53:30.194Z",
+      "result": "8 matches, 10 map videos"
     },
     "PGL/2026/Singapore": {
       "revid": 3468515,
@@ -2370,6 +2370,11 @@
       "ok": true,
       "seconds": 7656,
       "checkedAt": "2026-11-11T10:34:40.466Z"
+    },
+    "RK3ZWWzOWB8": {
+      "ok": true,
+      "seconds": 9309,
+      "checkedAt": "2026-11-11T15:53:30.194Z"
     }
   },
   "parserVersion": 6,
