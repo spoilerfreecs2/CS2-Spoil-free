@@ -5852,7 +5852,35 @@
       "b": "lp-team-falcons",
       "bo": 3,
       "date": "11 Nov",
-      "time": "2026-11-11T04:30:00.000Z"
+      "time": "2026-11-11T04:15:00.000Z"
+    },
+    {
+      "id": "lp-d474b02880",
+      "tournamentId": "blast-rivals-fall-2026",
+      "tournament": "BLAST Rivals Fall 2026",
+      "stage": "Group Stage",
+      "stageOrder": 0,
+      "round": "Group A",
+      "roundOrder": 1,
+      "a": "lp-legacy",
+      "b": "lp-team-falcons",
+      "bo": 3,
+      "date": "12 Nov",
+      "time": "2026-11-12T02:00:00.000Z"
+    },
+    {
+      "id": "lp-ead9c99151",
+      "tournamentId": "blast-rivals-fall-2026",
+      "tournament": "BLAST Rivals Fall 2026",
+      "stage": "Group Stage",
+      "stageOrder": 0,
+      "round": "Group A",
+      "roundOrder": 1,
+      "a": "lp-furia",
+      "b": "lp-team-vitality",
+      "bo": 3,
+      "date": "12 Nov",
+      "time": "2026-11-12T04:30:00.000Z"
     },
     {
       "id": "lp-91753f1117",
@@ -5866,7 +5894,7 @@
       "b": "lp-fut-esports",
       "bo": 3,
       "date": "11 Nov",
-      "time": "2026-11-11T07:00:00.000Z"
+      "time": "2026-11-11T06:30:00.000Z"
     },
     {
       "id": "lp-711493665e",
@@ -13445,14 +13473,14 @@
       "maps": [
         {
           "video": "https://youtu.be/O-Fs7ZVTffY",
-          "start": "",
-          "end": "3790",
+          "start": "30",
+          "end": "3792",
           "name": "Inferno",
           "notPlayed": false
         },
         {
           "video": "https://youtu.be/O-Fs7ZVTffY",
-          "start": "3790",
+          "start": "3792",
           "end": "",
           "name": "Mirage",
           "notPlayed": false
@@ -13469,15 +13497,15 @@
     "lp-b89550d6b0": {
       "maps": [
         {
-          "video": "",
-          "start": "",
-          "end": "",
+          "video": "https://youtu.be/bPEdav9fUks",
+          "start": "20",
+          "end": "3362",
           "name": "Anubis",
           "notPlayed": false
         },
         {
-          "video": "",
-          "start": "",
+          "video": "https://youtu.be/bPEdav9fUks",
+          "start": "3362",
           "end": "",
           "name": "Dust II",
           "notPlayed": false
@@ -13487,11 +13515,11 @@
           "start": "",
           "end": "",
           "name": "Inferno",
-          "notPlayed": false
+          "notPlayed": true
         }
       ]
     },
-    "lp-91753f1117": {
+    "lp-d474b02880": {
       "maps": [
         {
           "video": "",
@@ -13512,6 +13540,56 @@
           "start": "",
           "end": "",
           "name": "",
+          "notPlayed": false
+        }
+      ]
+    },
+    "lp-ead9c99151": {
+      "maps": [
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        }
+      ]
+    },
+    "lp-91753f1117": {
+      "maps": [
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "Cache",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "Nuke",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "Ancient",
           "notPlayed": false
         }
       ]
@@ -13542,6 +13620,6 @@
       ]
     }
   },
-  "updatedAt": "2026-11-11T04:59:52.373Z",
+  "updatedAt": "2026-11-11T07:14:08.873Z",
   "featured": "blast-rivals-fall-2026"
 }

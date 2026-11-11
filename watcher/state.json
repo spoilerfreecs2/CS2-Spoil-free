@@ -47,11 +47,11 @@
       "result": "30 matches, 74 map videos"
     },
     "BLAST/Rivals/2026/Fall": {
-      "revid": 3469057,
+      "revid": 3469087,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-11-11T04:59:52.373Z",
-      "result": "4 matches, 2 map videos"
+      "fetchedAt": "2026-11-11T07:14:08.873Z",
+      "result": "6 matches, 4 map videos"
     },
     "PGL/2026/Singapore": {
       "revid": 3468515,
@@ -155,10 +155,10 @@
       "result": "coming up, no matches drawn yet"
     },
     "FiReSPORTS/Major/2027/Buenos Aires": {
-      "revid": 3447349,
+      "revid": 3469079,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-11-07T07:19:44.395Z",
+      "fetchedAt": "2026-11-11T07:14:08.873Z",
       "result": "coming up, no matches drawn yet"
     },
     "Forge of Legends/2026": {
@@ -2360,6 +2360,11 @@
       "ok": true,
       "seconds": 6333,
       "checkedAt": "2026-11-11T04:59:52.373Z"
+    },
+    "bPEdav9fUks": {
+      "ok": true,
+      "seconds": 6323,
+      "checkedAt": "2026-11-11T07:14:08.873Z"
     }
   },
   "parserVersion": 6,
@@ -4108,7 +4113,7 @@
       "YaLLa Compass/2026/Summer",
       "YaLLa Compass/2026/UAE"
     ],
-    "checkedAt": "2026-11-10T17:50:15.338Z",
+    "checkedAt": "2026-11-11T07:14:08.873Z",
     "key": "{\"categories\":[\"Category:S-Tier Tournaments\"],\"from\":\"2026-06-01\",\"to\":\"2027-12-31\",\"exclude\":[\"FISSURE/\"]}"
   },
   "images": {
