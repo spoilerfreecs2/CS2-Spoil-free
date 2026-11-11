@@ -13447,21 +13447,21 @@
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Inferno",
           "notPlayed": false
         },
         {
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Mirage",
           "notPlayed": false
         },
         {
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Nuke",
           "notPlayed": false
         }
       ]
@@ -13542,6 +13542,6 @@
       ]
     }
   },
-  "updatedAt": "2026-11-10T17:50:15.338Z",
+  "updatedAt": "2026-11-11T02:04:02.309Z",
   "featured": "intel-extreme-masters-beijing-2026"
 }
