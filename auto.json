@@ -500,7 +500,9 @@
       "prize": "$1,250,000",
       "image": "PGL Major Singapore 2026 lightmode.png",
       "imageDark": "PGL Major Singapore 2026 darkmode.png",
-      "days": [],
+      "days": [
+        "2026-11-24"
+      ],
       "art": "",
       "trophy": "",
       "logo": "images/auto/pgl-major-singapore-2026.png",
@@ -4713,126 +4715,6 @@
       "time": "2026-09-20T15:00:00.000Z"
     },
     {
-      "id": "lp-71005fa8b2",
-      "tournamentId": "pgl-major-singapore-2026",
-      "tournament": "PGL Major Singapore 2026",
-      "stage": "Stage 1",
-      "stageOrder": 0,
-      "round": "Round 1",
-      "roundOrder": 1,
-      "a": "lp-ninjas-in-pyjamas",
-      "b": "lp-m80",
-      "bo": 1,
-      "date": "",
-      "time": "",
-      "page": "PGL/2026/Singapore/Stage 1"
-    },
-    {
-      "id": "lp-5cd3e9cb08",
-      "tournamentId": "pgl-major-singapore-2026",
-      "tournament": "PGL Major Singapore 2026",
-      "stage": "Stage 1",
-      "stageOrder": 0,
-      "round": "Round 1",
-      "roundOrder": 1,
-      "a": "lp-parivision",
-      "b": "lp-dendele-cs",
-      "bo": 1,
-      "date": "",
-      "time": "",
-      "page": "PGL/2026/Singapore/Stage 1"
-    },
-    {
-      "id": "lp-a88a8cd426",
-      "tournamentId": "pgl-major-singapore-2026",
-      "tournament": "PGL Major Singapore 2026",
-      "stage": "Stage 1",
-      "stageOrder": 0,
-      "round": "Round 1",
-      "roundOrder": 1,
-      "a": "lp-heroic",
-      "b": "lp-imperial-esports",
-      "bo": 1,
-      "date": "",
-      "time": "",
-      "page": "PGL/2026/Singapore/Stage 1"
-    },
-    {
-      "id": "lp-e0e6dd857c",
-      "tournamentId": "pgl-major-singapore-2026",
-      "tournament": "PGL Major Singapore 2026",
-      "stage": "Stage 1",
-      "stageOrder": 0,
-      "round": "Round 1",
-      "roundOrder": 1,
-      "a": "lp-faze-clan",
-      "b": "lp-wildcard",
-      "bo": 1,
-      "date": "",
-      "time": "",
-      "page": "PGL/2026/Singapore/Stage 1"
-    },
-    {
-      "id": "lp-dd5ab64f51",
-      "tournamentId": "pgl-major-singapore-2026",
-      "tournament": "PGL Major Singapore 2026",
-      "stage": "Stage 1",
-      "stageOrder": 0,
-      "round": "Round 1",
-      "roundOrder": 1,
-      "a": "lp-team-liquid",
-      "b": "lp-bc-game-esports",
-      "bo": 1,
-      "date": "",
-      "time": "",
-      "page": "PGL/2026/Singapore/Stage 1"
-    },
-    {
-      "id": "lp-23866a5cb2",
-      "tournamentId": "pgl-major-singapore-2026",
-      "tournament": "PGL Major Singapore 2026",
-      "stage": "Stage 1",
-      "stageOrder": 0,
-      "round": "Round 1",
-      "roundOrder": 1,
-      "a": "lp-eternal-fire",
-      "b": "lp-flyquest",
-      "bo": 1,
-      "date": "",
-      "time": "",
-      "page": "PGL/2026/Singapore/Stage 1"
-    },
-    {
-      "id": "lp-cd03c8d221",
-      "tournamentId": "pgl-major-singapore-2026",
-      "tournament": "PGL Major Singapore 2026",
-      "stage": "Stage 1",
-      "stageOrder": 0,
-      "round": "Round 1",
-      "roundOrder": 1,
-      "a": "lp-100-thieves",
-      "b": "lp-chinggis-warriors",
-      "bo": 1,
-      "date": "",
-      "time": "",
-      "page": "PGL/2026/Singapore/Stage 1"
-    },
-    {
-      "id": "lp-502bac73c2",
-      "tournamentId": "pgl-major-singapore-2026",
-      "tournament": "PGL Major Singapore 2026",
-      "stage": "Stage 1",
-      "stageOrder": 0,
-      "round": "Round 1",
-      "roundOrder": 1,
-      "a": "lp-9z-team",
-      "b": "lp-lynn-vision-gaming",
-      "bo": 1,
-      "date": "",
-      "time": "",
-      "page": "PGL/2026/Singapore/Stage 1"
-    },
-    {
       "id": "lp-e017aaea27",
       "tournamentId": "pgl-masters-bucharest-2026",
       "tournament": "PGL Masters Bucharest 2026",
@@ -5909,6 +5791,126 @@
       "bo": 3,
       "date": "11 Nov",
       "time": "2026-11-11T09:30:00.000Z"
+    },
+    {
+      "id": "lp-71005fa8b2",
+      "tournamentId": "pgl-major-singapore-2026",
+      "tournament": "PGL Major Singapore 2026",
+      "stage": "Stage 1",
+      "stageOrder": 0,
+      "round": "Round 1",
+      "roundOrder": 1,
+      "a": "lp-heroic",
+      "b": "lp-imperial-esports",
+      "bo": 1,
+      "date": "24 Nov",
+      "time": "2026-11-24T04:00:00.000Z",
+      "page": "PGL/2026/Singapore/Stage 1"
+    },
+    {
+      "id": "lp-5cd3e9cb08",
+      "tournamentId": "pgl-major-singapore-2026",
+      "tournament": "PGL Major Singapore 2026",
+      "stage": "Stage 1",
+      "stageOrder": 0,
+      "round": "Round 1",
+      "roundOrder": 1,
+      "a": "lp-9z-team",
+      "b": "lp-lynn-vision-gaming",
+      "bo": 1,
+      "date": "24 Nov",
+      "time": "2026-11-24T04:00:00.000Z",
+      "page": "PGL/2026/Singapore/Stage 1"
+    },
+    {
+      "id": "lp-a88a8cd426",
+      "tournamentId": "pgl-major-singapore-2026",
+      "tournament": "PGL Major Singapore 2026",
+      "stage": "Stage 1",
+      "stageOrder": 0,
+      "round": "Round 1",
+      "roundOrder": 1,
+      "a": "lp-ninjas-in-pyjamas",
+      "b": "lp-m80",
+      "bo": 1,
+      "date": "24 Nov",
+      "time": "2026-11-24T05:00:00.000Z",
+      "page": "PGL/2026/Singapore/Stage 1"
+    },
+    {
+      "id": "lp-e0e6dd857c",
+      "tournamentId": "pgl-major-singapore-2026",
+      "tournament": "PGL Major Singapore 2026",
+      "stage": "Stage 1",
+      "stageOrder": 0,
+      "round": "Round 1",
+      "roundOrder": 1,
+      "a": "lp-100-thieves",
+      "b": "lp-chinggis-warriors",
+      "bo": 1,
+      "date": "24 Nov",
+      "time": "2026-11-24T05:00:00.000Z",
+      "page": "PGL/2026/Singapore/Stage 1"
+    },
+    {
+      "id": "lp-dd5ab64f51",
+      "tournamentId": "pgl-major-singapore-2026",
+      "tournament": "PGL Major Singapore 2026",
+      "stage": "Stage 1",
+      "stageOrder": 0,
+      "round": "Round 1",
+      "roundOrder": 1,
+      "a": "lp-parivision",
+      "b": "lp-dendele-cs",
+      "bo": 1,
+      "date": "24 Nov",
+      "time": "2026-11-24T06:00:00.000Z",
+      "page": "PGL/2026/Singapore/Stage 1"
+    },
+    {
+      "id": "lp-23866a5cb2",
+      "tournamentId": "pgl-major-singapore-2026",
+      "tournament": "PGL Major Singapore 2026",
+      "stage": "Stage 1",
+      "stageOrder": 0,
+      "round": "Round 1",
+      "roundOrder": 1,
+      "a": "lp-team-liquid",
+      "b": "lp-bc-game-esports",
+      "bo": 1,
+      "date": "24 Nov",
+      "time": "2026-11-24T06:00:00.000Z",
+      "page": "PGL/2026/Singapore/Stage 1"
+    },
+    {
+      "id": "lp-cd03c8d221",
+      "tournamentId": "pgl-major-singapore-2026",
+      "tournament": "PGL Major Singapore 2026",
+      "stage": "Stage 1",
+      "stageOrder": 0,
+      "round": "Round 1",
+      "roundOrder": 1,
+      "a": "lp-faze-clan",
+      "b": "lp-wildcard",
+      "bo": 1,
+      "date": "24 Nov",
+      "time": "2026-11-24T07:00:00.000Z",
+      "page": "PGL/2026/Singapore/Stage 1"
+    },
+    {
+      "id": "lp-502bac73c2",
+      "tournamentId": "pgl-major-singapore-2026",
+      "tournament": "PGL Major Singapore 2026",
+      "stage": "Stage 1",
+      "stageOrder": 0,
+      "round": "Round 1",
+      "roundOrder": 1,
+      "a": "lp-eternal-fire",
+      "b": "lp-flyquest",
+      "bo": 1,
+      "date": "24 Nov",
+      "time": "2026-11-24T07:00:00.000Z",
+      "page": "PGL/2026/Singapore/Stage 1"
     }
   ],
   "videos": {
@@ -11537,94 +11539,6 @@
         }
       ]
     },
-    "lp-71005fa8b2": {
-      "maps": [
-        {
-          "video": "",
-          "start": "",
-          "end": "",
-          "name": "",
-          "notPlayed": false
-        }
-      ]
-    },
-    "lp-5cd3e9cb08": {
-      "maps": [
-        {
-          "video": "",
-          "start": "",
-          "end": "",
-          "name": "",
-          "notPlayed": false
-        }
-      ]
-    },
-    "lp-a88a8cd426": {
-      "maps": [
-        {
-          "video": "",
-          "start": "",
-          "end": "",
-          "name": "",
-          "notPlayed": false
-        }
-      ]
-    },
-    "lp-e0e6dd857c": {
-      "maps": [
-        {
-          "video": "",
-          "start": "",
-          "end": "",
-          "name": "",
-          "notPlayed": false
-        }
-      ]
-    },
-    "lp-dd5ab64f51": {
-      "maps": [
-        {
-          "video": "",
-          "start": "",
-          "end": "",
-          "name": "",
-          "notPlayed": false
-        }
-      ]
-    },
-    "lp-23866a5cb2": {
-      "maps": [
-        {
-          "video": "",
-          "start": "",
-          "end": "",
-          "name": "",
-          "notPlayed": false
-        }
-      ]
-    },
-    "lp-cd03c8d221": {
-      "maps": [
-        {
-          "video": "",
-          "start": "",
-          "end": "",
-          "name": "",
-          "notPlayed": false
-        }
-      ]
-    },
-    "lp-502bac73c2": {
-      "maps": [
-        {
-          "video": "",
-          "start": "",
-          "end": "",
-          "name": "",
-          "notPlayed": false
-        }
-      ]
-    },
     "lp-e017aaea27": {
       "maps": [
         {
@@ -13572,22 +13486,22 @@
     "lp-91753f1117": {
       "maps": [
         {
-          "video": "",
-          "start": "",
-          "end": "",
+          "video": "https://youtu.be/-J1UzMnFsqo",
+          "start": "26",
+          "end": "3426",
           "name": "Cache",
           "notPlayed": false
         },
         {
-          "video": "",
-          "start": "",
-          "end": "",
+          "video": "https://youtu.be/-J1UzMnFsqo",
+          "start": "3426",
+          "end": "5422",
           "name": "Nuke",
           "notPlayed": false
         },
         {
-          "video": "",
-          "start": "",
+          "video": "https://youtu.be/-J1UzMnFsqo",
+          "start": "5422",
           "end": "",
           "name": "Ancient",
           "notPlayed": false
@@ -13618,8 +13532,96 @@
           "notPlayed": false
         }
       ]
+    },
+    "lp-71005fa8b2": {
+      "maps": [
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        }
+      ]
+    },
+    "lp-5cd3e9cb08": {
+      "maps": [
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        }
+      ]
+    },
+    "lp-a88a8cd426": {
+      "maps": [
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        }
+      ]
+    },
+    "lp-e0e6dd857c": {
+      "maps": [
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        }
+      ]
+    },
+    "lp-dd5ab64f51": {
+      "maps": [
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        }
+      ]
+    },
+    "lp-23866a5cb2": {
+      "maps": [
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        }
+      ]
+    },
+    "lp-cd03c8d221": {
+      "maps": [
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        }
+      ]
+    },
+    "lp-502bac73c2": {
+      "maps": [
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        }
+      ]
     }
   },
-  "updatedAt": "2026-11-11T09:32:15.105Z",
+  "updatedAt": "2026-11-11T10:34:40.466Z",
   "featured": "blast-rivals-fall-2026"
 }
