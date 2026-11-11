@@ -13444,15 +13444,15 @@
     "lp-24cf20d64e": {
       "maps": [
         {
-          "video": "",
+          "video": "https://youtu.be/O-Fs7ZVTffY",
           "start": "",
-          "end": "",
+          "end": "3790",
           "name": "Inferno",
           "notPlayed": false
         },
         {
-          "video": "",
-          "start": "",
+          "video": "https://youtu.be/O-Fs7ZVTffY",
+          "start": "3790",
           "end": "",
           "name": "Mirage",
           "notPlayed": false
@@ -13462,7 +13462,7 @@
           "start": "",
           "end": "",
           "name": "Nuke",
-          "notPlayed": false
+          "notPlayed": true
         }
       ]
     },
@@ -13472,21 +13472,21 @@
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Anubis",
           "notPlayed": false
         },
         {
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Dust II",
           "notPlayed": false
         },
         {
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Inferno",
           "notPlayed": false
         }
       ]
@@ -13542,6 +13542,6 @@
       ]
     }
   },
-  "updatedAt": "2026-11-11T02:04:02.309Z",
-  "featured": "intel-extreme-masters-beijing-2026"
+  "updatedAt": "2026-11-11T04:59:52.373Z",
+  "featured": "blast-rivals-fall-2026"
 }
