@@ -47,10 +47,10 @@
       "result": "30 matches, 74 map videos"
     },
     "BLAST/Rivals/2026/Fall": {
-      "revid": 3469092,
+      "revid": 3469100,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-11-11T08:34:05.568Z",
+      "fetchedAt": "2026-11-11T09:32:15.105Z",
       "result": "6 matches, 4 map videos"
     },
     "PGL/2026/Singapore": {
@@ -4374,12 +4374,12 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-11T06:00:07.063Z",
+    "checkedAt": "2026-11-11T09:32:15.105Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
-      "matchesLookedFor": 34,
+      "matchesLookedFor": 36,
       "matchesFrom": "2026-11-02",
-      "matchesTo": "2026-11-11",
+      "matchesTo": "2026-11-12",
       "found": 0,
       "channels": {
         "@ESLCS": {
@@ -4391,8 +4391,8 @@
         "@BLASTPremier": {
           "uploads": 200,
           "sayHighlights": 6,
-          "oldest": "2026-08-03T13:00:03Z",
-          "newest": "2026-11-11T05:38:43Z"
+          "oldest": "2026-08-04T16:00:04Z",
+          "newest": "2026-11-11T09:16:33Z"
         },
         "@pgl": {
           "uploads": 200,
