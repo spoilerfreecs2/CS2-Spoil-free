@@ -47,10 +47,10 @@
       "result": "30 matches, 74 map videos"
     },
     "BLAST/Rivals/2026/Fall": {
-      "revid": 3469612,
+      "revid": 3469690,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-11-12T14:56:31.709Z",
+      "fetchedAt": "2026-11-12T17:03:39.265Z",
       "result": "10 matches, 21 map videos"
     },
     "PGL/2026/Singapore": {
@@ -1969,12 +1969,12 @@
     "BEVTiiowoMA": {
       "ok": true,
       "seconds": 7701,
-      "checkedAt": "2026-10-29T16:55:14.538Z"
+      "checkedAt": "2026-11-12T17:03:39.265Z"
     },
     "bbNscBSqFng": {
       "ok": true,
       "seconds": 4496,
-      "checkedAt": "2026-10-29T16:55:14.538Z"
+      "checkedAt": "2026-11-12T17:03:39.265Z"
     },
     "l93dicm_y8s": {
       "ok": true,
@@ -4404,7 +4404,7 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-12T13:51:14.889Z",
+    "checkedAt": "2026-11-12T17:03:39.265Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
       "matchesLookedFor": 48,
@@ -4415,14 +4415,14 @@
         "@ESLCS": {
           "uploads": 200,
           "sayHighlights": 0,
-          "oldest": "2026-10-04T17:23:46Z",
-          "newest": "2026-11-11T22:14:21Z"
+          "oldest": "2026-10-04T18:03:20Z",
+          "newest": "2026-11-12T16:47:45Z"
         },
         "@BLASTPremier": {
           "uploads": 200,
           "sayHighlights": 6,
-          "oldest": "2026-08-19T13:30:39Z",
-          "newest": "2026-11-12T13:18:19Z"
+          "oldest": "2026-08-19T13:52:55Z",
+          "newest": "2026-11-12T14:29:07Z"
         },
         "@pgl": {
           "uploads": 200,
