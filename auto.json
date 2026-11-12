@@ -5924,7 +5924,7 @@
       "b": "lp-mouz",
       "bo": 3,
       "date": "12 Nov",
-      "time": "2026-11-12T07:00:00.000Z"
+      "time": "2026-11-12T06:55:00.000Z"
     },
     {
       "id": "lp-19c4c2624c",
@@ -13577,22 +13577,22 @@
     "lp-ead9c99151": {
       "maps": [
         {
-          "video": "",
-          "start": "",
-          "end": "",
+          "video": "https://youtu.be/e-HPF_4rGIw",
+          "start": "25",
+          "end": "2477",
           "name": "Inferno",
           "notPlayed": false
         },
         {
-          "video": "",
-          "start": "",
-          "end": "",
+          "video": "https://youtu.be/e-HPF_4rGIw",
+          "start": "2477",
+          "end": "5623",
           "name": "Dust II",
           "notPlayed": false
         },
         {
-          "video": "",
-          "start": "",
+          "video": "https://youtu.be/e-HPF_4rGIw",
+          "start": "5623",
           "end": "",
           "name": "Mirage",
           "notPlayed": false
@@ -13655,21 +13655,21 @@
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Cache",
           "notPlayed": false
         },
         {
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Mirage",
           "notPlayed": false
         },
         {
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Nuke",
           "notPlayed": false
         }
       ]
@@ -13700,6 +13700,6 @@
       ]
     }
   },
-  "updatedAt": "2026-11-12T06:39:27.917Z",
+  "updatedAt": "2026-11-12T08:21:40.311Z",
   "featured": "blast-rivals-fall-2026"
 }
