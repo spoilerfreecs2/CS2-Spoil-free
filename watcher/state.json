@@ -2,10 +2,10 @@
   "version": 2,
   "pages": {
     "PGL/2026/Masters": {
-      "revid": 3468526,
+      "revid": 3469387,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-11-09T22:48:08.613Z",
+      "fetchedAt": "2026-11-12T06:39:27.917Z",
       "result": "41 matches, 97 map videos"
     },
     "ESL/Pro League/Season 24": {
@@ -47,10 +47,10 @@
       "result": "30 matches, 74 map videos"
     },
     "BLAST/Rivals/2026/Fall": {
-      "revid": 3469380,
+      "revid": 3469388,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-11-12T05:36:19.828Z",
+      "fetchedAt": "2026-11-12T06:39:27.917Z",
       "result": "8 matches, 12 map videos"
     },
     "PGL/2026/Singapore": {
@@ -4389,7 +4389,7 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-12T03:25:01.658Z",
+    "checkedAt": "2026-11-12T06:39:27.917Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
       "matchesLookedFor": 46,
@@ -4406,8 +4406,8 @@
         "@BLASTPremier": {
           "uploads": 200,
           "sayHighlights": 6,
-          "oldest": "2026-08-11T11:23:49Z",
-          "newest": "2026-11-12T01:17:27Z"
+          "oldest": "2026-08-13T12:01:31Z",
+          "newest": "2026-11-12T06:29:26Z"
         },
         "@pgl": {
           "uploads": 200,
