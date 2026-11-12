@@ -13552,15 +13552,15 @@
     "lp-d474b02880": {
       "maps": [
         {
-          "video": "",
-          "start": "",
-          "end": "",
+          "video": "https://youtu.be/tqJdtvoPZ4c",
+          "start": "25",
+          "end": "2988",
           "name": "Dust II",
           "notPlayed": false
         },
         {
-          "video": "",
-          "start": "",
+          "video": "https://youtu.be/tqJdtvoPZ4c",
+          "start": "2988",
           "end": "",
           "name": "Mirage",
           "notPlayed": false
@@ -13700,6 +13700,6 @@
       ]
     }
   },
-  "updatedAt": "2026-11-12T04:33:14.077Z",
+  "updatedAt": "2026-11-12T05:36:19.828Z",
   "featured": "blast-rivals-fall-2026"
 }
