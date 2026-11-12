@@ -5882,7 +5882,7 @@
       "b": "lp-team-vitality",
       "bo": 3,
       "date": "12 Nov",
-      "time": "2026-11-12T04:30:00.000Z"
+      "time": "2026-11-12T04:00:00.000Z"
     },
     {
       "id": "lp-91753f1117",
@@ -13570,7 +13570,7 @@
           "start": "",
           "end": "",
           "name": "Inferno",
-          "notPlayed": false
+          "notPlayed": true
         }
       ]
     },
@@ -13580,21 +13580,21 @@
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Inferno",
           "notPlayed": false
         },
         {
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Dust II",
           "notPlayed": false
         },
         {
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Mirage",
           "notPlayed": false
         }
       ]
@@ -13700,6 +13700,6 @@
       ]
     }
   },
-  "updatedAt": "2026-11-12T02:30:01.145Z",
+  "updatedAt": "2026-11-12T04:33:14.077Z",
   "featured": "blast-rivals-fall-2026"
 }
