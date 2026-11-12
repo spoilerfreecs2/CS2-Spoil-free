@@ -47,11 +47,11 @@
       "result": "30 matches, 74 map videos"
     },
     "BLAST/Rivals/2026/Fall": {
-      "revid": 3469426,
+      "revid": 3469598,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-11-12T11:34:03.388Z",
-      "result": "9 matches, 15 map videos"
+      "fetchedAt": "2026-11-12T13:51:14.889Z",
+      "result": "10 matches, 18 map videos"
     },
     "PGL/2026/Singapore": {
       "revid": 3468515,
@@ -2385,6 +2385,11 @@
       "ok": true,
       "seconds": 7205,
       "checkedAt": "2026-11-12T08:21:40.311Z"
+    },
+    "LhqXCuBLXkA": {
+      "ok": true,
+      "seconds": 10552,
+      "checkedAt": "2026-11-12T13:51:14.889Z"
     }
   },
   "parserVersion": 6,
@@ -4394,10 +4399,10 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-12T10:36:11.610Z",
+    "checkedAt": "2026-11-12T13:51:14.889Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
-      "matchesLookedFor": 46,
+      "matchesLookedFor": 48,
       "matchesFrom": "2026-11-02",
       "matchesTo": "2026-11-24",
       "found": 0,
@@ -4411,8 +4416,8 @@
         "@BLASTPremier": {
           "uploads": 200,
           "sayHighlights": 6,
-          "oldest": "2026-08-17T10:23:25Z",
-          "newest": "2026-11-12T10:13:10Z"
+          "oldest": "2026-08-19T13:30:39Z",
+          "newest": "2026-11-12T13:18:19Z"
         },
         "@pgl": {
           "uploads": 200,
@@ -4423,8 +4428,8 @@
         "@Counter_Strike_Highlights": {
           "uploads": 200,
           "sayHighlights": 41,
-          "oldest": "2026-09-10T12:00:30Z",
-          "newest": "2026-11-11T14:32:58Z"
+          "oldest": "2026-09-11T13:55:15Z",
+          "newest": "2026-11-12T13:00:24Z"
         }
       },
       "samples": [
@@ -4457,6 +4462,11 @@
           "channel": "@BLASTPremier",
           "at": "2026-09-04T16:18",
           "title": "​@<team>Esport  vs @G2esports 🔥 | 3 Minute Highlights - BLAST Premier Open Porto 2026"
+        },
+        {
+          "channel": "@Counter_Strike_Highlights",
+          "at": "2026-11-12T13:00",
+          "title": "🛑 ropz SHUTS Down the entire B-site push from <team> #ropz #pgl #cs #cs2 #edit"
         },
         {
           "channel": "@Counter_Strike_Highlights",
@@ -4502,11 +4512,6 @@
           "channel": "@Counter_Strike_Highlights",
           "at": "2026-11-02T16:07",
           "title": "FUNNY MOMENTS of PGL Masters Bucharest 2026 | CS2"
-        },
-        {
-          "channel": "@Counter_Strike_Highlights",
-          "at": "2026-11-01T17:44",
-          "title": "Best Clutches of PGL Masters Bucharest 2026"
         }
       ]
     }

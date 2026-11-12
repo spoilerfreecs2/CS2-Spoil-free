@@ -5946,13 +5946,27 @@
       "tournament": "BLAST Rivals Fall 2026",
       "stage": "Playoffs",
       "stageOrder": 1,
-      "round": "|opponent1={{TeamOpponent|}}",
+      "round": "Quarterfinals",
       "roundOrder": 3,
       "a": "lp-team-vitality",
       "b": "lp-mouz",
       "bo": 3,
       "date": "13 Nov",
       "time": "2026-11-13T08:00:00.000Z"
+    },
+    {
+      "id": "lp-0864f06523",
+      "tournamentId": "blast-rivals-fall-2026",
+      "tournament": "BLAST Rivals Fall 2026",
+      "stage": "Playoffs",
+      "stageOrder": 1,
+      "round": "Quarterfinals",
+      "roundOrder": 3,
+      "a": "lp-g2-esports",
+      "b": "lp-team-falcons",
+      "bo": 3,
+      "date": "13 Nov",
+      "time": "2026-11-13T10:30:00.000Z"
     }
   ],
   "videos": {
@@ -13666,22 +13680,22 @@
     "lp-dda5f2c649": {
       "maps": [
         {
-          "video": "",
-          "start": "",
-          "end": "",
+          "video": "https://youtu.be/LhqXCuBLXkA",
+          "start": "20",
+          "end": "4568",
           "name": "Cache",
           "notPlayed": false
         },
         {
-          "video": "",
-          "start": "",
-          "end": "",
+          "video": "https://youtu.be/LhqXCuBLXkA",
+          "start": "4568",
+          "end": "8371",
           "name": "Mirage",
           "notPlayed": false
         },
         {
-          "video": "",
-          "start": "",
+          "video": "https://youtu.be/LhqXCuBLXkA",
+          "start": "8371",
           "end": "",
           "name": "Nuke",
           "notPlayed": false
@@ -13737,8 +13751,33 @@
           "notPlayed": false
         }
       ]
+    },
+    "lp-0864f06523": {
+      "maps": [
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        }
+      ]
     }
   },
-  "updatedAt": "2026-11-12T11:34:03.388Z",
+  "updatedAt": "2026-11-12T13:51:14.889Z",
   "featured": "blast-rivals-fall-2026"
 }
