@@ -13705,22 +13705,22 @@
     "lp-19c4c2624c": {
       "maps": [
         {
-          "video": "",
-          "start": "",
-          "end": "",
+          "video": "https://youtu.be/OO6vlPylfxs",
+          "start": "22",
+          "end": "2935",
           "name": "Mirage",
           "notPlayed": false
         },
         {
-          "video": "",
-          "start": "",
-          "end": "",
+          "video": "https://youtu.be/OO6vlPylfxs",
+          "start": "2935",
+          "end": "5373",
           "name": "Nuke",
           "notPlayed": false
         },
         {
-          "video": "",
-          "start": "",
+          "video": "https://youtu.be/OO6vlPylfxs",
+          "start": "5373",
           "end": "",
           "name": "Ancient",
           "notPlayed": false
@@ -13778,6 +13778,6 @@
       ]
     }
   },
-  "updatedAt": "2026-11-12T13:51:14.889Z",
+  "updatedAt": "2026-11-12T14:56:31.709Z",
   "featured": "blast-rivals-fall-2026"
 }
