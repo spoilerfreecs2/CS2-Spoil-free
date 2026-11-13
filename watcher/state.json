@@ -2395,6 +2395,11 @@
       "ok": true,
       "seconds": 7687,
       "checkedAt": "2026-11-12T14:56:31.709Z"
+    },
+    "LVya7piIE10": {
+      "ok": true,
+      "seconds": 177,
+      "checkedAt": "2026-11-13T11:30:32.732Z"
     }
   },
   "parserVersion": 6,
@@ -4404,13 +4409,13 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-13T08:22:14.483Z",
+    "checkedAt": "2026-11-13T11:30:32.732Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
-      "matchesLookedFor": 48,
+      "matchesLookedFor": 49,
       "matchesFrom": "2026-11-02",
       "matchesTo": "2026-11-24",
-      "found": 0,
+      "found": 1,
       "channels": {
         "@ESLCS": {
           "uploads": 200,
@@ -4420,9 +4425,9 @@
         },
         "@BLASTPremier": {
           "uploads": 200,
-          "sayHighlights": 6,
-          "oldest": "2026-08-22T09:30:35Z",
-          "newest": "2026-11-13T07:42:57Z"
+          "sayHighlights": 7,
+          "oldest": "2026-08-26T11:40:51Z",
+          "newest": "2026-11-13T10:47:01Z"
         },
         "@pgl": {
           "uploads": 200,
@@ -4438,6 +4443,11 @@
         }
       },
       "samples": [
+        {
+          "channel": "@BLASTPremier",
+          "at": "2026-11-13T10:23",
+          "title": "@Team<team>CS vs @mousesports - 3 Minute Highlights - BLAST Premier Rivals Hong Kong 2026"
+        },
         {
           "channel": "@BLASTPremier",
           "at": "2026-09-06T18:58",
@@ -4562,7 +4572,8 @@
     "lp-3379025bc8": "0kBYiZC6Amo",
     "lp-7023cf824f": "0uJJxFswWjQ",
     "lp-9ce284b0fe": "9I-KnGe4tHg",
-    "lp-9cc996dbcd": "9Vut-wBOQDs"
+    "lp-9cc996dbcd": "9Vut-wBOQDs",
+    "lp-ecf23cf5d4": "LVya7piIE10"
   },
   "teamLogos": {
     "lp-fut-esports": {
