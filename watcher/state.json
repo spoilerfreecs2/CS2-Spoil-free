@@ -2184,7 +2184,7 @@
     "0uJJxFswWjQ": {
       "ok": true,
       "seconds": 3315,
-      "checkedAt": "2026-10-30T21:40:06.282Z"
+      "checkedAt": "2026-11-13T21:49:08.135Z"
     },
     "qriZVRUZu20": {
       "ok": true,
@@ -4158,7 +4158,7 @@
       "YaLLa Compass/2026/Summer",
       "YaLLa Compass/2026/UAE"
     ],
-    "checkedAt": "2026-11-13T09:31:54.095Z",
+    "checkedAt": "2026-11-13T21:49:08.135Z",
     "key": "{\"categories\":[\"Category:S-Tier Tournaments\"],\"from\":\"2026-06-01\",\"to\":\"2027-12-31\",\"exclude\":[\"FISSURE/\"]}"
   },
   "images": {
