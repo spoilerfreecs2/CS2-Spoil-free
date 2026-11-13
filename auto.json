@@ -13744,15 +13744,15 @@
     "lp-ecf23cf5d4": {
       "maps": [
         {
-          "video": "",
-          "start": "",
-          "end": "",
+          "video": "https://youtu.be/0lKJzq6Jv0o",
+          "start": "20",
+          "end": "2796",
           "name": "Mirage",
           "notPlayed": false
         },
         {
-          "video": "",
-          "start": "",
+          "video": "https://youtu.be/0lKJzq6Jv0o",
+          "start": "2796",
           "end": "",
           "name": "Cache",
           "notPlayed": false
@@ -13773,21 +13773,21 @@
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Dust II",
           "notPlayed": false
         },
         {
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Mirage",
           "notPlayed": false
         },
         {
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Anubis",
           "notPlayed": false
         }
       ]
@@ -13818,6 +13818,6 @@
       ]
     }
   },
-  "updatedAt": "2026-11-13T11:30:32.732Z",
+  "updatedAt": "2026-11-13T12:32:50.225Z",
   "featured": "blast-rivals-fall-2026"
 }
