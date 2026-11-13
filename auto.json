@@ -5981,6 +5981,20 @@
       "bo": 3,
       "date": "14 Nov",
       "time": "2026-11-14T08:00:00.000Z"
+    },
+    {
+      "id": "lp-f5b35dce40",
+      "tournamentId": "blast-rivals-fall-2026",
+      "tournament": "BLAST Rivals Fall 2026",
+      "stage": "Playoffs",
+      "stageOrder": 1,
+      "round": "Semifinals",
+      "roundOrder": 4,
+      "a": "lp-furia",
+      "b": "lp-team-falcons",
+      "bo": 3,
+      "date": "14 Nov",
+      "time": "2026-11-14T10:30:00.000Z"
     }
   ],
   "videos": {
@@ -13689,7 +13703,8 @@
           "name": "Inferno",
           "notPlayed": false
         }
-      ]
+      ],
+      "highlight": "https://youtu.be/LVya7piIE10"
     },
     "lp-dda5f2c649": {
       "maps": [
@@ -13790,7 +13805,8 @@
           "name": "Anubis",
           "notPlayed": false
         }
-      ]
+      ],
+      "highlight": "https://youtu.be/EBDgfy1lWgw"
     },
     "lp-378806759e": {
       "maps": [
@@ -13816,8 +13832,33 @@
           "notPlayed": false
         }
       ]
+    },
+    "lp-f5b35dce40": {
+      "maps": [
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        }
+      ]
     }
   },
-  "updatedAt": "2026-11-13T12:32:50.225Z",
+  "updatedAt": "2026-11-13T14:54:22.765Z",
   "featured": "blast-rivals-fall-2026"
 }
