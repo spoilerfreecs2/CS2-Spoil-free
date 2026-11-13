@@ -5966,7 +5966,21 @@
       "b": "lp-team-falcons",
       "bo": 3,
       "date": "13 Nov",
-      "time": "2026-11-13T10:30:00.000Z"
+      "time": "2026-11-13T10:55:00.000Z"
+    },
+    {
+      "id": "lp-378806759e",
+      "tournamentId": "blast-rivals-fall-2026",
+      "tournament": "BLAST Rivals Fall 2026",
+      "stage": "Playoffs",
+      "stageOrder": 1,
+      "round": "Semifinals",
+      "roundOrder": 4,
+      "a": "lp-team-spirit",
+      "b": "lp-mouz",
+      "bo": 3,
+      "date": "14 Nov",
+      "time": "2026-11-14T08:00:00.000Z"
     }
   ],
   "videos": {
@@ -13748,7 +13762,7 @@
           "start": "",
           "end": "",
           "name": "Inferno",
-          "notPlayed": false
+          "notPlayed": true
         }
       ]
     },
@@ -13776,8 +13790,33 @@
           "notPlayed": false
         }
       ]
+    },
+    "lp-378806759e": {
+      "maps": [
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        }
+      ]
     }
   },
-  "updatedAt": "2026-11-13T09:31:54.095Z",
+  "updatedAt": "2026-11-13T10:34:05.705Z",
   "featured": "blast-rivals-fall-2026"
 }
