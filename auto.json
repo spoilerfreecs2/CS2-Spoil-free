@@ -5995,6 +5995,20 @@
       "bo": 3,
       "date": "14 Nov",
       "time": "2026-11-14T10:35:00.000Z"
+    },
+    {
+      "id": "lp-58f62af7d6",
+      "tournamentId": "blast-rivals-fall-2026",
+      "tournament": "BLAST Rivals Fall 2026",
+      "stage": "Playoffs",
+      "stageOrder": 1,
+      "round": "Grand Final",
+      "roundOrder": 5,
+      "a": "lp-furia",
+      "b": "lp-team-spirit",
+      "bo": 5,
+      "date": "15 Nov",
+      "time": "2026-11-15T08:00:00.000Z"
     }
   ],
   "videos": {
@@ -13855,11 +13869,50 @@
           "start": "",
           "end": "",
           "name": "Mirage",
+          "notPlayed": true
+        }
+      ]
+    },
+    "lp-58f62af7d6": {
+      "maps": [
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
+          "notPlayed": false
+        },
+        {
+          "video": "",
+          "start": "",
+          "end": "",
+          "name": "",
           "notPlayed": false
         }
       ]
     }
   },
-  "updatedAt": "2026-11-14T12:51:45.468Z",
+  "updatedAt": "2026-11-14T14:44:18.368Z",
   "featured": "blast-rivals-fall-2026"
 }
