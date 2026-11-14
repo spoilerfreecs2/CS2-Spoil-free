@@ -47,10 +47,10 @@
       "result": "30 matches, 74 map videos"
     },
     "BLAST/Rivals/2026/Fall": {
-      "revid": 3470173,
+      "revid": 3470188,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-11-14T08:52:27.223Z",
+      "fetchedAt": "2026-11-14T10:44:19.155Z",
       "result": "12 matches, 23 map videos"
     },
     "PGL/2026/Singapore": {
@@ -4158,7 +4158,7 @@
       "YaLLa Compass/2026/Summer",
       "YaLLa Compass/2026/UAE"
     ],
-    "checkedAt": "2026-11-13T21:49:08.135Z",
+    "checkedAt": "2026-11-14T10:44:19.155Z",
     "key": "{\"categories\":[\"Category:S-Tier Tournaments\"],\"from\":\"2026-06-01\",\"to\":\"2027-12-31\",\"exclude\":[\"FISSURE/\"]}"
   },
   "images": {

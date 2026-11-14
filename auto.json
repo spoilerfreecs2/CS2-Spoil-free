@@ -5994,7 +5994,7 @@
       "b": "lp-team-falcons",
       "bo": 3,
       "date": "14 Nov",
-      "time": "2026-11-14T10:30:00.000Z"
+      "time": "2026-11-14T10:35:00.000Z"
     }
   ],
   "videos": {
@@ -13829,7 +13829,7 @@
           "start": "",
           "end": "",
           "name": "Nuke",
-          "notPlayed": false
+          "notPlayed": true
         }
       ]
     },
@@ -13859,6 +13859,6 @@
       ]
     }
   },
-  "updatedAt": "2026-11-14T08:02:08.756Z",
+  "updatedAt": "2026-11-14T10:44:19.155Z",
   "featured": "blast-rivals-fall-2026"
 }
