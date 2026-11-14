@@ -13768,7 +13768,8 @@
           "name": "Ancient",
           "notPlayed": false
         }
-      ]
+      ],
+      "highlight": "https://youtu.be/Wiv_YKHjZlU"
     },
     "lp-ecf23cf5d4": {
       "maps": [
@@ -13871,7 +13872,8 @@
           "name": "Mirage",
           "notPlayed": true
         }
-      ]
+      ],
+      "highlight": "https://youtu.be/GI-oMqRML9U"
     },
     "lp-58f62af7d6": {
       "maps": [
@@ -13913,6 +13915,6 @@
       ]
     }
   },
-  "updatedAt": "2026-11-14T14:44:18.368Z",
+  "updatedAt": "2026-11-14T16:42:32.209Z",
   "featured": "blast-rivals-fall-2026"
 }

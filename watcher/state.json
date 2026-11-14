@@ -2420,6 +2420,11 @@
       "ok": true,
       "seconds": 178,
       "checkedAt": "2026-11-14T12:51:45.468Z"
+    },
+    "GI-oMqRML9U": {
+      "ok": true,
+      "seconds": 179,
+      "checkedAt": "2026-11-14T16:42:32.209Z"
     }
   },
   "parserVersion": 6,
@@ -4429,13 +4434,13 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-14T12:51:45.468Z",
+    "checkedAt": "2026-11-14T16:42:32.209Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
       "matchesLookedFor": 47,
       "matchesFrom": "2026-11-02",
       "matchesTo": "2026-11-24",
-      "found": 1,
+      "found": 2,
       "channels": {
         "@ESLCS": {
           "uploads": 200,
@@ -4445,9 +4450,9 @@
         },
         "@BLASTPremier": {
           "uploads": 200,
-          "sayHighlights": 9,
-          "oldest": "2026-08-27T15:43:35Z",
-          "newest": "2026-11-14T12:13:16Z"
+          "sayHighlights": 10,
+          "oldest": "2026-08-28T13:56:41Z",
+          "newest": "2026-11-14T16:00:16Z"
         },
         "@pgl": {
           "uploads": 200,
@@ -4458,11 +4463,16 @@
         "@Counter_Strike_Highlights": {
           "uploads": 200,
           "sayHighlights": 41,
-          "oldest": "2026-09-12T11:46:12Z",
-          "newest": "2026-11-13T13:00:19Z"
+          "oldest": "2026-09-15T12:00:38Z",
+          "newest": "2026-11-14T13:00:33Z"
         }
       },
       "samples": [
+        {
+          "channel": "@BLASTPremier",
+          "at": "2026-11-14T13:42",
+          "title": "@<team>Esport vs @<team>.CS2 - 3 Minute Highlights - BLAST Premier Rivals Hong Kong 2026"
+        },
         {
           "channel": "@BLASTPremier",
           "at": "2026-11-14T10:07",
@@ -4510,6 +4520,11 @@
         },
         {
           "channel": "@Counter_Strike_Highlights",
+          "at": "2026-11-14T13:00",
+          "title": "✅ ropz single-handedly SHUTS Down <team> with a Flawless B-Site Ace #ropz #pgl #cs #cs2 #edit"
+        },
+        {
+          "channel": "@Counter_Strike_Highlights",
           "at": "2026-11-13T13:00",
           "title": "🥶 That USP flick was filthy — NertZ outplays <team> in the clutch #nertz #pgl #cs #cs2 #edit"
         },
@@ -4552,11 +4567,6 @@
           "channel": "@Counter_Strike_Highlights",
           "at": "2026-11-03T13:00",
           "title": "💎 One Deagle, One Huge Comeback — MATYS Changes Everything #matys #pgl #cs #cs2 #edit"
-        },
-        {
-          "channel": "@Counter_Strike_Highlights",
-          "at": "2026-11-02T17:06",
-          "title": "FUNNY MOMENTS of PGL Masters Bucharest 2026 | CS2"
         }
       ]
     }
@@ -4606,7 +4616,9 @@
     "lp-ecf23cf5d4": "LVya7piIE10",
     "lp-0864f06523": "EBDgfy1lWgw",
     "lp-711493665e": "LVya7piIE10",
-    "lp-378806759e": "Wiv_YKHjZlU"
+    "lp-378806759e": "Wiv_YKHjZlU",
+    "lp-f5b35dce40": "GI-oMqRML9U",
+    "lp-19c4c2624c": "Wiv_YKHjZlU"
   },
   "teamLogos": {
     "lp-fut-esports": {
