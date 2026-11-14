@@ -13811,15 +13811,15 @@
     "lp-378806759e": {
       "maps": [
         {
-          "video": "",
-          "start": "",
-          "end": "",
+          "video": "https://youtu.be/RFFJZ8RzYz4",
+          "start": "26",
+          "end": "2720",
           "name": "Mirage",
           "notPlayed": false
         },
         {
-          "video": "",
-          "start": "",
+          "video": "https://youtu.be/RFFJZ8RzYz4",
+          "start": "2720",
           "end": "",
           "name": "Ancient",
           "notPlayed": false
@@ -13831,7 +13831,8 @@
           "name": "Nuke",
           "notPlayed": true
         }
-      ]
+      ],
+      "highlight": "https://youtu.be/Wiv_YKHjZlU"
     },
     "lp-f5b35dce40": {
       "maps": [
@@ -13839,26 +13840,26 @@
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Ancient",
           "notPlayed": false
         },
         {
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Dust II",
           "notPlayed": false
         },
         {
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Mirage",
           "notPlayed": false
         }
       ]
     }
   },
-  "updatedAt": "2026-11-14T10:44:19.155Z",
+  "updatedAt": "2026-11-14T12:51:45.468Z",
   "featured": "blast-rivals-fall-2026"
 }

@@ -47,11 +47,11 @@
       "result": "30 matches, 74 map videos"
     },
     "BLAST/Rivals/2026/Fall": {
-      "revid": 3470188,
+      "revid": 3470393,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-11-14T10:44:19.155Z",
-      "result": "12 matches, 23 map videos"
+      "fetchedAt": "2026-11-14T12:51:45.468Z",
+      "result": "12 matches, 25 map videos"
     },
     "PGL/2026/Singapore": {
       "revid": 3468515,
@@ -2410,6 +2410,16 @@
       "ok": true,
       "seconds": 180,
       "checkedAt": "2026-11-13T14:54:22.765Z"
+    },
+    "RFFJZ8RzYz4": {
+      "ok": true,
+      "seconds": 5772,
+      "checkedAt": "2026-11-14T12:51:45.468Z"
+    },
+    "Wiv_YKHjZlU": {
+      "ok": true,
+      "seconds": 178,
+      "checkedAt": "2026-11-14T12:51:45.468Z"
     }
   },
   "parserVersion": 6,
@@ -4419,13 +4429,13 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-14T09:47:37.663Z",
+    "checkedAt": "2026-11-14T12:51:45.468Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
       "matchesLookedFor": 47,
       "matchesFrom": "2026-11-02",
       "matchesTo": "2026-11-24",
-      "found": 0,
+      "found": 1,
       "channels": {
         "@ESLCS": {
           "uploads": 200,
@@ -4435,9 +4445,9 @@
         },
         "@BLASTPremier": {
           "uploads": 200,
-          "sayHighlights": 8,
-          "oldest": "2026-08-27T05:30:27Z",
-          "newest": "2026-11-14T08:35:31Z"
+          "sayHighlights": 9,
+          "oldest": "2026-08-27T15:43:35Z",
+          "newest": "2026-11-14T12:13:16Z"
         },
         "@pgl": {
           "uploads": 200,
@@ -4453,6 +4463,11 @@
         }
       },
       "samples": [
+        {
+          "channel": "@BLASTPremier",
+          "at": "2026-11-14T10:07",
+          "title": "@mousesports vs @Team<team>CS - 3 Minute Highlights - BLAST Premier Rivals Hong Kong 2026"
+        },
         {
           "channel": "@BLASTPremier",
           "at": "2026-11-13T14:20",
@@ -4590,7 +4605,8 @@
     "lp-9cc996dbcd": "9Vut-wBOQDs",
     "lp-ecf23cf5d4": "LVya7piIE10",
     "lp-0864f06523": "EBDgfy1lWgw",
-    "lp-711493665e": "LVya7piIE10"
+    "lp-711493665e": "LVya7piIE10",
+    "lp-378806759e": "Wiv_YKHjZlU"
   },
   "teamLogos": {
     "lp-fut-esports": {
