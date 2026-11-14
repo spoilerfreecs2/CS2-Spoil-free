@@ -4444,13 +4444,13 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-14T16:42:32.209Z",
+    "checkedAt": "2026-11-14T19:44:14.809Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
-      "matchesLookedFor": 47,
+      "matchesLookedFor": 45,
       "matchesFrom": "2026-11-02",
       "matchesTo": "2026-11-24",
-      "found": 2,
+      "found": 0,
       "channels": {
         "@ESLCS": {
           "uploads": 200,
