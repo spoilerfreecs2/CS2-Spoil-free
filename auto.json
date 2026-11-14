@@ -13814,21 +13814,21 @@
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Mirage",
           "notPlayed": false
         },
         {
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Ancient",
           "notPlayed": false
         },
         {
           "video": "",
           "start": "",
           "end": "",
-          "name": "",
+          "name": "Nuke",
           "notPlayed": false
         }
       ]
@@ -13859,6 +13859,6 @@
       ]
     }
   },
-  "updatedAt": "2026-11-13T17:52:33.686Z",
+  "updatedAt": "2026-11-14T08:02:08.756Z",
   "featured": "blast-rivals-fall-2026"
 }
