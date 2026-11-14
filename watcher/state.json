@@ -47,27 +47,27 @@
       "result": "30 matches, 74 map videos"
     },
     "BLAST/Rivals/2026/Fall": {
-      "revid": 3470476,
+      "revid": 3470540,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-11-14T14:44:18.368Z",
-      "result": "13 matches, 25 map videos"
+      "fetchedAt": "2026-11-14T17:39:01.340Z",
+      "result": "13 matches, 30 map videos"
     },
     "PGL/2026/Singapore": {
-      "revid": 3468515,
+      "revid": 3470529,
       "subpages": [
-        "PGL/2026/Singapore/Playoffs",
-        "PGL/2026/Singapore/Stage 3",
+        "PGL/2026/Singapore/Stage 1",
         "PGL/2026/Singapore/Stage 2",
-        "PGL/2026/Singapore/Stage 1"
+        "PGL/2026/Singapore/Playoffs",
+        "PGL/2026/Singapore/Stage 3"
       ],
       "subRevids": {
-        "PGL/2026/Singapore/Playoffs": 3465427,
-        "PGL/2026/Singapore/Stage 3": 3468480,
+        "PGL/2026/Singapore/Stage 1": 3469206,
         "PGL/2026/Singapore/Stage 2": 3468477,
-        "PGL/2026/Singapore/Stage 1": 3469206
+        "PGL/2026/Singapore/Playoffs": 3465427,
+        "PGL/2026/Singapore/Stage 3": 3468480
       },
-      "fetchedAt": "2026-11-11T16:57:33.632Z",
+      "fetchedAt": "2026-11-14T17:39:01.340Z",
       "result": "8 matches, 0 map videos"
     },
     "BLAST/Bounty/2026/Summer": {
@@ -2425,6 +2425,16 @@
       "ok": true,
       "seconds": 179,
       "checkedAt": "2026-11-14T16:42:32.209Z"
+    },
+    "oCyxhurYJVk": {
+      "ok": true,
+      "seconds": 8688,
+      "checkedAt": "2026-11-14T17:39:01.340Z"
+    },
+    "JT6x45W302k": {
+      "ok": true,
+      "seconds": 8458,
+      "checkedAt": "2026-11-14T17:39:01.340Z"
     }
   },
   "parserVersion": 6,
