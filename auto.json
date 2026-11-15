@@ -31,7 +31,7 @@
       "sdate": "2027-11-08",
       "edate": "2027-11-14",
       "dates": "8–14 November 2027",
-      "location": "World",
+      "location": "Chek Lap Kok, Hong Kong",
       "teamsText": "8 teams",
       "tier": "S",
       "major": false,
@@ -13878,22 +13878,22 @@
     "lp-58f62af7d6": {
       "maps": [
         {
-          "video": "",
-          "start": "",
-          "end": "",
+          "video": "https://youtu.be/FGK9LuXKm8g",
+          "start": "25",
+          "end": "3210",
           "name": "Ancient",
           "notPlayed": false
         },
         {
-          "video": "",
-          "start": "",
-          "end": "",
+          "video": "https://youtu.be/FGK9LuXKm8g",
+          "start": "3210",
+          "end": "5750",
           "name": "Dust II",
           "notPlayed": false
         },
         {
-          "video": "",
-          "start": "",
+          "video": "https://youtu.be/FGK9LuXKm8g",
+          "start": "5750",
           "end": "",
           "name": "Mirage",
           "notPlayed": false
@@ -13903,18 +13903,19 @@
           "start": "",
           "end": "",
           "name": "Cache",
-          "notPlayed": false
+          "notPlayed": true
         },
         {
           "video": "",
           "start": "",
           "end": "",
           "name": "Nuke",
-          "notPlayed": false
+          "notPlayed": true
         }
-      ]
+      ],
+      "highlight": "https://youtu.be/SL7ZglnsrXk"
     }
   },
-  "updatedAt": "2026-11-15T09:48:23.753Z",
+  "updatedAt": "2026-11-15T17:00:09.003Z",
   "featured": "blast-rivals-fall-2026"
 }

@@ -47,11 +47,11 @@
       "result": "30 matches, 74 map videos"
     },
     "BLAST/Rivals/2026/Fall": {
-      "revid": 3470685,
+      "revid": 3470788,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-11-15T09:48:23.753Z",
-      "result": "13 matches, 30 map videos"
+      "fetchedAt": "2026-11-15T17:00:09.003Z",
+      "result": "13 matches, 33 map videos"
     },
     "PGL/2026/Singapore": {
       "revid": 3470529,
@@ -113,10 +113,10 @@
       "result": "coming up, no matches drawn yet"
     },
     "BLAST/Rivals/2027": {
-      "revid": 3438997,
+      "revid": 3470709,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-11-07T07:19:44.395Z",
+      "fetchedAt": "2026-11-15T17:00:09.003Z",
       "result": "coming up, no matches drawn yet"
     },
     "CS Asia Championships/2027": {
@@ -2435,6 +2435,16 @@
       "ok": true,
       "seconds": 8458,
       "checkedAt": "2026-11-14T17:39:01.340Z"
+    },
+    "FGK9LuXKm8g": {
+      "ok": true,
+      "seconds": 8508,
+      "checkedAt": "2026-11-15T17:00:09.003Z"
+    },
+    "SL7ZglnsrXk": {
+      "ok": true,
+      "seconds": 180,
+      "checkedAt": "2026-11-15T17:00:09.003Z"
     }
   },
   "parserVersion": 6,
@@ -4183,7 +4193,7 @@
       "YaLLa Compass/2026/Summer",
       "YaLLa Compass/2026/UAE"
     ],
-    "checkedAt": "2026-11-14T23:38:01.878Z",
+    "checkedAt": "2026-11-15T17:00:09.003Z",
     "key": "{\"categories\":[\"Category:S-Tier Tournaments\"],\"from\":\"2026-06-01\",\"to\":\"2027-12-31\",\"exclude\":[\"FISSURE/\"]}"
   },
   "images": {
@@ -4444,25 +4454,25 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-15T09:48:23.753Z",
+    "checkedAt": "2026-11-15T17:00:09.003Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
       "matchesLookedFor": 45,
       "matchesFrom": "2026-11-02",
       "matchesTo": "2026-11-24",
-      "found": 0,
+      "found": 1,
       "channels": {
         "@ESLCS": {
           "uploads": 200,
           "sayHighlights": 0,
-          "oldest": "2026-10-04T19:54:01Z",
-          "newest": "2026-11-13T21:20:12Z"
+          "oldest": "2026-10-04T20:08:03Z",
+          "newest": "2026-11-15T12:35:56Z"
         },
         "@BLASTPremier": {
           "uploads": 200,
-          "sayHighlights": 10,
-          "oldest": "2026-08-28T19:24:34Z",
-          "newest": "2026-11-15T09:04:38Z"
+          "sayHighlights": 11,
+          "oldest": "2026-08-30T08:15:38Z",
+          "newest": "2026-11-15T15:00:38Z"
         },
         "@pgl": {
           "uploads": 200,
@@ -4478,6 +4488,11 @@
         }
       },
       "samples": [
+        {
+          "channel": "@BLASTPremier",
+          "at": "2026-11-15T11:14",
+          "title": "@Team<team>CS vs @<team>.CS2 - 3 Minute Highlights - BLAST Premier Rivals Hong Kong 2026"
+        },
         {
           "channel": "@BLASTPremier",
           "at": "2026-11-14T13:42",
@@ -4522,11 +4537,6 @@
           "channel": "@BLASTPremier",
           "at": "2026-09-04T20:05",
           "title": "​@<team>.CS2  vs @Team_<team>  🔥 | 3 Minute Highlights - BLAST Premier Open Porto 2026"
-        },
-        {
-          "channel": "@BLASTPremier",
-          "at": "2026-09-04T16:18",
-          "title": "​@<team>Esport  vs @G2esports 🔥 | 3 Minute Highlights - BLAST Premier Open Porto 2026"
         },
         {
           "channel": "@Counter_Strike_Highlights",
@@ -4628,7 +4638,8 @@
     "lp-711493665e": "LVya7piIE10",
     "lp-378806759e": "Wiv_YKHjZlU",
     "lp-f5b35dce40": "GI-oMqRML9U",
-    "lp-19c4c2624c": "Wiv_YKHjZlU"
+    "lp-19c4c2624c": "Wiv_YKHjZlU",
+    "lp-58f62af7d6": "SL7ZglnsrXk"
   },
   "teamLogos": {
     "lp-fut-esports": {
