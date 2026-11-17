@@ -47,10 +47,10 @@
       "result": "30 matches, 74 map videos"
     },
     "BLAST/Rivals/2026/Fall": {
-      "revid": 3471061,
+      "revid": 3471554,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-11-16T09:30:23.217Z",
+      "fetchedAt": "2026-11-17T11:41:55.645Z",
       "result": "13 matches, 33 map videos"
     },
     "PGL/2026/Singapore": {
@@ -106,10 +106,10 @@
       "result": "coming up, no matches drawn yet"
     },
     "BLAST/Open/2027/Summer": {
-      "revid": 3444205,
+      "revid": 3471568,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-11-07T07:19:44.395Z",
+      "fetchedAt": "2026-11-17T11:41:55.645Z",
       "result": "coming up, no matches drawn yet"
     },
     "BLAST/Rivals/2027": {
@@ -2244,27 +2244,27 @@
     "9O18QW0gaQQ": {
       "ok": true,
       "seconds": 6122,
-      "checkedAt": "2026-11-03T05:55:40.493Z"
+      "checkedAt": "2026-11-17T11:41:55.645Z"
     },
     "VMbUFAHNacQ": {
       "ok": true,
       "seconds": 10871,
-      "checkedAt": "2026-11-03T08:31:56.912Z"
+      "checkedAt": "2026-11-17T11:41:55.645Z"
     },
     "CZFs1Bzga7M": {
       "ok": true,
       "seconds": 5996,
-      "checkedAt": "2026-11-03T08:31:56.912Z"
+      "checkedAt": "2026-11-17T11:41:55.645Z"
     },
     "oxhuCuce5FI": {
       "ok": true,
       "seconds": 5882,
-      "checkedAt": "2026-11-03T09:26:58.128Z"
+      "checkedAt": "2026-11-17T11:41:55.645Z"
     },
     "iCRPFlmBlY8": {
       "ok": true,
       "seconds": 8332,
-      "checkedAt": "2026-11-03T11:27:12.713Z"
+      "checkedAt": "2026-11-17T11:41:55.645Z"
     },
     "LBnen5q4p-4": {
       "ok": true,
@@ -4454,7 +4454,7 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-17T02:53:57.234Z",
+    "checkedAt": "2026-11-17T11:41:55.645Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
       "matchesLookedFor": 44,
@@ -4465,8 +4465,8 @@
         "@ESLCS": {
           "uploads": 200,
           "sayHighlights": 0,
-          "oldest": "2026-10-05T06:58:51Z",
-          "newest": "2026-11-16T11:03:34Z"
+          "oldest": "2026-10-05T09:33:51Z",
+          "newest": "2026-11-17T09:18:27Z"
         },
         "@BLASTPremier": {
           "uploads": 200,
