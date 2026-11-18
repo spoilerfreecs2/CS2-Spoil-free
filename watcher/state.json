@@ -211,17 +211,17 @@
       "result": "no matches, not on the site"
     },
     "PGL/2027/Bucharest": {
-      "revid": 3468757,
+      "revid": 3471742,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-11-10T15:50:44.355Z",
+      "fetchedAt": "2026-11-18T02:51:21.618Z",
       "result": "coming up, no matches drawn yet"
     },
     "PGL/2027/Cluj-Napoca": {
-      "revid": 3471680,
+      "revid": 3471743,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-11-17T20:48:34.253Z",
+      "fetchedAt": "2026-11-18T02:51:21.618Z",
       "result": "coming up, no matches drawn yet"
     },
     "PGL/2027/October": {
@@ -4454,7 +4454,7 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-17T20:48:34.253Z",
+    "checkedAt": "2026-11-18T02:51:21.618Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
       "matchesLookedFor": 44,
@@ -4465,8 +4465,8 @@
         "@ESLCS": {
           "uploads": 200,
           "sayHighlights": 0,
-          "oldest": "2026-10-05T12:14:29Z",
-          "newest": "2026-11-17T19:25:20Z"
+          "oldest": "2026-10-05T15:20:46Z",
+          "newest": "2026-11-18T01:02:29Z"
         },
         "@BLASTPremier": {
           "uploads": 200,
