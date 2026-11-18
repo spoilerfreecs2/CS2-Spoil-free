@@ -2274,37 +2274,37 @@
     "S0oKNB9ztuY": {
       "ok": true,
       "seconds": 8595,
-      "checkedAt": "2026-11-04T02:51:37.935Z"
+      "checkedAt": "2026-11-18T11:30:07.522Z"
     },
     "4nDGR_8igIY": {
       "ok": true,
       "seconds": 10502,
-      "checkedAt": "2026-11-04T02:51:37.935Z"
+      "checkedAt": "2026-11-18T11:30:07.522Z"
     },
     "Bg0rtkwvWPI": {
       "ok": true,
       "seconds": 5065,
-      "checkedAt": "2026-11-04T07:13:05.859Z"
+      "checkedAt": "2026-11-18T11:30:07.522Z"
     },
     "CNZ9tKM_Qcc": {
       "ok": true,
       "seconds": 5205,
-      "checkedAt": "2026-11-04T07:13:05.859Z"
+      "checkedAt": "2026-11-18T11:30:07.522Z"
     },
     "-HjoIrPc5Sc": {
       "ok": true,
       "seconds": 6076,
-      "checkedAt": "2026-11-04T08:24:44.051Z"
+      "checkedAt": "2026-11-18T11:30:07.522Z"
     },
     "i8usPC1Ak8I": {
       "ok": true,
       "seconds": 5574,
-      "checkedAt": "2026-11-04T08:24:44.051Z"
+      "checkedAt": "2026-11-18T11:30:07.522Z"
     },
     "HE5dLEyXPOg": {
       "ok": true,
       "seconds": 5215,
-      "checkedAt": "2026-11-04T10:43:12.165Z"
+      "checkedAt": "2026-11-18T11:30:07.522Z"
     },
     "1LJ1ln6wGYU": {
       "ok": true,
@@ -4193,7 +4193,7 @@
       "YaLLa Compass/2026/Summer",
       "YaLLa Compass/2026/UAE"
     ],
-    "checkedAt": "2026-11-17T20:48:34.253Z",
+    "checkedAt": "2026-11-18T11:30:07.522Z",
     "key": "{\"categories\":[\"Category:S-Tier Tournaments\"],\"from\":\"2026-06-01\",\"to\":\"2027-12-31\",\"exclude\":[\"FISSURE/\"]}"
   },
   "images": {
@@ -4454,7 +4454,7 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-18T02:51:21.618Z",
+    "checkedAt": "2026-11-18T11:30:07.522Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
       "matchesLookedFor": 44,
