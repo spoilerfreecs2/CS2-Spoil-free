@@ -211,17 +211,17 @@
       "result": "no matches, not on the site"
     },
     "PGL/2027/Bucharest": {
-      "revid": 3471742,
+      "revid": 3471872,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-11-18T02:51:21.618Z",
+      "fetchedAt": "2026-11-18T19:33:45.969Z",
       "result": "coming up, no matches drawn yet"
     },
     "PGL/2027/Cluj-Napoca": {
-      "revid": 3471743,
+      "revid": 3471874,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-11-18T02:51:21.618Z",
+      "fetchedAt": "2026-11-18T19:33:45.969Z",
       "result": "coming up, no matches drawn yet"
     },
     "PGL/2027/October": {
@@ -2309,17 +2309,17 @@
     "1LJ1ln6wGYU": {
       "ok": true,
       "seconds": 8703,
-      "checkedAt": "2026-11-04T11:57:15.793Z"
+      "checkedAt": "2026-11-18T19:33:45.969Z"
     },
     "lW4fo1YSfCA": {
       "ok": true,
       "seconds": 9532,
-      "checkedAt": "2026-11-04T15:26:43.984Z"
+      "checkedAt": "2026-11-18T19:33:45.969Z"
     },
     "O1bVHYEiggI": {
       "ok": true,
       "seconds": 7908,
-      "checkedAt": "2026-11-04T15:26:43.984Z"
+      "checkedAt": "2026-11-18T19:33:45.969Z"
     },
     "8K77MlqK0AY": {
       "ok": true,
@@ -4454,7 +4454,7 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-18T11:30:07.522Z",
+    "checkedAt": "2026-11-18T19:33:45.969Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
       "matchesLookedFor": 44,
@@ -4465,14 +4465,14 @@
         "@ESLCS": {
           "uploads": 200,
           "sayHighlights": 0,
-          "oldest": "2026-10-05T15:20:46Z",
-          "newest": "2026-11-18T01:02:29Z"
+          "oldest": "2026-10-05T16:16:09Z",
+          "newest": "2026-11-18T16:27:04Z"
         },
         "@BLASTPremier": {
           "uploads": 200,
           "sayHighlights": 11,
-          "oldest": "2026-08-30T11:28:55Z",
-          "newest": "2026-11-17T18:49:35Z"
+          "oldest": "2026-08-30T12:01:52Z",
+          "newest": "2026-11-18T12:00:19Z"
         },
         "@pgl": {
           "uploads": 200,
@@ -4483,8 +4483,8 @@
         "@Counter_Strike_Highlights": {
           "uploads": 200,
           "sayHighlights": 41,
-          "oldest": "2026-09-16T12:00:21Z",
-          "newest": "2026-11-17T13:00:18Z"
+          "oldest": "2026-09-17T12:00:25Z",
+          "newest": "2026-11-18T13:00:13Z"
         }
       },
       "samples": [
@@ -4540,6 +4540,11 @@
         },
         {
           "channel": "@Counter_Strike_Highlights",
+          "at": "2026-11-18T13:00",
+          "title": "🔥 Three Glock headshots — KSCERATO turns the Pistol Round AGAINST <team> #kscerato #pgl #cs #cs2"
+        },
+        {
+          "channel": "@Counter_Strike_Highlights",
           "at": "2026-11-17T13:00",
           "title": "🏆 KSCERATO Delivers when it MATTERS Most — a FOUR-KILL Clutch #kscerato #pgl #cs #cs2 #edit"
         },
@@ -4582,11 +4587,6 @@
           "channel": "@Counter_Strike_Highlights",
           "at": "2026-11-05T13:00",
           "title": "💲 Another NoScope Masterpiece — m0NESY Does It Again on Dust2 #m0nesy #pgl #cs #cs2 #edit"
-        },
-        {
-          "channel": "@Counter_Strike_Highlights",
-          "at": "2026-11-04T13:00",
-          "title": "💥 Wicadia Goes Beyond Belief With an UNREAL Scout PLAY #wicadia #pgl #cs #cs2 #edit"
         }
       ]
     }
