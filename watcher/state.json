@@ -54,7 +54,7 @@
       "result": "13 matches, 33 map videos"
     },
     "PGL/2026/Singapore": {
-      "revid": 3470529,
+      "revid": 3472041,
       "subpages": [
         "PGL/2026/Singapore/Stage 1",
         "PGL/2026/Singapore/Playoffs",
@@ -67,7 +67,7 @@
         "PGL/2026/Singapore/Stage 3": 3471276,
         "PGL/2026/Singapore/Stage 2": 3471275
       },
-      "fetchedAt": "2026-11-16T19:49:05.456Z",
+      "fetchedAt": "2026-11-19T18:38:02.924Z",
       "result": "8 matches, 0 map videos"
     },
     "BLAST/Bounty/2026/Summer": {
@@ -4193,7 +4193,7 @@
       "YaLLa Compass/2026/Summer",
       "YaLLa Compass/2026/UAE"
     ],
-    "checkedAt": "2026-11-19T01:27:54.531Z",
+    "checkedAt": "2026-11-19T18:38:02.924Z",
     "key": "{\"categories\":[\"Category:S-Tier Tournaments\"],\"from\":\"2026-06-01\",\"to\":\"2027-12-31\",\"exclude\":[\"FISSURE/\"]}"
   },
   "images": {
@@ -4454,7 +4454,7 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-19T09:27:47.139Z",
+    "checkedAt": "2026-11-19T18:38:02.924Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
       "matchesLookedFor": 44,
@@ -4465,8 +4465,8 @@
         "@ESLCS": {
           "uploads": 200,
           "sayHighlights": 0,
-          "oldest": "2026-10-05T16:16:09Z",
-          "newest": "2026-11-18T16:27:04Z"
+          "oldest": "2026-10-05T16:44:27Z",
+          "newest": "2026-11-19T18:25:17Z"
         },
         "@BLASTPremier": {
           "uploads": 200,
@@ -4483,8 +4483,8 @@
         "@Counter_Strike_Highlights": {
           "uploads": 200,
           "sayHighlights": 41,
-          "oldest": "2026-09-17T12:00:25Z",
-          "newest": "2026-11-18T13:00:13Z"
+          "oldest": "2026-09-18T12:00:36Z",
+          "newest": "2026-11-19T13:00:16Z"
         }
       },
       "samples": [
@@ -4540,6 +4540,11 @@
         },
         {
           "channel": "@Counter_Strike_Highlights",
+          "at": "2026-11-19T13:00",
+          "title": "💀 Four <team> Players, One Impossible Entry #kyousuke #pgl #cs #cs2 #edit"
+        },
+        {
+          "channel": "@Counter_Strike_Highlights",
           "at": "2026-11-18T13:00",
           "title": "🔥 Three Glock headshots — KSCERATO turns the Pistol Round AGAINST <team> #kscerato #pgl #cs #cs2"
         },
@@ -4582,11 +4587,6 @@
           "channel": "@Counter_Strike_Highlights",
           "at": "2026-11-06T13:00",
           "title": "💀 Techno4K Delivers a Mind-Blowing Ace & 1v4 CLUTCH! #techno4k #pgl #cs #cs2 #edit"
-        },
-        {
-          "channel": "@Counter_Strike_Highlights",
-          "at": "2026-11-05T13:00",
-          "title": "💲 Another NoScope Masterpiece — m0NESY Does It Again on Dust2 #m0nesy #pgl #cs #cs2 #edit"
         }
       ]
     }
