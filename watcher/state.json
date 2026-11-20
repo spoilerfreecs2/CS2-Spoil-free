@@ -54,20 +54,20 @@
       "result": "13 matches, 33 map videos"
     },
     "PGL/2026/Singapore": {
-      "revid": 3472119,
+      "revid": 3472275,
       "subpages": [
         "PGL/2026/Singapore/Stage 1",
-        "PGL/2026/Singapore/Playoffs",
         "PGL/2026/Singapore/Stage 3",
-        "PGL/2026/Singapore/Stage 2"
+        "PGL/2026/Singapore/Stage 2",
+        "PGL/2026/Singapore/Playoffs"
       ],
       "subRevids": {
         "PGL/2026/Singapore/Stage 1": 3471273,
-        "PGL/2026/Singapore/Playoffs": 3471278,
         "PGL/2026/Singapore/Stage 3": 3471276,
-        "PGL/2026/Singapore/Stage 2": 3471275
+        "PGL/2026/Singapore/Stage 2": 3471275,
+        "PGL/2026/Singapore/Playoffs": 3471278
       },
-      "fetchedAt": "2026-11-20T01:12:31.728Z",
+      "fetchedAt": "2026-11-20T17:58:50.371Z",
       "result": "8 matches, 0 map videos"
     },
     "BLAST/Bounty/2026/Summer": {
@@ -141,10 +141,10 @@
       "result": "coming up, no matches drawn yet"
     },
     "Esports World Cup/2026": {
-      "revid": 3468087,
+      "revid": 3472382,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-11-09T16:40:02.236Z",
+      "fetchedAt": "2026-11-20T17:58:50.371Z",
       "result": "56 matches, 115 map videos"
     },
     "Esports World Cup/2027": {
@@ -2324,7 +2324,7 @@
     "8K77MlqK0AY": {
       "ok": true,
       "seconds": 10783,
-      "checkedAt": "2026-11-06T11:54:46.793Z"
+      "checkedAt": "2026-11-20T17:58:50.371Z"
     },
     "lwjvtUp-ets": {
       "ok": true,
@@ -4193,7 +4193,7 @@
       "YaLLa Compass/2026/Summer",
       "YaLLa Compass/2026/UAE"
     ],
-    "checkedAt": "2026-11-19T18:38:02.924Z",
+    "checkedAt": "2026-11-20T17:58:50.371Z",
     "key": "{\"categories\":[\"Category:S-Tier Tournaments\"],\"from\":\"2026-06-01\",\"to\":\"2027-12-31\",\"exclude\":[\"FISSURE/\"]}"
   },
   "images": {
@@ -4454,7 +4454,7 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-20T09:07:46.268Z",
+    "checkedAt": "2026-11-20T17:58:50.371Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
       "matchesLookedFor": 44,
@@ -4465,14 +4465,14 @@
         "@ESLCS": {
           "uploads": 200,
           "sayHighlights": 0,
-          "oldest": "2026-10-05T16:44:27Z",
-          "newest": "2026-11-19T18:25:17Z"
+          "oldest": "2026-10-05T16:48:03Z",
+          "newest": "2026-11-20T10:01:01Z"
         },
         "@BLASTPremier": {
           "uploads": 200,
           "sayHighlights": 11,
-          "oldest": "2026-08-30T12:01:52Z",
-          "newest": "2026-11-18T12:00:19Z"
+          "oldest": "2026-08-30T14:52:17Z",
+          "newest": "2026-11-20T15:00:39Z"
         },
         "@pgl": {
           "uploads": 200,
@@ -4483,8 +4483,8 @@
         "@Counter_Strike_Highlights": {
           "uploads": 200,
           "sayHighlights": 41,
-          "oldest": "2026-09-18T12:00:36Z",
-          "newest": "2026-11-19T13:00:16Z"
+          "oldest": "2026-09-19T12:00:38Z",
+          "newest": "2026-11-20T12:24:31Z"
         }
       },
       "samples": [
@@ -4540,6 +4540,11 @@
         },
         {
           "channel": "@Counter_Strike_Highlights",
+          "at": "2026-11-20T12:24",
+          "title": "🔪 NiKo Wins the 1v2 and Finishes FalleN With a Knife #knife #niko #pgl #cs #cs2 #edit"
+        },
+        {
+          "channel": "@Counter_Strike_Highlights",
           "at": "2026-11-19T13:00",
           "title": "💀 Four <team> Players, One Impossible Entry #kyousuke #pgl #cs #cs2 #edit"
         },
@@ -4582,11 +4587,6 @@
           "channel": "@Counter_Strike_Highlights",
           "at": "2026-11-07T13:00",
           "title": "💥 One Scout SHOT — npl’s unbelievable wallbang #npl #pgl #cs #cs2 #edit"
-        },
-        {
-          "channel": "@Counter_Strike_Highlights",
-          "at": "2026-11-06T13:00",
-          "title": "💀 Techno4K Delivers a Mind-Blowing Ace & 1v4 CLUTCH! #techno4k #pgl #cs #cs2 #edit"
         }
       ]
     }
