@@ -141,10 +141,10 @@
       "result": "coming up, no matches drawn yet"
     },
     "Esports World Cup/2026": {
-      "revid": 3472382,
+      "revid": 3472483,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-11-20T17:58:50.371Z",
+      "fetchedAt": "2026-11-20T23:56:47.642Z",
       "result": "56 matches, 115 map videos"
     },
     "Esports World Cup/2027": {
@@ -2329,7 +2329,7 @@
     "lwjvtUp-ets": {
       "ok": true,
       "seconds": 9690,
-      "checkedAt": "2026-11-06T20:22:57.789Z"
+      "checkedAt": "2026-11-20T23:56:47.642Z"
     },
     "xieUDAz7D1E": {
       "ok": true,
@@ -4454,7 +4454,7 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-20T17:58:50.371Z",
+    "checkedAt": "2026-11-20T23:56:47.642Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
       "matchesLookedFor": 44,
