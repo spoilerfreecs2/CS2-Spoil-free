@@ -211,10 +211,10 @@
       "result": "no matches, not on the site"
     },
     "PGL/2027/Bucharest": {
-      "revid": 3471872,
+      "revid": 3472810,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-11-18T19:33:45.969Z",
+      "fetchedAt": "2026-11-21T21:05:24.940Z",
       "result": "coming up, no matches drawn yet"
     },
     "PGL/2027/Cluj-Napoca": {
@@ -4193,7 +4193,7 @@
       "YaLLa Compass/2026/Summer",
       "YaLLa Compass/2026/UAE"
     ],
-    "checkedAt": "2026-11-21T06:56:38.185Z",
+    "checkedAt": "2026-11-21T21:05:24.940Z",
     "key": "{\"categories\":[\"Category:S-Tier Tournaments\"],\"from\":\"2026-06-01\",\"to\":\"2027-12-31\",\"exclude\":[\"FISSURE/\"]}"
   },
   "images": {
@@ -4454,7 +4454,7 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-21T15:16:37.981Z",
+    "checkedAt": "2026-11-21T21:05:24.940Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
       "matchesLookedFor": 44,
@@ -4465,8 +4465,8 @@
         "@ESLCS": {
           "uploads": 200,
           "sayHighlights": 0,
-          "oldest": "2026-10-05T16:48:03Z",
-          "newest": "2026-11-20T10:01:01Z"
+          "oldest": "2026-10-05T18:05:12Z",
+          "newest": "2026-11-21T19:04:40Z"
         },
         "@BLASTPremier": {
           "uploads": 200,
