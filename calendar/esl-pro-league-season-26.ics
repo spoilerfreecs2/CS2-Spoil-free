@@ -8,12 +8,12 @@ X-WR-CALDESC:When each day is ready to watch. No teams\, no results.
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:esl-pro-league-season-26-20270923@cs2-spoiler-free
+UID:esl-pro-league-season-26-20270925@cs2-spoiler-free
 DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20270924
-DTEND;VALUE=DATE:20270925
-SUMMARY:ESL Pro League Season 26: Thursday’s matches ready to watch
-DESCRIPTION:Videos from Thursday’s matches of ESL Pro League Season 26 sh
+DTSTART;VALUE=DATE:20270926
+DTEND;VALUE=DATE:20270927
+SUMMARY:ESL Pro League Season 26: Saturday’s matches ready to watch
+DESCRIPTION:Videos from Saturday’s matches of ESL Pro League Season 26 sh
  ould be up by now. Watch spoiler-free: https://spoilerfreecs2.github.io/CS
  2-Spoil-free/#/t/esl-pro-league-season-26
 URL:https://spoilerfreecs2.github.io/CS2-Spoil-free/#/t/esl-pro-league-seas

@@ -112,14 +112,14 @@
       "name": "ESL Pro League Season 26",
       "page": "ESL/Pro League/Season 26",
       "year": "2027",
-      "sdate": "2027-09-23",
+      "sdate": "2027-09-25",
       "edate": "2027-10-03",
-      "dates": "23 September – 3 October 2027",
-      "location": "World",
+      "dates": "25 September – 3 October 2027",
+      "location": "Europe",
       "teamsText": "16 teams",
       "tier": "S",
       "major": false,
-      "prize": "",
+      "prize": "$1,000,000",
       "image": "ESL Pro League 2019 new lightmode.png",
       "imageDark": "ESL Pro League 2019 new darkmode.png",
       "days": [],
@@ -13917,6 +13917,6 @@
       ]
     }
   },
-  "updatedAt": "2026-11-20T17:58:50.371Z",
+  "updatedAt": "2026-11-21T15:16:37.981Z",
   "featured": "blast-rivals-fall-2026"
 }

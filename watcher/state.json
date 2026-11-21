@@ -127,17 +127,17 @@
       "result": "coming up, no matches drawn yet"
     },
     "ESL/Pro League/Season 25": {
-      "revid": 3454024,
+      "revid": 3472602,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-11-07T07:19:44.395Z",
+      "fetchedAt": "2026-11-21T15:16:37.981Z",
       "result": "coming up, no matches drawn yet"
     },
     "ESL/Pro League/Season 26": {
-      "revid": 3415557,
+      "revid": 3472601,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-11-07T07:19:44.395Z",
+      "fetchedAt": "2026-11-21T15:16:37.981Z",
       "result": "coming up, no matches drawn yet"
     },
     "Esports World Cup/2026": {
@@ -4454,7 +4454,7 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-21T06:56:38.185Z",
+    "checkedAt": "2026-11-21T15:16:37.981Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
       "matchesLookedFor": 44,
@@ -4483,8 +4483,8 @@
         "@Counter_Strike_Highlights": {
           "uploads": 200,
           "sayHighlights": 41,
-          "oldest": "2026-09-19T12:00:38Z",
-          "newest": "2026-11-20T12:24:31Z"
+          "oldest": "2026-09-22T12:00:14Z",
+          "newest": "2026-11-21T13:00:06Z"
         }
       },
       "samples": [
@@ -4540,6 +4540,11 @@
         },
         {
           "channel": "@Counter_Strike_Highlights",
+          "at": "2026-11-21T13:00",
+          "title": "🍿 donk Shuts Down <team>'s Entire Mid Setup #donk #pgl #cs #cs2 #edit"
+        },
+        {
+          "channel": "@Counter_Strike_Highlights",
           "at": "2026-11-20T12:24",
           "title": "🔪 NiKo Wins the 1v2 and Finishes FalleN With a Knife #knife #niko #pgl #cs #cs2 #edit"
         },
@@ -4582,11 +4587,6 @@
           "channel": "@Counter_Strike_Highlights",
           "at": "2026-11-10T13:00",
           "title": "😎 Four AWP on mid — The <team> take torzsi back to the good old CS days #<team> #pgl #cs #cs2"
-        },
-        {
-          "channel": "@Counter_Strike_Highlights",
-          "at": "2026-11-07T13:00",
-          "title": "💥 One Scout SHOT — npl’s unbelievable wallbang #npl #pgl #cs #cs2 #edit"
         }
       ]
     }
