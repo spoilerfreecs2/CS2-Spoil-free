@@ -54,20 +54,20 @@
       "result": "13 matches, 33 map videos"
     },
     "PGL/2026/Singapore": {
-      "revid": 3472945,
+      "revid": 3473094,
       "subpages": [
         "PGL/2026/Singapore/Stage 1",
-        "PGL/2026/Singapore/Stage 3",
         "PGL/2026/Singapore/Stage 2",
+        "PGL/2026/Singapore/Stage 3",
         "PGL/2026/Singapore/Playoffs"
       ],
       "subRevids": {
         "PGL/2026/Singapore/Stage 1": 3471273,
-        "PGL/2026/Singapore/Stage 3": 3471276,
         "PGL/2026/Singapore/Stage 2": 3471275,
+        "PGL/2026/Singapore/Stage 3": 3471276,
         "PGL/2026/Singapore/Playoffs": 3471278
       },
-      "fetchedAt": "2026-11-22T08:45:57.606Z",
+      "fetchedAt": "2026-11-22T17:04:08.570Z",
       "result": "8 matches, 0 map videos"
     },
     "BLAST/Bounty/2026/Summer": {
@@ -78,10 +78,10 @@
       "result": "7 matches, 21 map videos"
     },
     "BLAST/Bounty/2027/Summer": {
-      "revid": 3438982,
+      "revid": 3473092,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-11-07T07:19:44.395Z",
+      "fetchedAt": "2026-11-22T17:04:08.570Z",
       "result": "coming up, no matches drawn yet"
     },
     "BLAST/Bounty/2027/Winter": {
@@ -4193,7 +4193,7 @@
       "YaLLa Compass/2026/Summer",
       "YaLLa Compass/2026/UAE"
     ],
-    "checkedAt": "2026-11-21T21:05:24.940Z",
+    "checkedAt": "2026-11-22T17:04:08.570Z",
     "key": "{\"categories\":[\"Category:S-Tier Tournaments\"],\"from\":\"2026-06-01\",\"to\":\"2027-12-31\",\"exclude\":[\"FISSURE/\"]}"
   },
   "images": {
@@ -4220,14 +4220,6 @@
     "esl-pro-league-season-26-dark": {
       "file": "ESL Pro League 2019 new darkmode.png",
       "saved": "esl-pro-league-season-26-dark.png"
-    },
-    "blast-bounty-summer-2027": {
-      "file": "BLAST lightmode.png",
-      "saved": "blast-bounty-summer-2027.png"
-    },
-    "blast-bounty-summer-2027-dark": {
-      "file": "BLAST darkmode.png",
-      "saved": "blast-bounty-summer-2027-dark.png"
     },
     "cs-asia-championships-2027": {
       "file": "CS Asia Championships 2027 lightmode.png",
@@ -4454,7 +4446,7 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-22T08:45:57.606Z",
+    "checkedAt": "2026-11-22T17:04:08.570Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
       "matchesLookedFor": 44,

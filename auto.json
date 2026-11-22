@@ -150,8 +150,8 @@
       "logoDark": ""
     },
     {
-      "id": "blast-bounty-summer-2027",
-      "name": "BLAST Bounty Summer 2027",
+      "id": "blast-open-summer-2027",
+      "name": "BLAST Open Summer 2027",
       "page": "BLAST/Bounty/2027/Summer",
       "year": "2027",
       "sdate": "2027-08-30",
@@ -167,8 +167,8 @@
       "days": [],
       "art": "",
       "trophy": "",
-      "logo": "images/auto/blast-bounty-summer-2027.png",
-      "logoDark": "images/auto/blast-bounty-summer-2027-dark.png"
+      "logo": "images/auto/blast-open-summer-2027.png",
+      "logoDark": "images/auto/blast-open-summer-2027-dark.png"
     },
     {
       "id": "cs-asia-championships-2027",
@@ -13917,6 +13917,6 @@
       ]
     }
   },
-  "updatedAt": "2026-11-22T08:45:57.606Z",
+  "updatedAt": "2026-11-22T17:04:08.570Z",
   "featured": "blast-rivals-fall-2026"
 }
