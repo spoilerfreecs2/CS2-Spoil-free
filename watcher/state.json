@@ -54,7 +54,7 @@
       "result": "13 matches, 33 map videos"
     },
     "PGL/2026/Singapore": {
-      "revid": 3473209,
+      "revid": 3473417,
       "subpages": [
         "PGL/2026/Singapore/Stage 1",
         "PGL/2026/Singapore/Stage 2",
@@ -67,7 +67,7 @@
         "PGL/2026/Singapore/Stage 3": 3471276,
         "PGL/2026/Singapore/Playoffs": 3471278
       },
-      "fetchedAt": "2026-11-23T03:03:36.469Z",
+      "fetchedAt": "2026-11-23T12:20:26.631Z",
       "result": "8 matches, 0 map videos"
     },
     "BLAST/Bounty/2026/Summer": {
@@ -4193,7 +4193,7 @@
       "YaLLa Compass/2026/Summer",
       "YaLLa Compass/2026/UAE"
     ],
-    "checkedAt": "2026-11-22T17:04:08.570Z",
+    "checkedAt": "2026-11-23T12:20:26.631Z",
     "key": "{\"categories\":[\"Category:S-Tier Tournaments\"],\"from\":\"2026-06-01\",\"to\":\"2027-12-31\",\"exclude\":[\"FISSURE/\"]}"
   },
   "images": {
@@ -4446,7 +4446,7 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-23T03:03:36.469Z",
+    "checkedAt": "2026-11-23T12:20:26.631Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
       "matchesLookedFor": 44,
