@@ -54,21 +54,21 @@
       "result": "13 matches, 33 map videos"
     },
     "PGL/2026/Singapore": {
-      "revid": 3473790,
+      "revid": 3474095,
       "subpages": [
         "PGL/2026/Singapore/Stage 1",
-        "PGL/2026/Singapore/Stage 3",
+        "PGL/2026/Singapore/Playoffs",
         "PGL/2026/Singapore/Stage 2",
-        "PGL/2026/Singapore/Playoffs"
+        "PGL/2026/Singapore/Stage 3"
       ],
       "subRevids": {
-        "PGL/2026/Singapore/Stage 1": 3473811,
-        "PGL/2026/Singapore/Stage 3": 3471276,
+        "PGL/2026/Singapore/Stage 1": 3474091,
+        "PGL/2026/Singapore/Playoffs": 3473943,
         "PGL/2026/Singapore/Stage 2": 3471275,
-        "PGL/2026/Singapore/Playoffs": 3471278
+        "PGL/2026/Singapore/Stage 3": 3471276
       },
-      "fetchedAt": "2026-11-24T10:22:37.734Z",
-      "result": "16 matches, 7 map videos"
+      "fetchedAt": "2026-11-24T20:50:52.898Z",
+      "result": "24 matches, 16 map videos"
     },
     "BLAST/Bounty/2026/Summer": {
       "revid": 3454780,
@@ -1919,27 +1919,27 @@
     "1iYkGc7TQJ8": {
       "ok": true,
       "seconds": 9212,
-      "checkedAt": "2026-11-10T19:55:03.291Z"
+      "checkedAt": "2026-11-24T20:50:52.898Z"
     },
     "K7pG-3Vgyts": {
       "ok": true,
       "seconds": 4454,
-      "checkedAt": "2026-11-10T19:55:03.291Z"
+      "checkedAt": "2026-11-24T20:50:52.898Z"
     },
     "pOL5mZrMbm8": {
       "ok": true,
       "seconds": 5775,
-      "checkedAt": "2026-11-10T19:55:03.291Z"
+      "checkedAt": "2026-11-24T20:50:52.898Z"
     },
     "urtM5q6WVYo": {
       "ok": true,
       "seconds": 8561,
-      "checkedAt": "2026-11-10T19:55:03.291Z"
+      "checkedAt": "2026-11-24T20:50:52.898Z"
     },
     "0GbSsxAXFoM": {
       "ok": true,
       "seconds": 4054,
-      "checkedAt": "2026-11-10T19:55:03.291Z"
+      "checkedAt": "2026-11-24T20:50:52.898Z"
     },
     "c_fWIKhjYsg": {
       "ok": true,
@@ -2510,6 +2510,71 @@
       "ok": true,
       "seconds": 981,
       "checkedAt": "2026-11-24T10:22:37.734Z"
+    },
+    "RduM9Yjydlg": {
+      "ok": true,
+      "seconds": 2697,
+      "checkedAt": "2026-11-24T20:50:52.898Z"
+    },
+    "wNIDbCmvoNI": {
+      "ok": true,
+      "seconds": 2589,
+      "checkedAt": "2026-11-24T20:50:52.898Z"
+    },
+    "eF8yk3TiwBo": {
+      "ok": true,
+      "seconds": 1847,
+      "checkedAt": "2026-11-24T20:50:52.898Z"
+    },
+    "XQuLTW9aBeM": {
+      "ok": true,
+      "seconds": 3018,
+      "checkedAt": "2026-11-24T20:50:52.898Z"
+    },
+    "DT1V-u-o1w8": {
+      "ok": true,
+      "seconds": 1193,
+      "checkedAt": "2026-11-24T20:50:52.898Z"
+    },
+    "0exAGjTwl3I": {
+      "ok": true,
+      "seconds": 3540,
+      "checkedAt": "2026-11-24T20:50:52.898Z"
+    },
+    "KvhK2afRkkw": {
+      "ok": true,
+      "seconds": 1514,
+      "checkedAt": "2026-11-24T20:50:52.898Z"
+    },
+    "7DtJSohMhXU": {
+      "ok": true,
+      "seconds": 2798,
+      "checkedAt": "2026-11-24T20:50:52.898Z"
+    },
+    "FXLQkf4AlSY": {
+      "ok": true,
+      "seconds": 999,
+      "checkedAt": "2026-11-24T20:50:52.898Z"
+    },
+    "ivYA0jhe36g": {
+      "ok": true,
+      "seconds": 3039,
+      "checkedAt": "2026-11-24T20:50:52.898Z"
+    },
+    "aTrHsuiK_B4": {
+      "ok": true,
+      "seconds": 2557,
+      "checkedAt": "2026-11-24T20:50:52.898Z"
+    },
+    "6gn8_j5F93A": {
+      "ok": true,
+      "seconds": 964,
+      "checkedAt": "2026-11-24T20:50:52.898Z"
+    },
+    "sRwExqSXBUs": {
+      "ok": true,
+      "seconds": 2028,
+      "checkedAt": "2026-11-24T20:50:52.898Z"
     }
   },
   "parserVersion": 6,
@@ -4511,13 +4576,13 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-24T10:22:37.734Z",
+    "checkedAt": "2026-11-24T20:50:52.898Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
-      "matchesLookedFor": 44,
+      "matchesLookedFor": 42,
       "matchesFrom": "2026-11-03",
-      "matchesTo": "2026-11-24",
-      "found": 6,
+      "matchesTo": "2026-11-25",
+      "found": 4,
       "channels": {
         "@ESLCS": {
           "uploads": 200,
@@ -4534,14 +4599,14 @@
         "@pgl": {
           "uploads": 200,
           "sayHighlights": 0,
-          "oldest": "2026-02-14T21:32:12Z",
-          "newest": "2026-11-24T10:19:38Z"
+          "oldest": "2026-02-15T18:15:08Z",
+          "newest": "2026-11-24T16:10:21Z"
         },
         "@Counter_Strike_Highlights": {
           "uploads": 200,
-          "sayHighlights": 51,
-          "oldest": "2026-10-24T09:07:47Z",
-          "newest": "2026-11-24T10:07:32Z"
+          "sayHighlights": 54,
+          "oldest": "2026-10-24T13:08:25Z",
+          "newest": "2026-11-24T13:00:13Z"
         }
       },
       "samples": [
@@ -4597,53 +4662,53 @@
         },
         {
           "channel": "@Counter_Strike_Highlights",
-          "at": "2026-11-24T10:07",
-          "title": "saadzin sneaks his way into a CLEAN 1v2 #clutch #pgl #MajorSingapore #cs2"
+          "at": "2026-11-24T13:00",
+          "title": "☄️ tN1R Takes Down All of <team> Single-Handedly #tn1r #pgl #cs #cs2 #edit"
         },
         {
           "channel": "@Counter_Strike_Highlights",
-          "at": "2026-11-24T09:39",
-          "title": "NiP vs <team> - HIGHLIGHTS - PGL Major Singapore 2026 - Stage 1 | CS2"
+          "at": "2026-11-24T12:56",
+          "title": "EliGE Pulls Off A Huge Quad Kill #pgl #MajorSingapore #cs2"
         },
         {
           "channel": "@Counter_Strike_Highlights",
-          "at": "2026-11-24T09:31",
-          "title": "<team> vs <team> - HIGHLIGHTS - PGL Major Singapore 2026 - Stage 1 | CS2"
+          "at": "2026-11-24T12:52",
+          "title": "Twistzz carries the round with THREE kills #pgl #MajorSingapore #cs2"
         },
         {
           "channel": "@Counter_Strike_Highlights",
-          "at": "2026-11-24T08:21",
-          "title": "aliStair Hits A Beautiful No-Scope And Gets The Double #pgl #MajorSingapore #cs2"
+          "at": "2026-11-24T12:50",
+          "title": "<team> vs GOSH - HIGHLIGHTS - PGL Major Singapore 2026 - Stage 1 | CS2"
         },
         {
           "channel": "@Counter_Strike_Highlights",
-          "at": "2026-11-24T08:14",
-          "title": "<team> vs <team> - HIGHLIGHTS - PGL Major Singapore 2026 - Stage 1 | CS2"
+          "at": "2026-11-24T12:46",
+          "title": "Team <team> vs <team> - HIGHLIGHTS - PGL Major Singapore 2026 - Stage 1 | CS2"
         },
         {
           "channel": "@Counter_Strike_Highlights",
-          "at": "2026-11-24T07:54",
-          "title": "<team> vs <team> - HIGHLIGHTS - PGL Major Singapore 2026 - Stage 1 | CS2"
+          "at": "2026-11-24T12:22",
+          "title": "asap can't let this chance slip away #knife #pgl #MajorSingapore #cs2"
         },
         {
           "channel": "@Counter_Strike_Highlights",
-          "at": "2026-11-24T07:14",
-          "title": "Neityu absolutely OWNS the pistol round #pgl #MajorSingapore #cs2"
-        },
-        {
-          "channel": "@Counter_Strike_Highlights",
-          "at": "2026-11-24T07:11",
+          "at": "2026-11-24T12:09",
           "title": "PVISION vs <team> - HIGHLIGHTS - PGL Major Singapore 2026 - Stage 1 | CS2"
         },
         {
           "channel": "@Counter_Strike_Highlights",
-          "at": "2026-11-24T06:50",
-          "title": "Team <team> vs GOSH - HIGHLIGHTS - PGL Major Singapore 2026 - Stage 1 | CS2"
+          "at": "2026-11-24T12:04",
+          "title": "Vexite SECURES the match with a HUGE TRIPLE #pgl #MajorSingapore #cs2"
         },
         {
           "channel": "@Counter_Strike_Highlights",
-          "at": "2026-11-24T06:47",
-          "title": "A nightmare opening for GOSH at the Major #pgl #MajorSingapore #cs2"
+          "at": "2026-11-24T11:51",
+          "title": "jottAAA Pulls Off A Sneaky Knife Kill #pgl #MajorSingapore #cs2"
+        },
+        {
+          "channel": "@Counter_Strike_Highlights",
+          "at": "2026-11-24T11:44",
+          "title": "<team> vs <team> - HIGHLIGHTS - PGL Major Singapore 2026 - Stage 1 | CS2"
         }
       ]
     }
@@ -4702,7 +4767,11 @@
     "lp-cd03c8d221": "STJeNyRTA3g",
     "lp-e0e6dd857c": "adebboUAJBg",
     "lp-5cd3e9cb08": "xVuqtSNyV-M",
-    "lp-71005fa8b2": "pmLz6nuhEtY"
+    "lp-71005fa8b2": "pmLz6nuhEtY",
+    "lp-9c78a9f201": "6gn8_j5F93A",
+    "lp-a11ab059ef": "FXLQkf4AlSY",
+    "lp-de15a6cbf7": "KvhK2afRkkw",
+    "lp-e63a86f0a3": "DT1V-u-o1w8"
   },
   "teamLogos": {
     "lp-fut-esports": {
