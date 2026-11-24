@@ -54,21 +54,21 @@
       "result": "13 matches, 33 map videos"
     },
     "PGL/2026/Singapore": {
-      "revid": 3473596,
+      "revid": 3473790,
       "subpages": [
         "PGL/2026/Singapore/Stage 1",
-        "PGL/2026/Singapore/Playoffs",
+        "PGL/2026/Singapore/Stage 3",
         "PGL/2026/Singapore/Stage 2",
-        "PGL/2026/Singapore/Stage 3"
+        "PGL/2026/Singapore/Playoffs"
       ],
       "subRevids": {
-        "PGL/2026/Singapore/Stage 1": 3471273,
-        "PGL/2026/Singapore/Playoffs": 3471278,
+        "PGL/2026/Singapore/Stage 1": 3473811,
+        "PGL/2026/Singapore/Stage 3": 3471276,
         "PGL/2026/Singapore/Stage 2": 3471275,
-        "PGL/2026/Singapore/Stage 3": 3471276
+        "PGL/2026/Singapore/Playoffs": 3471278
       },
-      "fetchedAt": "2026-11-24T00:17:55.445Z",
-      "result": "8 matches, 0 map videos"
+      "fetchedAt": "2026-11-24T10:22:37.734Z",
+      "result": "16 matches, 7 map videos"
     },
     "BLAST/Bounty/2026/Summer": {
       "revid": 3454780,
@@ -1914,7 +1914,7 @@
     "MOYBO0FEOsY": {
       "ok": true,
       "seconds": 9358,
-      "checkedAt": "2026-11-10T02:54:19.166Z"
+      "checkedAt": "2026-11-24T10:22:37.734Z"
     },
     "1iYkGc7TQJ8": {
       "ok": true,
@@ -2445,6 +2445,71 @@
       "ok": true,
       "seconds": 180,
       "checkedAt": "2026-11-15T17:00:09.003Z"
+    },
+    "UZFr8PSMvjk": {
+      "ok": true,
+      "seconds": 3738,
+      "checkedAt": "2026-11-24T10:22:37.734Z"
+    },
+    "xVuqtSNyV-M": {
+      "ok": true,
+      "seconds": 1260,
+      "checkedAt": "2026-11-24T10:22:37.734Z"
+    },
+    "RDZVqR1EmT4": {
+      "ok": true,
+      "seconds": 2368,
+      "checkedAt": "2026-11-24T10:22:37.734Z"
+    },
+    "pmLz6nuhEtY": {
+      "ok": true,
+      "seconds": 749,
+      "checkedAt": "2026-11-24T10:22:37.734Z"
+    },
+    "_goOJ02CAuM": {
+      "ok": true,
+      "seconds": 3079,
+      "checkedAt": "2026-11-24T10:22:37.734Z"
+    },
+    "PsrUzYqzcVk": {
+      "ok": true,
+      "seconds": 2577,
+      "checkedAt": "2026-11-24T10:22:37.734Z"
+    },
+    "adebboUAJBg": {
+      "ok": true,
+      "seconds": 874,
+      "checkedAt": "2026-11-24T10:22:37.734Z"
+    },
+    "1M0N_FZk1zo": {
+      "ok": true,
+      "seconds": 1748,
+      "checkedAt": "2026-11-24T10:22:37.734Z"
+    },
+    "KJjF9OdrUHg": {
+      "ok": true,
+      "seconds": 2177,
+      "checkedAt": "2026-11-24T10:22:37.734Z"
+    },
+    "5g-cMIdKdOM": {
+      "ok": true,
+      "seconds": 2879,
+      "checkedAt": "2026-11-24T10:22:37.734Z"
+    },
+    "STJeNyRTA3g": {
+      "ok": true,
+      "seconds": 1041,
+      "checkedAt": "2026-11-24T10:22:37.734Z"
+    },
+    "jLdoFOnRWAY": {
+      "ok": true,
+      "seconds": 931,
+      "checkedAt": "2026-11-24T10:22:37.734Z"
+    },
+    "Jl_tqiyj9zg": {
+      "ok": true,
+      "seconds": 981,
+      "checkedAt": "2026-11-24T10:22:37.734Z"
     }
   },
   "parserVersion": 6,
@@ -4193,7 +4258,7 @@
       "YaLLa Compass/2026/Summer",
       "YaLLa Compass/2026/UAE"
     ],
-    "checkedAt": "2026-11-23T12:20:26.631Z",
+    "checkedAt": "2026-11-24T10:22:37.734Z",
     "key": "{\"categories\":[\"Category:S-Tier Tournaments\"],\"from\":\"2026-06-01\",\"to\":\"2027-12-31\",\"exclude\":[\"FISSURE/\"]}"
   },
   "images": {
@@ -4446,19 +4511,19 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-24T00:17:55.445Z",
+    "checkedAt": "2026-11-24T10:22:37.734Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
-      "matchesLookedFor": 37,
+      "matchesLookedFor": 44,
       "matchesFrom": "2026-11-03",
       "matchesTo": "2026-11-24",
-      "found": 0,
+      "found": 6,
       "channels": {
         "@ESLCS": {
           "uploads": 200,
           "sayHighlights": 0,
-          "oldest": "2026-10-05T19:55:33Z",
-          "newest": "2026-11-23T20:41:32Z"
+          "oldest": "2026-10-05T20:12:07Z",
+          "newest": "2026-11-24T05:20:30Z"
         },
         "@BLASTPremier": {
           "uploads": 200,
@@ -4469,14 +4534,14 @@
         "@pgl": {
           "uploads": 200,
           "sayHighlights": 0,
-          "oldest": "2026-02-14T20:54:32Z",
-          "newest": "2026-11-22T04:56:35Z"
+          "oldest": "2026-02-14T21:32:12Z",
+          "newest": "2026-11-24T10:19:38Z"
         },
         "@Counter_Strike_Highlights": {
           "uploads": 200,
-          "sayHighlights": 41,
-          "oldest": "2026-09-22T12:00:14Z",
-          "newest": "2026-11-21T13:00:06Z"
+          "sayHighlights": 51,
+          "oldest": "2026-10-24T09:07:47Z",
+          "newest": "2026-11-24T10:07:32Z"
         }
       },
       "samples": [
@@ -4532,53 +4597,53 @@
         },
         {
           "channel": "@Counter_Strike_Highlights",
-          "at": "2026-11-21T13:00",
-          "title": "🍿 donk Shuts Down <team>'s Entire Mid Setup #donk #pgl #cs #cs2 #edit"
+          "at": "2026-11-24T10:07",
+          "title": "saadzin sneaks his way into a CLEAN 1v2 #clutch #pgl #MajorSingapore #cs2"
         },
         {
           "channel": "@Counter_Strike_Highlights",
-          "at": "2026-11-20T12:24",
-          "title": "🔪 NiKo Wins the 1v2 and Finishes FalleN With a Knife #knife #niko #pgl #cs #cs2 #edit"
+          "at": "2026-11-24T09:39",
+          "title": "NiP vs <team> - HIGHLIGHTS - PGL Major Singapore 2026 - Stage 1 | CS2"
         },
         {
           "channel": "@Counter_Strike_Highlights",
-          "at": "2026-11-19T13:00",
-          "title": "💀 Four <team> Players, One Impossible Entry #kyousuke #pgl #cs #cs2 #edit"
+          "at": "2026-11-24T09:31",
+          "title": "<team> vs <team> - HIGHLIGHTS - PGL Major Singapore 2026 - Stage 1 | CS2"
         },
         {
           "channel": "@Counter_Strike_Highlights",
-          "at": "2026-11-18T13:00",
-          "title": "🔥 Three Glock headshots — KSCERATO turns the Pistol Round AGAINST <team> #kscerato #pgl #cs #cs2"
+          "at": "2026-11-24T08:21",
+          "title": "aliStair Hits A Beautiful No-Scope And Gets The Double #pgl #MajorSingapore #cs2"
         },
         {
           "channel": "@Counter_Strike_Highlights",
-          "at": "2026-11-17T13:00",
-          "title": "🏆 KSCERATO Delivers when it MATTERS Most — a FOUR-KILL Clutch #kscerato #pgl #cs #cs2 #edit"
+          "at": "2026-11-24T08:14",
+          "title": "<team> vs <team> - HIGHLIGHTS - PGL Major Singapore 2026 - Stage 1 | CS2"
         },
         {
           "channel": "@Counter_Strike_Highlights",
-          "at": "2026-11-14T13:00",
-          "title": "✅ ropz single-handedly SHUTS Down <team> with a Flawless B-Site Ace #ropz #pgl #cs #cs2 #edit"
+          "at": "2026-11-24T07:54",
+          "title": "<team> vs <team> - HIGHLIGHTS - PGL Major Singapore 2026 - Stage 1 | CS2"
         },
         {
           "channel": "@Counter_Strike_Highlights",
-          "at": "2026-11-13T13:00",
-          "title": "🥶 That USP flick was filthy — NertZ outplays <team> in the clutch #nertz #pgl #cs #cs2 #edit"
+          "at": "2026-11-24T07:14",
+          "title": "Neityu absolutely OWNS the pistol round #pgl #MajorSingapore #cs2"
         },
         {
           "channel": "@Counter_Strike_Highlights",
-          "at": "2026-11-12T13:00",
-          "title": "🛑 ropz SHUTS Down the entire B-site push from <team> #ropz #pgl #cs #cs2 #edit"
+          "at": "2026-11-24T07:11",
+          "title": "PVISION vs <team> - HIGHLIGHTS - PGL Major Singapore 2026 - Stage 1 | CS2"
         },
         {
           "channel": "@Counter_Strike_Highlights",
-          "at": "2026-11-11T14:32",
-          "title": "🎯 FalleN wipes out BB with PRECISE USP Shots #fallen #pgl #cs #cs2 #edit"
+          "at": "2026-11-24T06:50",
+          "title": "Team <team> vs GOSH - HIGHLIGHTS - PGL Major Singapore 2026 - Stage 1 | CS2"
         },
         {
           "channel": "@Counter_Strike_Highlights",
-          "at": "2026-11-10T13:00",
-          "title": "😎 Four AWP on mid — The <team> take torzsi back to the good old CS days #<team> #pgl #cs #cs2"
+          "at": "2026-11-24T06:47",
+          "title": "A nightmare opening for GOSH at the Major #pgl #MajorSingapore #cs2"
         }
       ]
     }
@@ -4631,7 +4696,13 @@
     "lp-378806759e": "Wiv_YKHjZlU",
     "lp-f5b35dce40": "GI-oMqRML9U",
     "lp-19c4c2624c": "Wiv_YKHjZlU",
-    "lp-58f62af7d6": "SL7ZglnsrXk"
+    "lp-58f62af7d6": "SL7ZglnsrXk",
+    "lp-718a28cf6a": "Jl_tqiyj9zg",
+    "lp-502bac73c2": "jLdoFOnRWAY",
+    "lp-cd03c8d221": "STJeNyRTA3g",
+    "lp-e0e6dd857c": "adebboUAJBg",
+    "lp-5cd3e9cb08": "xVuqtSNyV-M",
+    "lp-71005fa8b2": "pmLz6nuhEtY"
   },
   "teamLogos": {
     "lp-fut-esports": {
