@@ -54,20 +54,20 @@
       "result": "13 matches, 33 map videos"
     },
     "PGL/2026/Singapore": {
-      "revid": 3474095,
+      "revid": 3474443,
       "subpages": [
         "PGL/2026/Singapore/Stage 1",
-        "PGL/2026/Singapore/Playoffs",
         "PGL/2026/Singapore/Stage 2",
-        "PGL/2026/Singapore/Stage 3"
+        "PGL/2026/Singapore/Stage 3",
+        "PGL/2026/Singapore/Playoffs"
       ],
       "subRevids": {
         "PGL/2026/Singapore/Stage 1": 3474091,
-        "PGL/2026/Singapore/Playoffs": 3473943,
         "PGL/2026/Singapore/Stage 2": 3471275,
-        "PGL/2026/Singapore/Stage 3": 3471276
+        "PGL/2026/Singapore/Stage 3": 3471276,
+        "PGL/2026/Singapore/Playoffs": 3473943
       },
-      "fetchedAt": "2026-11-24T20:50:52.898Z",
+      "fetchedAt": "2026-11-25T04:06:17.515Z",
       "result": "24 matches, 16 map videos"
     },
     "BLAST/Bounty/2026/Summer": {
@@ -1944,7 +1944,7 @@
     "c_fWIKhjYsg": {
       "ok": true,
       "seconds": 4897,
-      "checkedAt": "2026-11-11T02:04:02.309Z"
+      "checkedAt": "2026-11-25T04:06:17.515Z"
     },
     "q1tDOoUWykU": {
       "ok": true,
@@ -4323,7 +4323,7 @@
       "YaLLa Compass/2026/Summer",
       "YaLLa Compass/2026/UAE"
     ],
-    "checkedAt": "2026-11-24T10:22:37.734Z",
+    "checkedAt": "2026-11-25T04:06:17.515Z",
     "key": "{\"categories\":[\"Category:S-Tier Tournaments\"],\"from\":\"2026-06-01\",\"to\":\"2027-12-31\",\"exclude\":[\"FISSURE/\"]}"
   },
   "images": {
@@ -4576,13 +4576,13 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-24T20:50:52.898Z",
+    "checkedAt": "2026-11-25T04:06:17.515Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
-      "matchesLookedFor": 42,
-      "matchesFrom": "2026-11-03",
+      "matchesLookedFor": 34,
+      "matchesFrom": "2026-11-04",
       "matchesTo": "2026-11-25",
-      "found": 4,
+      "found": 0,
       "channels": {
         "@ESLCS": {
           "uploads": 200,
