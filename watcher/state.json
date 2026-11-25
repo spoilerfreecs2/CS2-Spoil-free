@@ -54,21 +54,21 @@
       "result": "13 matches, 33 map videos"
     },
     "PGL/2026/Singapore": {
-      "revid": 3474910,
+      "revid": 3475112,
       "subpages": [
         "PGL/2026/Singapore/Stage 1",
-        "PGL/2026/Singapore/Stage 3",
         "PGL/2026/Singapore/Playoffs",
+        "PGL/2026/Singapore/Stage 3",
         "PGL/2026/Singapore/Stage 2"
       ],
       "subRevids": {
-        "PGL/2026/Singapore/Stage 1": 3474905,
-        "PGL/2026/Singapore/Stage 3": 3471276,
+        "PGL/2026/Singapore/Stage 1": 3474923,
         "PGL/2026/Singapore/Playoffs": 3473943,
+        "PGL/2026/Singapore/Stage 3": 3471276,
         "PGL/2026/Singapore/Stage 2": 3471275
       },
-      "fetchedAt": "2026-11-25T14:14:41.956Z",
-      "result": "30 matches, 26 map videos"
+      "fetchedAt": "2026-11-25T23:16:47.387Z",
+      "result": "30 matches, 29 map videos"
     },
     "BLAST/Bounty/2026/Summer": {
       "revid": 3454780,
@@ -1949,12 +1949,12 @@
     "q1tDOoUWykU": {
       "ok": true,
       "seconds": 6966,
-      "checkedAt": "2026-11-11T17:56:35.306Z"
+      "checkedAt": "2026-11-25T23:16:47.387Z"
     },
     "N0KxTb_RCJc": {
       "ok": true,
       "seconds": 5545,
-      "checkedAt": "2026-11-11T17:56:35.306Z"
+      "checkedAt": "2026-11-25T23:16:47.387Z"
     },
     "Xd2g9rTfGYw": {
       "ok": true,
@@ -2374,7 +2374,7 @@
     "RK3ZWWzOWB8": {
       "ok": true,
       "seconds": 9309,
-      "checkedAt": "2026-11-11T15:53:30.194Z"
+      "checkedAt": "2026-11-25T23:16:47.387Z"
     },
     "tqJdtvoPZ4c": {
       "ok": true,
@@ -2635,6 +2635,11 @@
       "ok": true,
       "seconds": 4369,
       "checkedAt": "2026-11-25T14:14:41.956Z"
+    },
+    "YpmvYFZnuGI": {
+      "ok": true,
+      "seconds": 8406,
+      "checkedAt": "2026-11-25T23:16:47.387Z"
     }
   },
   "parserVersion": 6,
@@ -4383,7 +4388,7 @@
       "YaLLa Compass/2026/Summer",
       "YaLLa Compass/2026/UAE"
     ],
-    "checkedAt": "2026-11-25T04:06:17.515Z",
+    "checkedAt": "2026-11-25T23:16:47.387Z",
     "key": "{\"categories\":[\"Category:S-Tier Tournaments\"],\"from\":\"2026-06-01\",\"to\":\"2027-12-31\",\"exclude\":[\"FISSURE/\"]}"
   },
   "images": {
@@ -4636,19 +4641,19 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-25T14:14:41.956Z",
+    "checkedAt": "2026-11-25T23:16:47.387Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
-      "matchesLookedFor": 40,
+      "matchesLookedFor": 29,
       "matchesFrom": "2026-11-04",
       "matchesTo": "2026-11-26",
-      "found": 5,
+      "found": 0,
       "channels": {
         "@ESLCS": {
           "uploads": 200,
           "sayHighlights": 0,
-          "oldest": "2026-10-05T20:12:07Z",
-          "newest": "2026-11-24T05:20:30Z"
+          "oldest": "2026-10-05T20:33:54Z",
+          "newest": "2026-11-25T22:53:11Z"
         },
         "@BLASTPremier": {
           "uploads": 200,
@@ -4660,7 +4665,7 @@
           "uploads": 200,
           "sayHighlights": 0,
           "oldest": "2026-02-16T17:45:02Z",
-          "newest": "2026-11-25T13:31:15Z"
+          "newest": "2026-11-25T14:19:04Z"
         },
         "@Counter_Strike_Highlights": {
           "uploads": 200,

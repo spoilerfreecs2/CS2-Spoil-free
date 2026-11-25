@@ -14449,22 +14449,22 @@
     "lp-e443be6136": {
       "maps": [
         {
-          "video": "",
-          "start": "",
-          "end": "",
+          "video": "https://youtu.be/YpmvYFZnuGI",
+          "start": "48",
+          "end": "2923",
           "name": "Ancient",
           "notPlayed": false
         },
         {
-          "video": "",
-          "start": "",
-          "end": "",
+          "video": "https://youtu.be/YpmvYFZnuGI",
+          "start": "2923",
+          "end": "5323",
           "name": "Dust II",
           "notPlayed": false
         },
         {
-          "video": "",
-          "start": "",
+          "video": "https://youtu.be/YpmvYFZnuGI",
+          "start": "5323",
           "end": "",
           "name": "Nuke",
           "notPlayed": false
@@ -14647,6 +14647,6 @@
       ]
     }
   },
-  "updatedAt": "2026-11-25T14:14:41.956Z",
+  "updatedAt": "2026-11-25T23:16:47.387Z",
   "featured": "pgl-major-singapore-2026"
 }
