@@ -795,14 +795,14 @@ TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:blast-bounty-winter-2027-20270113@cs2-spoiler-free
+UID:blast-bounty-winter-2027-20270114@cs2-spoiler-free
 DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20270114
-DTEND;VALUE=DATE:20270115
-SUMMARY:BLAST Bounty Winter 2027: Wednesday’s matches ready to watch
-DESCRIPTION:Videos from Wednesday’s matches of BLAST Bounty Winter 2027 s
- hould be up by now. Watch spoiler-free: https://spoilerfreecs2.github.io/C
- S2-Spoil-free/#/t/blast-bounty-winter-2027
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:BLAST Bounty Winter 2027: Thursday’s matches ready to watch
+DESCRIPTION:Videos from Thursday’s matches of BLAST Bounty Winter 2027 sh
+ ould be up by now. Watch spoiler-free: https://spoilerfreecs2.github.io/CS
+ 2-Spoil-free/#/t/blast-bounty-winter-2027
 URL:https://spoilerfreecs2.github.io/CS2-Spoil-free/#/t/blast-bounty-winter
  -2027
 TRANSP:TRANSPARENT

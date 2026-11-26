@@ -469,9 +469,9 @@
       "name": "BLAST Bounty Winter 2027",
       "page": "BLAST/Bounty/2027/Winter",
       "year": "2027",
-      "sdate": "2027-01-13",
+      "sdate": "2027-01-14",
       "edate": "2027-01-24",
-      "dates": "13–24 January 2027",
+      "dates": "14–24 January 2027",
       "location": "Attard, Malta",
       "teamsText": "16 teams",
       "tier": "S",
@@ -14647,6 +14647,6 @@
       ]
     }
   },
-  "updatedAt": "2026-11-25T23:16:47.387Z",
+  "updatedAt": "2026-11-26T05:24:57.668Z",
   "featured": "pgl-major-singapore-2026"
 }

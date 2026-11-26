@@ -85,10 +85,10 @@
       "result": "coming up, no matches drawn yet"
     },
     "BLAST/Bounty/2027/Winter": {
-      "revid": 3468756,
+      "revid": 3475584,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-11-10T15:50:44.355Z",
+      "fetchedAt": "2026-11-26T05:24:57.668Z",
       "result": "coming up, no matches drawn yet"
     },
     "BLAST/Open/2027/Fall": {
@@ -1959,7 +1959,7 @@
     "Xd2g9rTfGYw": {
       "ok": true,
       "seconds": 6986,
-      "checkedAt": "2026-11-12T03:25:01.658Z"
+      "checkedAt": "2026-11-26T05:24:57.668Z"
     },
     "7k767k3bYFE": {
       "ok": true,
@@ -4641,11 +4641,11 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-25T23:16:47.387Z",
+    "checkedAt": "2026-11-26T05:24:57.668Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
-      "matchesLookedFor": 29,
-      "matchesFrom": "2026-11-04",
+      "matchesLookedFor": 27,
+      "matchesFrom": "2026-11-06",
       "matchesTo": "2026-11-26",
       "found": 0,
       "channels": {
@@ -4664,8 +4664,8 @@
         "@pgl": {
           "uploads": 200,
           "sayHighlights": 0,
-          "oldest": "2026-02-16T17:45:02Z",
-          "newest": "2026-11-25T14:19:04Z"
+          "oldest": "2026-02-16T22:13:13Z",
+          "newest": "2026-11-26T05:16:00Z"
         },
         "@Counter_Strike_Highlights": {
           "uploads": 200,
