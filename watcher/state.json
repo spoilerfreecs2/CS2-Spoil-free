@@ -58,17 +58,17 @@
       "subpages": [
         "PGL/2026/Singapore/Stage 1",
         "PGL/2026/Singapore/Stage 3",
-        "PGL/2026/Singapore/Stage 2",
-        "PGL/2026/Singapore/Playoffs"
+        "PGL/2026/Singapore/Playoffs",
+        "PGL/2026/Singapore/Stage 2"
       ],
       "subRevids": {
-        "PGL/2026/Singapore/Stage 1": 3475837,
+        "PGL/2026/Singapore/Stage 1": 3475872,
         "PGL/2026/Singapore/Stage 3": 3471276,
-        "PGL/2026/Singapore/Stage 2": 3475725,
-        "PGL/2026/Singapore/Playoffs": 3473943
+        "PGL/2026/Singapore/Playoffs": 3473943,
+        "PGL/2026/Singapore/Stage 2": 3475867
       },
-      "fetchedAt": "2026-11-26T15:43:40.019Z",
-      "result": "35 matches, 42 map videos"
+      "fetchedAt": "2026-11-27T00:31:32.242Z",
+      "result": "36 matches, 45 map videos"
     },
     "BLAST/Bounty/2026/Summer": {
       "revid": 3454780,
@@ -85,10 +85,10 @@
       "result": "coming up, no matches drawn yet"
     },
     "BLAST/Bounty/2027/Winter": {
-      "revid": 3475584,
+      "revid": 3475925,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-11-26T05:24:57.668Z",
+      "fetchedAt": "2026-11-27T00:31:32.242Z",
       "result": "coming up, no matches drawn yet"
     },
     "BLAST/Open/2027/Fall": {
@@ -1973,202 +1973,202 @@
     "BEVTiiowoMA": {
       "ok": true,
       "seconds": 7701,
-      "checkedAt": "2026-11-12T17:03:39.265Z"
+      "checkedAt": "2026-11-27T00:31:32.242Z"
     },
     "bbNscBSqFng": {
       "ok": true,
       "seconds": 4496,
-      "checkedAt": "2026-11-12T17:03:39.265Z"
+      "checkedAt": "2026-11-27T00:31:32.242Z"
     },
     "l93dicm_y8s": {
       "ok": true,
       "seconds": 6209,
-      "checkedAt": "2026-11-12T18:56:05.606Z"
+      "checkedAt": "2026-11-27T00:31:32.242Z"
     },
     "DzI_fFIJLcw": {
       "ok": true,
       "seconds": 3254,
-      "checkedAt": "2026-11-12T23:44:28.531Z"
+      "checkedAt": "2026-11-27T00:31:32.242Z"
     },
     "PZw5pfxjqlk": {
       "ok": true,
       "seconds": 2896,
-      "checkedAt": "2026-11-12T23:44:28.531Z"
+      "checkedAt": "2026-11-27T00:31:32.242Z"
     },
     "VNreCms3jeY": {
       "ok": true,
       "seconds": 3697,
-      "checkedAt": "2026-11-12T23:44:28.531Z"
+      "checkedAt": "2026-11-27T00:31:32.242Z"
     },
     "AOO33S4a10I": {
       "ok": true,
       "seconds": 3458,
-      "checkedAt": "2026-11-12T23:44:28.531Z"
+      "checkedAt": "2026-11-27T00:31:32.242Z"
     },
     "Mi6X9faJYwk": {
       "ok": true,
       "seconds": 4968,
-      "checkedAt": "2026-11-12T23:44:28.531Z"
+      "checkedAt": "2026-11-27T00:31:32.242Z"
     },
     "WmxHLLxf17s": {
       "ok": true,
       "seconds": 3191,
-      "checkedAt": "2026-11-12T23:44:28.531Z"
+      "checkedAt": "2026-11-27T00:31:32.242Z"
     },
     "omGeCXh-C6A": {
       "ok": true,
       "seconds": 3477,
-      "checkedAt": "2026-11-12T23:44:28.531Z"
+      "checkedAt": "2026-11-27T00:31:32.242Z"
     },
     "UL82r7278Yg": {
       "ok": true,
       "seconds": 4292,
-      "checkedAt": "2026-11-12T23:44:28.531Z"
+      "checkedAt": "2026-11-27T00:31:32.242Z"
     },
     "U3sLkzL3ggY": {
       "ok": true,
       "seconds": 2993,
-      "checkedAt": "2026-11-12T23:44:28.531Z"
+      "checkedAt": "2026-11-27T00:31:32.242Z"
     },
     "I1295u7yiQQ": {
       "ok": true,
       "seconds": 2566,
-      "checkedAt": "2026-11-12T23:44:28.531Z"
+      "checkedAt": "2026-11-27T00:31:32.242Z"
     },
     "gf9UE9nvI7E": {
       "ok": true,
       "seconds": 2863,
-      "checkedAt": "2026-11-12T23:44:28.531Z"
+      "checkedAt": "2026-11-27T00:31:32.242Z"
     },
     "h6UyMEC_yGI": {
       "ok": true,
       "seconds": 3151,
-      "checkedAt": "2026-11-12T23:44:28.531Z"
+      "checkedAt": "2026-11-27T00:31:32.242Z"
     },
     "y01qP_KcbVU": {
       "ok": true,
       "seconds": 4227,
-      "checkedAt": "2026-11-12T23:44:28.531Z"
+      "checkedAt": "2026-11-27T00:31:32.242Z"
     },
     "vHdl1Zd-7Is": {
       "ok": true,
       "seconds": 2803,
-      "checkedAt": "2026-11-12T23:44:28.531Z"
+      "checkedAt": "2026-11-27T00:31:32.242Z"
     },
     "A8xa7Ts9_Ak": {
       "ok": true,
       "seconds": 3874,
-      "checkedAt": "2026-11-12T23:44:28.531Z"
+      "checkedAt": "2026-11-27T00:31:32.242Z"
     },
     "gFPbhY69sUU": {
       "ok": true,
       "seconds": 2967,
-      "checkedAt": "2026-11-12T23:44:28.531Z"
+      "checkedAt": "2026-11-27T00:31:32.242Z"
     },
     "3Zr6QASKuJc": {
       "ok": true,
       "seconds": 3317,
-      "checkedAt": "2026-11-12T23:44:28.531Z"
+      "checkedAt": "2026-11-27T00:31:32.242Z"
     },
     "V-yuti9Dt-Y": {
       "ok": true,
       "seconds": 3675,
-      "checkedAt": "2026-11-12T23:44:28.531Z"
+      "checkedAt": "2026-11-27T00:31:32.242Z"
     },
     "oi0ff1ZlW2E": {
       "ok": true,
       "seconds": 2827,
-      "checkedAt": "2026-11-12T23:44:28.531Z"
+      "checkedAt": "2026-11-27T00:31:32.242Z"
     },
     "DXY4qdTVmus": {
       "ok": true,
       "seconds": 2833,
-      "checkedAt": "2026-11-12T23:44:28.531Z"
+      "checkedAt": "2026-11-27T00:31:32.242Z"
     },
     "MYB7EIxO9c8": {
       "ok": true,
       "seconds": 2917,
-      "checkedAt": "2026-11-12T23:44:28.531Z"
+      "checkedAt": "2026-11-27T00:31:32.242Z"
     },
     "GPodb0Zxa3Q": {
       "ok": true,
       "seconds": 3206,
-      "checkedAt": "2026-11-12T23:44:28.531Z"
+      "checkedAt": "2026-11-27T00:31:32.242Z"
     },
     "YXffN_dHbO0": {
       "ok": true,
       "seconds": 3593,
-      "checkedAt": "2026-11-12T23:44:28.531Z"
+      "checkedAt": "2026-11-27T00:31:32.242Z"
     },
     "Pgophr8oqXM": {
       "ok": true,
       "seconds": 3045,
-      "checkedAt": "2026-11-12T23:44:28.531Z"
+      "checkedAt": "2026-11-27T00:31:32.242Z"
     },
     "WI-ZqcbZ1AY": {
       "ok": true,
       "seconds": 3270,
-      "checkedAt": "2026-11-12T23:44:28.531Z"
+      "checkedAt": "2026-11-27T00:31:32.242Z"
     },
     "LSxKCUWE9zM": {
       "ok": true,
       "seconds": 3093,
-      "checkedAt": "2026-11-12T23:44:28.531Z"
+      "checkedAt": "2026-11-27T00:31:32.242Z"
     },
     "HWPsuLb_Tds": {
       "ok": true,
       "seconds": 3163,
-      "checkedAt": "2026-11-12T23:44:28.531Z"
+      "checkedAt": "2026-11-27T00:31:32.242Z"
     },
     "gUDFGTSrKX0": {
       "ok": true,
       "seconds": 3115,
-      "checkedAt": "2026-11-12T23:44:28.531Z"
+      "checkedAt": "2026-11-27T00:31:32.242Z"
     },
     "l4vlOBFdxDQ": {
       "ok": true,
       "seconds": 2706,
-      "checkedAt": "2026-11-12T23:44:28.531Z"
+      "checkedAt": "2026-11-27T00:31:32.242Z"
     },
     "xX9hTE4dXwM": {
       "ok": true,
       "seconds": 3010,
-      "checkedAt": "2026-11-12T23:44:28.531Z"
+      "checkedAt": "2026-11-27T00:31:32.242Z"
     },
     "cf--89allso": {
       "ok": true,
       "seconds": 3668,
-      "checkedAt": "2026-11-12T23:44:28.531Z"
+      "checkedAt": "2026-11-27T00:31:32.242Z"
     },
     "snQsWg4i29M": {
       "ok": true,
       "seconds": 3146,
-      "checkedAt": "2026-11-12T23:44:28.531Z"
+      "checkedAt": "2026-11-27T00:31:32.242Z"
     },
     "sdp8O6X7-Z8": {
       "ok": true,
       "seconds": 2598,
-      "checkedAt": "2026-11-12T23:44:28.531Z"
+      "checkedAt": "2026-11-27T00:31:32.242Z"
     },
     "OmQbKOrtbaI": {
       "ok": true,
       "seconds": 3295,
-      "checkedAt": "2026-11-12T23:44:28.531Z"
+      "checkedAt": "2026-11-27T00:31:32.242Z"
     },
     "Q5c1BiCt37Q": {
       "ok": true,
       "seconds": 2742,
-      "checkedAt": "2026-11-12T23:44:28.531Z"
+      "checkedAt": "2026-11-27T00:31:32.242Z"
     },
     "uD4sg10lobU": {
       "ok": true,
       "seconds": 2901,
-      "checkedAt": "2026-11-12T23:44:28.531Z"
+      "checkedAt": "2026-11-27T00:31:32.242Z"
     },
     "bfbAuESNkLA": {
       "ok": true,
       "seconds": 3467,
-      "checkedAt": "2026-11-12T23:44:28.531Z"
+      "checkedAt": "2026-11-27T00:31:32.242Z"
     },
     "gZqzGpg2gH0": {
       "ok": true,
@@ -2689,6 +2689,16 @@
       "ok": true,
       "seconds": 3307,
       "checkedAt": "2026-11-26T15:43:40.019Z"
+    },
+    "BdqsHOUy_fo": {
+      "ok": true,
+      "seconds": 9933,
+      "checkedAt": "2026-11-27T00:31:32.242Z"
+    },
+    "tggZpDk-lfg": {
+      "ok": true,
+      "seconds": 3833,
+      "checkedAt": "2026-11-27T00:31:32.242Z"
     }
   },
   "parserVersion": 6,
@@ -4690,13 +4700,13 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-26T15:43:40.019Z",
+    "checkedAt": "2026-11-27T00:31:32.242Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
-      "matchesLookedFor": 30,
+      "matchesLookedFor": 26,
       "matchesFrom": "2026-11-06",
       "matchesTo": "2026-11-27",
-      "found": 4,
+      "found": 1,
       "channels": {
         "@ESLCS": {
           "uploads": 200,
@@ -4714,13 +4724,13 @@
           "uploads": 200,
           "sayHighlights": 0,
           "oldest": "2026-02-16T22:13:13Z",
-          "newest": "2026-11-26T15:06:46Z"
+          "newest": "2026-11-26T17:52:08Z"
         },
         "@Counter_Strike_Highlights": {
           "uploads": 200,
-          "sayHighlights": 56,
-          "oldest": "2026-10-25T16:14:27Z",
-          "newest": "2026-11-26T15:40:52Z"
+          "sayHighlights": 57,
+          "oldest": "2026-10-25T16:30:14Z",
+          "newest": "2026-11-26T15:46:15Z"
         }
       },
       "samples": [
@@ -4776,6 +4786,11 @@
         },
         {
           "channel": "@Counter_Strike_Highlights",
+          "at": "2026-11-26T15:46",
+          "title": "LOSER IS OUT! <team> vs <team> - HIGHLIGHTS - PGL Major Singapore 2026 - Stage 1 | CS2"
+        },
+        {
+          "channel": "@Counter_Strike_Highlights",
           "at": "2026-11-26T15:40",
           "title": "HexT goes absolutely WILD and takes down FOUR #pgl #MajorSingapore #cs2"
         },
@@ -4818,11 +4833,6 @@
           "channel": "@Counter_Strike_Highlights",
           "at": "2026-11-26T09:54",
           "title": "Gizmy pulls off a CRAZY smoke spray nobody expected #pgl #MajorSingapore #cs2"
-        },
-        {
-          "channel": "@Counter_Strike_Highlights",
-          "at": "2026-11-26T09:50",
-          "title": "FL1T Never Signed Up to Be Part of Jame's COLLATERAL #pgl #MajorSingapore #cs2"
         }
       ]
     }
@@ -4894,7 +4904,8 @@
     "lp-0de58ae701": "JLbZOWHX5wU",
     "lp-1251cbe41f": "4qH9DXl4aP0",
     "lp-1f671014ef": "qegpJpeSztw",
-    "lp-632d346518": "MfXyPAtGU5Q"
+    "lp-632d346518": "MfXyPAtGU5Q",
+    "lp-dfae821e10": "tggZpDk-lfg"
   },
   "teamLogos": {
     "lp-fut-esports": {
