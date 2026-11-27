@@ -2699,6 +2699,11 @@
       "ok": true,
       "seconds": 3833,
       "checkedAt": "2026-11-27T00:31:32.242Z"
+    },
+    "De70DnsAVpg": {
+      "ok": true,
+      "seconds": 3225,
+      "checkedAt": "2026-11-27T09:00:14.335Z"
     }
   },
   "parserVersion": 6,
@@ -4700,10 +4705,10 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-27T00:31:32.242Z",
+    "checkedAt": "2026-11-27T09:00:14.335Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
-      "matchesLookedFor": 26,
+      "matchesLookedFor": 25,
       "matchesFrom": "2026-11-06",
       "matchesTo": "2026-11-27",
       "found": 1,
@@ -4723,14 +4728,14 @@
         "@pgl": {
           "uploads": 200,
           "sayHighlights": 0,
-          "oldest": "2026-02-16T22:13:13Z",
-          "newest": "2026-11-26T17:52:08Z"
+          "oldest": "2026-02-17T17:08:15Z",
+          "newest": "2026-11-27T05:25:08Z"
         },
         "@Counter_Strike_Highlights": {
           "uploads": 200,
           "sayHighlights": 57,
-          "oldest": "2026-10-25T16:30:14Z",
-          "newest": "2026-11-26T15:46:15Z"
+          "oldest": "2026-10-25T17:46:40Z",
+          "newest": "2026-11-27T08:09:31Z"
         }
       },
       "samples": [
@@ -4786,6 +4791,21 @@
         },
         {
           "channel": "@Counter_Strike_Highlights",
+          "at": "2026-11-27T08:09",
+          "title": "WINNER TO STAGE 2! <team> vs <team> - HIGHLIGHTS - PGL Major Singapore 2026 - Stage 1 | CS2"
+        },
+        {
+          "channel": "@Counter_Strike_Highlights",
+          "at": "2026-11-27T08:04",
+          "title": "The INSANE Quad Kill From Chr1zN #pgl #MajorSingapore #cs2"
+        },
+        {
+          "channel": "@Counter_Strike_Highlights",
+          "at": "2026-11-27T07:50",
+          "title": "susp Was Left Alone And STILL Won #pgl #MajorSingapore #cs2"
+        },
+        {
+          "channel": "@Counter_Strike_Highlights",
           "at": "2026-11-26T15:46",
           "title": "LOSER IS OUT! <team> vs <team> - HIGHLIGHTS - PGL Major Singapore 2026 - Stage 1 | CS2"
         },
@@ -4818,21 +4838,6 @@
           "channel": "@Counter_Strike_Highlights",
           "at": "2026-11-26T11:59",
           "title": "LOSER IS OUT! <team>hieves vs 9z - HIGHLIGHTS - PGL Major Singapore 2026 - Stage 1 | CS2"
-        },
-        {
-          "channel": "@Counter_Strike_Highlights",
-          "at": "2026-11-26T11:11",
-          "title": "WINNER TO STAGE 2! <team> vs PVISION - HIGHLIGHTS - PGL Major Singapore 2026 - Stage 1 | CS2"
-        },
-        {
-          "channel": "@Counter_Strike_Highlights",
-          "at": "2026-11-26T10:52",
-          "title": "poiii destroys FOUR enemies and denies them the site #pgl #MajorSingapore #cs2"
-        },
-        {
-          "channel": "@Counter_Strike_Highlights",
-          "at": "2026-11-26T09:54",
-          "title": "Gizmy pulls off a CRAZY smoke spray nobody expected #pgl #MajorSingapore #cs2"
         }
       ]
     }
@@ -4905,7 +4910,8 @@
     "lp-1251cbe41f": "4qH9DXl4aP0",
     "lp-1f671014ef": "qegpJpeSztw",
     "lp-632d346518": "MfXyPAtGU5Q",
-    "lp-dfae821e10": "tggZpDk-lfg"
+    "lp-dfae821e10": "tggZpDk-lfg",
+    "lp-debf80dd13": "De70DnsAVpg"
   },
   "teamLogos": {
     "lp-fut-esports": {
