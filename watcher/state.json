@@ -54,21 +54,21 @@
       "result": "13 matches, 33 map videos"
     },
     "PGL/2026/Singapore": {
-      "revid": 3475829,
+      "revid": 3476083,
       "subpages": [
         "PGL/2026/Singapore/Stage 1",
-        "PGL/2026/Singapore/Stage 3",
         "PGL/2026/Singapore/Playoffs",
+        "PGL/2026/Singapore/Stage 3",
         "PGL/2026/Singapore/Stage 2"
       ],
       "subRevids": {
-        "PGL/2026/Singapore/Stage 1": 3475872,
-        "PGL/2026/Singapore/Stage 3": 3471276,
+        "PGL/2026/Singapore/Stage 1": 3476157,
         "PGL/2026/Singapore/Playoffs": 3473943,
-        "PGL/2026/Singapore/Stage 2": 3475867
+        "PGL/2026/Singapore/Stage 3": 3471276,
+        "PGL/2026/Singapore/Stage 2": 3476170
       },
-      "fetchedAt": "2026-11-27T00:31:32.242Z",
-      "result": "36 matches, 45 map videos"
+      "fetchedAt": "2026-11-27T18:52:49.459Z",
+      "result": "41 matches, 53 map videos"
     },
     "BLAST/Bounty/2026/Summer": {
       "revid": 3454780,
@@ -82,13 +82,6 @@
       "subpages": [],
       "subRevids": {},
       "fetchedAt": "2026-11-22T17:04:08.570Z",
-      "result": "coming up, no matches drawn yet"
-    },
-    "BLAST/Bounty/2027/Winter": {
-      "revid": 3475925,
-      "subpages": [],
-      "subRevids": {},
-      "fetchedAt": "2026-11-27T00:31:32.242Z",
       "result": "coming up, no matches drawn yet"
     },
     "BLAST/Open/2027/Fall": {
@@ -155,10 +148,10 @@
       "result": "coming up, no matches drawn yet"
     },
     "FiReSPORTS/Major/2027/Buenos Aires": {
-      "revid": 3469202,
+      "revid": 3475990,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-11-11T16:57:33.632Z",
+      "fetchedAt": "2026-11-27T18:52:49.459Z",
       "result": "coming up, no matches drawn yet"
     },
     "Forge of Legends/2026": {
@@ -246,10 +239,10 @@
       "result": "coming up, no matches drawn yet"
     },
     "Perfect World/Major/2027/Shanghai": {
-      "revid": 3448190,
+      "revid": 3475989,
       "subpages": [],
       "subRevids": {},
-      "fetchedAt": "2026-11-09T16:40:02.236Z",
+      "fetchedAt": "2026-11-27T18:52:49.459Z",
       "result": "coming up, no matches drawn yet"
     },
     "StarLadder/StarSeries/2026/Fall": {
@@ -2173,7 +2166,7 @@
     "gZqzGpg2gH0": {
       "ok": true,
       "seconds": 5938,
-      "checkedAt": "2026-11-13T16:56:31.942Z"
+      "checkedAt": "2026-11-27T18:52:49.459Z"
     },
     "0kBYiZC6Amo": {
       "ok": true,
@@ -2403,17 +2396,17 @@
     "LVya7piIE10": {
       "ok": true,
       "seconds": 177,
-      "checkedAt": "2026-11-13T11:30:32.732Z"
+      "checkedAt": "2026-11-27T18:52:49.459Z"
     },
     "0lKJzq6Jv0o": {
       "ok": true,
       "seconds": 6574,
-      "checkedAt": "2026-11-13T12:32:50.225Z"
+      "checkedAt": "2026-11-27T18:52:49.459Z"
     },
     "EBDgfy1lWgw": {
       "ok": true,
       "seconds": 180,
-      "checkedAt": "2026-11-13T14:54:22.765Z"
+      "checkedAt": "2026-11-27T18:52:49.459Z"
     },
     "RFFJZ8RzYz4": {
       "ok": true,
@@ -2704,6 +2697,31 @@
       "ok": true,
       "seconds": 3225,
       "checkedAt": "2026-11-27T09:00:14.335Z"
+    },
+    "X1aL1O4i1kA": {
+      "ok": true,
+      "seconds": 5683,
+      "checkedAt": "2026-11-27T18:52:49.459Z"
+    },
+    "1NrYLuoQ5Rc": {
+      "ok": true,
+      "seconds": 9127,
+      "checkedAt": "2026-11-27T18:52:49.459Z"
+    },
+    "_0KoKXZe4Q0": {
+      "ok": true,
+      "seconds": 3156,
+      "checkedAt": "2026-11-27T18:52:49.459Z"
+    },
+    "EtYz0yez64c": {
+      "ok": true,
+      "seconds": 7815,
+      "checkedAt": "2026-11-27T18:52:49.459Z"
+    },
+    "IV96vv75bzw": {
+      "ok": true,
+      "seconds": 2477,
+      "checkedAt": "2026-11-27T18:52:49.459Z"
     }
   },
   "parserVersion": 6,
@@ -3974,7 +3992,6 @@
       "BLAST/Bounty/2026/Summer",
       "BLAST/Bounty/2026/Winter",
       "BLAST/Bounty/2027/Summer",
-      "BLAST/Bounty/2027/Winter",
       "BLAST/Major/2023/Paris",
       "BLAST/Major/2025/Austin",
       "BLAST/Open/2025/Fall",
@@ -4376,9 +4393,12 @@
       "PGL/2027/September",
       "PGL/2027/Ulaanbaatar",
       "PGL/2027/Łódź",
+      "PGL/2028/April",
       "PGL/2028/February",
       "PGL/2028/January",
       "PGL/2028/March",
+      "PGL/2028/October",
+      "PGL/2028/September",
       "PGL/Championship Series",
       "PGL/Championship Series/Kick-Off Season",
       "PGL/Championship Series/Season 1",
@@ -4452,7 +4472,7 @@
       "YaLLa Compass/2026/Summer",
       "YaLLa Compass/2026/UAE"
     ],
-    "checkedAt": "2026-11-26T15:43:40.019Z",
+    "checkedAt": "2026-11-27T18:52:49.459Z",
     "key": "{\"categories\":[\"Category:S-Tier Tournaments\"],\"from\":\"2026-06-01\",\"to\":\"2027-12-31\",\"exclude\":[\"FISSURE/\"]}"
   },
   "images": {
@@ -4596,14 +4616,6 @@
       "file": "PGL allmode.png",
       "saved": "pgl-bucharest-2027.png"
     },
-    "blast-bounty-winter-2027": {
-      "file": "BLAST lightmode.png",
-      "saved": "blast-bounty-winter-2027.png"
-    },
-    "blast-bounty-winter-2027-dark": {
-      "file": "BLAST darkmode.png",
-      "saved": "blast-bounty-winter-2027-dark.png"
-    },
     "pgl-major-singapore-2026": {
       "file": "PGL Major Singapore 2026 lightmode.png",
       "saved": "pgl-major-singapore-2026.png"
@@ -4705,13 +4717,13 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-27T09:00:14.335Z",
+    "checkedAt": "2026-11-27T18:52:49.459Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
-      "matchesLookedFor": 25,
+      "matchesLookedFor": 32,
       "matchesFrom": "2026-11-06",
-      "matchesTo": "2026-11-27",
-      "found": 1,
+      "matchesTo": "2026-11-28",
+      "found": 2,
       "channels": {
         "@ESLCS": {
           "uploads": 200,
@@ -4722,20 +4734,20 @@
         "@BLASTPremier": {
           "uploads": 200,
           "sayHighlights": 11,
-          "oldest": "2026-08-30T14:52:17Z",
-          "newest": "2026-11-20T15:00:39Z"
+          "oldest": "2026-08-30T16:51:44Z",
+          "newest": "2026-11-27T13:30:07Z"
         },
         "@pgl": {
           "uploads": 200,
           "sayHighlights": 0,
           "oldest": "2026-02-17T17:08:15Z",
-          "newest": "2026-11-27T05:25:08Z"
+          "newest": "2026-11-27T16:04:11Z"
         },
         "@Counter_Strike_Highlights": {
           "uploads": 200,
-          "sayHighlights": 57,
-          "oldest": "2026-10-25T17:46:40Z",
-          "newest": "2026-11-27T08:09:31Z"
+          "sayHighlights": 58,
+          "oldest": "2026-10-26T09:44:10Z",
+          "newest": "2026-11-27T15:25:05Z"
         }
       },
       "samples": [
@@ -4791,8 +4803,43 @@
         },
         {
           "channel": "@Counter_Strike_Highlights",
-          "at": "2026-11-27T08:09",
+          "at": "2026-11-27T15:25",
+          "title": "Best Moments of PGL Major Singapore 2026 Stage 1in 3 MIN"
+        },
+        {
+          "channel": "@Counter_Strike_Highlights",
+          "at": "2026-11-27T15:19",
+          "title": "Best Moments of PGL Major Singapore 2026 Stage 1 | CS2"
+        },
+        {
+          "channel": "@Counter_Strike_Highlights",
+          "at": "2026-11-27T15:11",
+          "title": "WINNER TO STAGE 2! <team> vs <team>hieves - HIGHLIGHTS - PGL Major Singapore 2026 - Stage 1 | CS2"
+        },
+        {
+          "channel": "@Counter_Strike_Highlights",
+          "at": "2026-11-27T14:06",
+          "title": "dev1ce Just Saved The Round At The LAST SECOND #pgl #MajorSingapore #cs2"
+        },
+        {
+          "channel": "@Counter_Strike_Highlights",
+          "at": "2026-11-27T11:53",
           "title": "WINNER TO STAGE 2! <team> vs <team> - HIGHLIGHTS - PGL Major Singapore 2026 - Stage 1 | CS2"
+        },
+        {
+          "channel": "@Counter_Strike_Highlights",
+          "at": "2026-11-27T10:18",
+          "title": "Cxzi Just DESTROYED The Entire Round #pgl #MajorSingapore #cs2"
+        },
+        {
+          "channel": "@Counter_Strike_Highlights",
+          "at": "2026-11-27T09:14",
+          "title": "He Never Saw Cxzi Coming #pgl #MajorSingapore #cs2"
+        },
+        {
+          "channel": "@Counter_Strike_Highlights",
+          "at": "2026-11-27T08:09",
+          "title": "WINNER TO STAGE 2! <team> vs HEROIC - HIGHLIGHTS - PGL Major Singapore 2026 - Stage 1 | CS2"
         },
         {
           "channel": "@Counter_Strike_Highlights",
@@ -4803,41 +4850,6 @@
           "channel": "@Counter_Strike_Highlights",
           "at": "2026-11-27T07:50",
           "title": "susp Was Left Alone And STILL Won #pgl #MajorSingapore #cs2"
-        },
-        {
-          "channel": "@Counter_Strike_Highlights",
-          "at": "2026-11-26T15:46",
-          "title": "LOSER IS OUT! <team> vs <team> - HIGHLIGHTS - PGL Major Singapore 2026 - Stage 1 | CS2"
-        },
-        {
-          "channel": "@Counter_Strike_Highlights",
-          "at": "2026-11-26T15:40",
-          "title": "HexT goes absolutely WILD and takes down FOUR #pgl #MajorSingapore #cs2"
-        },
-        {
-          "channel": "@Counter_Strike_Highlights",
-          "at": "2026-11-26T13:50",
-          "title": "One Man Refuses to Let the Game END #pgl #MajorSingapore #cs2"
-        },
-        {
-          "channel": "@Counter_Strike_Highlights",
-          "at": "2026-11-26T13:45",
-          "title": "WINNER TO STAGE 2! <team> vs Team <team> - HIGHLIGHTS - PGL Major Singapore 2026 - Stage 1 | CS2"
-        },
-        {
-          "channel": "@Counter_Strike_Highlights",
-          "at": "2026-11-26T13:23",
-          "title": "chelo Turns the Boost Into a THREE-Kill Factory #pgl #MajorSingapore #cs2"
-        },
-        {
-          "channel": "@Counter_Strike_Highlights",
-          "at": "2026-11-26T13:06",
-          "title": "cool4st delivers a RIDICULOUS AWP quad kill #pgl #MajorSingapore #cs2"
-        },
-        {
-          "channel": "@Counter_Strike_Highlights",
-          "at": "2026-11-26T11:59",
-          "title": "LOSER IS OUT! <team>hieves vs 9z - HIGHLIGHTS - PGL Major Singapore 2026 - Stage 1 | CS2"
         }
       ]
     }
@@ -4911,7 +4923,9 @@
     "lp-1f671014ef": "qegpJpeSztw",
     "lp-632d346518": "MfXyPAtGU5Q",
     "lp-dfae821e10": "tggZpDk-lfg",
-    "lp-debf80dd13": "De70DnsAVpg"
+    "lp-debf80dd13": "De70DnsAVpg",
+    "lp-2b4a6a25ad": "IV96vv75bzw",
+    "lp-4f370eaff7": "_0KoKXZe4Q0"
   },
   "teamLogos": {
     "lp-fut-esports": {

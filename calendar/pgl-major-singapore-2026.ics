@@ -80,6 +80,42 @@ TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:pgl-major-singapore-2026-20261128@cs2-spoiler-free
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:PGL Major Singapore 2026: Saturday’s matches ready to watch
+DESCRIPTION:Videos from Saturday’s matches of PGL Major Singapore 2026 sh
+ ould be up by now. Watch spoiler-free: https://spoilerfreecs2.github.io/CS
+ 2-Spoil-free/#/t/pgl-major-singapore-2026
+URL:https://spoilerfreecs2.github.io/CS2-Spoil-free/#/t/pgl-major-singapore
+ -2026
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PGL Major Singapore 2026 is ready to watch
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgl-major-singapore-2026-20261201@cs2-spoiler-free
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:PGL Major Singapore 2026: Tuesday’s matches ready to watch
+DESCRIPTION:Videos from Tuesday’s matches of PGL Major Singapore 2026 sho
+ uld be up by now. Watch spoiler-free: https://spoilerfreecs2.github.io/CS2
+ -Spoil-free/#/t/pgl-major-singapore-2026
+URL:https://spoilerfreecs2.github.io/CS2-Spoil-free/#/t/pgl-major-singapore
+ -2026
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PGL Major Singapore 2026 is ready to watch
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:pgl-major-singapore-2026-20261213@cs2-spoiler-free
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20261214
