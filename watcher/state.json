@@ -2171,17 +2171,17 @@
     "0kBYiZC6Amo": {
       "ok": true,
       "seconds": 3565,
-      "checkedAt": "2026-11-13T18:54:51.768Z"
+      "checkedAt": "2026-11-28T01:54:31.062Z"
     },
     "SqCRvXv7EPw": {
       "ok": true,
       "seconds": 8041,
-      "checkedAt": "2026-11-13T19:55:49.295Z"
+      "checkedAt": "2026-11-28T01:54:31.062Z"
     },
     "0uJJxFswWjQ": {
       "ok": true,
       "seconds": 3315,
-      "checkedAt": "2026-11-13T21:49:08.135Z"
+      "checkedAt": "2026-11-28T01:54:31.062Z"
     },
     "qriZVRUZu20": {
       "ok": true,
@@ -4717,13 +4717,13 @@
       "@pgl": "UU5jpxDZx4yoBo324pMQ91Ww",
       "@Counter_Strike_Highlights": "UU3y-TwdfrUfm7Iindvvxsjg"
     },
-    "checkedAt": "2026-11-27T18:52:49.459Z",
+    "checkedAt": "2026-11-28T01:54:31.062Z",
     "key": "{\"channels\":[\"@ESLCS\",\"@BLASTPremier\",\"@pgl\",\"@Counter_Strike_Highlights\"],\"everyHours\":3,\"pages\":4,\"firstPages\":10,\"anyTitle\":[\"@Counter_Strike_Highlights\"],\"aliases\":{\"lp-mouz\":[\"mousesports\"]},\"maxDaysAfter\":4,\"lookBackDays\":21}",
     "last": {
-      "matchesLookedFor": 32,
-      "matchesFrom": "2026-11-06",
+      "matchesLookedFor": 28,
+      "matchesFrom": "2026-11-07",
       "matchesTo": "2026-11-28",
-      "found": 2,
+      "found": 0,
       "channels": {
         "@ESLCS": {
           "uploads": 200,
@@ -4824,7 +4824,7 @@
         {
           "channel": "@Counter_Strike_Highlights",
           "at": "2026-11-27T11:53",
-          "title": "WINNER TO STAGE 2! <team> vs <team> - HIGHLIGHTS - PGL Major Singapore 2026 - Stage 1 | CS2"
+          "title": "WINNER TO STAGE 2! <team> vs Wildcard - HIGHLIGHTS - PGL Major Singapore 2026 - Stage 1 | CS2"
         },
         {
           "channel": "@Counter_Strike_Highlights",
